@@ -1,12 +1,13 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 export default function OrderTimeline() {
+  const { t } = useLanguage();
   return (
     <section className="order-next" aria-labelledby="order-next-title">
-      <p className="eyebrow">LOOKING AHEAD</p>
-      <h2 id="order-next-title">WHAT HAPPENS NEXT?</h2>
+      <p className="eyebrow">{t("LOOKING AHEAD")}</p>
+      <h2 id="order-next-title">{t("WHAT HAPPENS NEXT?")}</h2>
       <p className="order-next-note">
-        A preview of the future order journey. This demo does not trigger
-        confirmation emails or delivery.
-      </p>
+        {t("A preview of the future order journey. This demo does not trigger confirmation emails or delivery.")} </p>
       <ol>
         {[
           {
@@ -24,8 +25,8 @@ export default function OrderTimeline() {
         ].map((step, index) => (
           <li key={step.title}>
             <span>0{index + 1}</span>
-            <h3>{step.title}</h3>
-            <p>{step.text}</p>
+            <h3>{t(step.title)}</h3>
+            <p>{t(step.text)}</p>
           </li>
         ))}
       </ol>

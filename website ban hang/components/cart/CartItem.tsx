@@ -1,4 +1,5 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { Trash2 } from "lucide-react";
@@ -15,6 +16,7 @@ export default function CartItem({
   onRemove: (id: string) => void;
   onQuantity: (id: string, quantity: number) => void;
 }) {
+  const { t, localeTag } = useLanguage();
   const [failed, setFailed] = useState(false);
   const [removing, setRemoving] = useState(false);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -33,10 +35,10 @@ export default function CartItem({
       <a
         href={`/products/${item.slug}`}
         className="cart-image"
-        aria-label={`View ${item.name}`}
+        aria-label={t("View {value0}", { value0: item.name })}
       >
         {failed ? (
-          <span>Product preview unavailable</span>
+          <span>{t("Product preview unavailable")}</span>
         ) : (
           <Image
             src={item.image}
@@ -51,23 +53,23 @@ export default function CartItem({
         <h2>
           <a href={`/products/${item.slug}`}>{item.name.toUpperCase()}</a>
         </h2>
-        <p>{item.tagline}</p>
+        <p>{t(item.tagline)}</p>
         <dl className="cart-item-meta">
           <div>
-            <dt>Model</dt>
+            <dt>{t("Model")}</dt>
             <dd>{item.model}</dd>
           </div>
           <div>
-            <dt>Availability</dt>
-            <dd>{item.availability}</dd>
+            <dt>{t("Availability")}</dt>
+            <dd>{t(item.availability)}</dd>
           </div>
         </dl>
         <p className="cart-item-price">
-          {item.price === null
+          {t(item.price === null
             ? "PRICE TO BE ANNOUNCED"
-            : formatCartPrice(item.price, item.currency)}
+            : formatCartPrice(item.price, item.currency, localeTag))}
         </p>
-        <span className="cart-quantity-label">Quantity</span>
+        <span className="cart-quantity-label">{t("Quantity")}</span>
         <QuantitySelector
           name={item.name}
           quantity={item.quantity}
@@ -77,7 +79,7 @@ export default function CartItem({
         <button
           className="cart-remove"
           disabled={removing}
-          aria-label={`Remove ${item.name} from cart`}
+          aria-label={t("Remove {value0} from cart", { value0: item.name })}
           onClick={() => {
             setRemoving(true);
             if (reduced) onRemove(item.id);
@@ -85,8 +87,7 @@ export default function CartItem({
           }}
         >
           <Trash2 size={13} />
-          REMOVE
-        </button>
+          {t("REMOVE")} </button>
       </div>
     </article>
   );

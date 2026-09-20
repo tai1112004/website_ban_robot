@@ -1,3 +1,5 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { useState } from "react";
 import type { RobotManagementState } from "@/hooks/useRobotManagement";
 import type { MemorySettings } from "@/types/robotConfig";
@@ -8,75 +10,70 @@ export default function MemoryPanel({
 }: {
   state: RobotManagementState;
 }) {
+  const { t } = useLanguage();
   const [confirm, setConfirm] = useState(false);
   const value = state.draft!.memory;
   const change = (patch: Partial<MemorySettings>) =>
     state.edit("memory", { ...value, ...patch });
   return (
     <>
-      <PanelHeading eyebrow="MEMORY" title="ROBO REMEMBERS WHAT MATTERS.">
-        You choose what Robo can remember.
-      </PanelHeading>
+      <PanelHeading eyebrow={t("MEMORY")} title={t("ROBO REMEMBERS WHAT MATTERS.")}>
+        {t("You choose what Robo can remember.")} </PanelHeading>
       <fieldset
         className="management-fields management-settings"
         disabled={!!state.pending}
       >
-        <legend className="sr-only">Memory permissions</legend>
+        <legend className="sr-only">{t("Memory permissions")}</legend>
         <Toggle
-          label="Memory enabled"
-          description="Allow Robo to remember the categories you choose."
+          label={t("Memory enabled")}
+          description={t("Allow Robo to remember the categories you choose.")}
           checked={value.enabled}
           onChange={(enabled) => change({ enabled })}
         />
         <Toggle
-          label="Profile memory"
-          description="Name, preferred form of address and language."
+          label={t("Profile memory")}
+          description={t("Name, preferred form of address and language.")}
           checked={value.profileMemory}
           disabled={!value.enabled}
           onChange={(profileMemory) => change({ profileMemory })}
         />
         <Toggle
-          label="Preferences"
-          description="Voice, response length and knowledge preferences."
+          label={t("Preferences")}
+          description={t("Voice, response length and knowledge preferences.")}
           checked={value.preferenceMemory}
           disabled={!value.enabled}
           onChange={(preferenceMemory) => change({ preferenceMemory })}
         />
         <Toggle
-          label="Conversation memory"
-          description="Important conversation context. No conversation history is stored in this demo."
+          label={t("Conversation memory")}
+          description={t("Important conversation context. No conversation history is stored in this demo.")}
           checked={value.conversationMemory}
           disabled={!value.enabled}
           onChange={(conversationMemory) => change({ conversationMemory })}
         />
       </fieldset>
-      <SaveSettings state={state} area="memory" label="SAVE MEMORY" />
+      <SaveSettings state={state} area="memory" label={t("SAVE MEMORY")} />
       <section className="management-privacy">
-        <h3>YOU&apos;RE IN CONTROL.</h3>
+        <h3>{t("YOU'RE IN CONTROL.")}</h3>
         <p>
-          Clear this Robo&apos;s saved memory permissions. In this demo,
-          clearing resets all memory settings to off.
-        </p>
+          {t("Clear this Robo's saved memory permissions. In this demo, clearing resets all memory settings to off.")} </p>
         <button
           className="button button-secondary"
           disabled={!!state.pending}
           onClick={() => setConfirm(true)}
         >
-          CLEAR MEMORY
-        </button>
+          {t("CLEAR MEMORY")} </button>
       </section>
       {confirm && (
         <Modal
-          title="CLEAR ROBO MEMORY?"
+          title={t("CLEAR ROBO MEMORY?")}
           onClose={() => {
             if (!state.pending) setConfirm(false);
           }}
         >
           <div className="robot-confirm">
             <p>
-              This will clear the saved memory for this Robo in the current
-              demo. Memory permissions will be reset to off.
-            </p>
+              {t("This will clear the saved memory for this Robo in the current demo. Memory permissions will be reset to off.")} </p>
             <Feedback state={state} area="memory" />
             <div className="button-row">
               <button
@@ -84,8 +81,7 @@ export default function MemoryPanel({
                 disabled={!!state.pending}
                 onClick={() => setConfirm(false)}
               >
-                CANCEL
-              </button>
+                {t("CANCEL")} </button>
               <button
                 className="button button-primary"
                 disabled={!!state.pending}
@@ -93,7 +89,7 @@ export default function MemoryPanel({
                   if (await state.clearMemory()) setConfirm(false);
                 }}
               >
-                {state.pending ? "CLEARING..." : "CLEAR MEMORY"}
+                {t(state.pending ? "CLEARING..." : "CLEAR MEMORY")}
               </button>
             </div>
           </div>

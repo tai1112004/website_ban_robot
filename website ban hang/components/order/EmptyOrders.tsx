@@ -1,7 +1,10 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { Button } from "../ui/Button";
 import OrderImage from "./OrderImage";
 import { roboBasic } from "@/data/products";
 export default function EmptyOrders() {
+  const { t } = useLanguage();
   return (
     <section className="history-empty">
       <OrderImage
@@ -10,13 +13,12 @@ export default function EmptyOrders() {
         cutout
       />
       <div>
-        <h2>NO ORDERS YET.</h2>
-        <p>Your future AI companion is waiting.</p>
+        <h2>{t("NO ORDERS YET.")}</h2>
+        <p>{t("Your future AI companion is waiting.")}</p>
         <div className="button-row">
-          <Button href="/#models">DISCOVER ROBO</Button>
+          <Button href="/#models">{t("DISCOVER ROBO")}</Button>
           <Button href="/account" secondary>
-            BACK TO ACCOUNT
-          </Button>
+            {t("BACK TO ACCOUNT")} </Button>
         </div>
       </div>
     </section>

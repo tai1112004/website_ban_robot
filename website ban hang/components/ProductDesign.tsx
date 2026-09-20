@@ -1,3 +1,5 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { ScanFace, AudioLines, MoveUpRight, Blocks } from "lucide-react";
@@ -27,6 +29,7 @@ const features = [
   },
 ];
 export default function ProductDesign() {
+  const { t } = useLanguage();
   const root = useRef<HTMLElement>(null);
   const reduced = useReducedMotion();
   useEffect(() => {
@@ -54,45 +57,41 @@ export default function ProductDesign() {
   return (
     <section ref={root} id="design" className="product-design section-space">
       <div className="design-copy">
-        <SectionTitle index="08" label="FORM MEETS FEELING">
-          DESIGNED TO
-          <br />
-          <span className="accent">STAND OUT.</span>
+        <SectionTitle index="08" label={t("FORM MEETS FEELING")}>
+          {t("DESIGNED TO")} <br />
+          <span className="accent">{t("STAND OUT.")}</span>
         </SectionTitle>
         <p className="section-description" data-reveal>
-          Compact by design.
-          <br />
-          Full of personality.
-        </p>
+          {t("Compact by design.")} <br />
+          {t("Full of personality.")} </p>
         <div className="design-features">
           {features.map(({ title, text, Icon }) => (
             <div key={title} data-reveal>
               <Icon size={22} strokeWidth={1.4} />
-              <h3>{title}</h3>
-              <p>{text}</p>
+              <h3>{t(title)}</h3>
+              <p>{t(text)}</p>
             </div>
           ))}
         </div>
       </div>
       <div className="design-render" data-cursor="VIEW">
-        <span className="render-label micro">ROBO AI / INDUSTRIAL DESIGN</span>
+        <span className="render-label micro">{t("ROBO AI / INDUSTRIAL DESIGN")}</span>
         <Image
           src="/images/product_render_chinh_dien.png"
-          alt="Robo AI, front view"
+          alt={t("Robo AI, front view")}
           fill
           sizes="(max-width: 768px) 100vw, 55vw"
           className="design-front"
         />
         <Image
           src="/images/product_render_goc_nghieng.png"
-          alt="Robo AI, three-quarter view"
+          alt={t("Robo AI, three-quarter view")}
           fill
           sizes="(max-width: 768px) 100vw, 55vw"
           className="design-angle"
         />
         <span className="render-bottom micro">
-          EVERY ANGLE. A LITTLE CHARACTER.
-        </span>
+          {t("EVERY ANGLE. A LITTLE CHARACTER.")} </span>
       </div>
     </section>
   );

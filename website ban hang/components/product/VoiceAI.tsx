@@ -1,4 +1,5 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import type { ProductModel } from "@/data/products";
@@ -6,6 +7,7 @@ import { gsap, ScrollTrigger } from "@/lib/gsap";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 import Heading from "./ProductSectionHeading";
 export default function VoiceAI({ product }: { product: ProductModel }) {
+  const { t } = useLanguage();
   const root = useRef<HTMLElement>(null);
   const [phase, setPhase] = useState(0);
   const reduced = useReducedMotion();
@@ -42,15 +44,12 @@ export default function VoiceAI({ product }: { product: ProductModel }) {
   return (
     <section ref={root} className="pdp-section pdp-split pdp-voice">
       <div>
-        <Heading index="02" label="REALTIME VOICE AI">
-          TALK NATURALLY.
-          <br />
-          <span className="accent">ROBO LISTENS.</span>
+        <Heading index="02" label={t("REALTIME VOICE AI")}>
+          {t("TALK NATURALLY.")} <br />
+          <span className="accent">{t("ROBO LISTENS.")}</span>
         </Heading>
         <p className="pdp-copy">
-          A conversation that feels at home in your world. Ask a question,
-          explore an idea, or simply say hello.
-        </p>
+          {t("A conversation that feels at home in your world. Ask a question, explore an idea, or simply say hello.")} </p>
         <div className="pdp-voice-state">
           <div className="pdp-wave" aria-hidden="true">
             {Array.from({ length: 21 }, (_, i) => (
@@ -60,17 +59,17 @@ export default function VoiceAI({ product }: { product: ProductModel }) {
           <div className="pdp-phase-list">
             {["LISTENING", "THINKING", "SPEAKING"].map((name, i) => (
               <span key={name} className={phase === i ? "is-active" : ""}>
-                {name}
+                {t(name)}
               </span>
             ))}
           </div>
-          <p className="pdp-fine">A preview of the conversation experience.</p>
+          <p className="pdp-fine">{t("A preview of the conversation experience.")}</p>
         </div>
       </div>
       <div className="pdp-portrait" data-pdp-reveal>
         <Image
           src={product.media.closeup}
-          alt="A close look at Robo's face"
+          alt={t("A close look at Robo's face")}
           fill
           sizes="(max-width: 767px) 90vw, 45vw"
         />

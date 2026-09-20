@@ -1980,3 +1980,33 @@ a:hover {
     opacity: 1 !important;
   }
 }
+
+/* Language selection shares the site's compact navigation controls. */
+.language-selector { display: inline-flex; align-items: center; gap: 5px; flex-shrink: 0; }
+.language-selector select { color: inherit; background: transparent; border: 1px solid currentColor; border-radius: 4px; padding: 7px 4px; font: inherit; font-size: 12px; max-width: 112px; min-height: 36px; cursor: pointer; }
+.language-selector option { color: #191919; background: #fff; }
+.language-selector select:focus-visible { outline: 2px solid var(--orange, #ff6b22); outline-offset: 3px; }
+html:not([lang="en"]) body { font-family: "Manrope", "Noto Sans", "Yu Gothic", "Malgun Gothic", "Microsoft YaHei", Arial, sans-serif; }
+html:not([lang="en"]) .desktop-nav { gap: 16px; }
+.language-code { display: none; }
+@media (max-width: 1250px) and (min-width: 1024px) {
+  html:not([lang="en"]) .desktop-nav { gap: 9px; }
+  html:not([lang="en"]) .nav-discover { max-width: 130px; white-space: normal; text-align: center; }
+}
+@media (max-width: 600px) {
+  .language-selector { position: relative; width: 42px; height: 36px; border: 1px solid #ffffff90; border-radius: 4px; justify-content: center; }
+  .language-code { display: inline; font-size: 11px; white-space: nowrap; }
+  .language-selector select { position: absolute; inset: 0; width: 100%; max-width: none; opacity: 0; }
+  .language-selector:focus-within { outline: 2px solid var(--orange, #ff6b22); outline-offset: 3px; }
+  .language-selector > svg { display: none; }
+  .navbar .nav-discover { display: inline-flex; width: 82px; min-height: 36px; padding: 5px 7px; white-space: normal; text-align: center; gap: 3px; font-size: 8px; }
+  .navbar .nav-actions { gap: 5px; }
+  .navbar { gap: 8px; }
+}
+@media (max-width: 360px) {
+  .navbar .brand { font-size: 14px; gap: 3px; }
+  .navbar .brand svg { width: 20px; }
+  .navbar .nav-discover { width: 64px; font-size: 7px; }
+  .navbar .nav-actions { gap: 3px; }
+  .language-selector { width: 34px; }
+}

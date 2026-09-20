@@ -1,3 +1,5 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import type { CheckoutErrors, CheckoutFormData } from "@/types/order";
 import { countries } from "@/lib/orders";
 type Field = {
@@ -55,11 +57,12 @@ export default function CheckoutFields({
   onChange: (key: keyof CheckoutFormData, value: string) => void;
   onBlur: (key: keyof CheckoutFormData) => void;
 }) {
+  const { t } = useLanguage();
   return (
     <fieldset className="checkout-section">
       <legend>
-        <span>{section === "contact" ? "01" : "02"}</span>
-        {section === "contact" ? "CONTACT INFORMATION" : "SHIPPING INFORMATION"}
+        <span>{t(section === "contact" ? "01" : "02")}</span>
+        {t(section === "contact" ? "CONTACT INFORMATION" : "SHIPPING INFORMATION")}
       </legend>
       <div className="checkout-fields">
         {(section === "contact" ? contact : shipping).map((field) => (
@@ -68,7 +71,7 @@ export default function CheckoutFields({
             className={field.wide ? "checkout-field is-wide" : "checkout-field"}
           >
             <label htmlFor={`checkout-${field.name}`}>
-              {field.label} <span>{field.optional ? "(optional)" : "*"}</span>
+              {t(field.label)} <span>{t(field.optional ? "(optional)" : "*")}</span>
             </label>
             {field.name === "country" ? (
               <select
@@ -83,7 +86,7 @@ export default function CheckoutFields({
                 onBlur={() => onBlur(field.name)}
               >
                 {countries.map((country) => (
-                  <option key={country}>{country}</option>
+                  <option key={country} value={country}>{t(country)}</option>
                 ))}
               </select>
             ) : (
@@ -111,7 +114,7 @@ export default function CheckoutFields({
             )}
             {errors[field.name] && (
               <p className="checkout-field-error" id={`error-${field.name}`}>
-                {errors[field.name]}
+                {t(errors[field.name])}
               </p>
             )}
           </div>

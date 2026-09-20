@@ -1,9 +1,11 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import { useState } from "react";
 import { Button } from "../ui/Button";
 import { roboBasic } from "@/data/products";
 export default function EmptyCart() {
+  const { t } = useLanguage();
   const [failed, setFailed] = useState(false);
   return (
     <section className="cart-empty">
@@ -11,7 +13,7 @@ export default function EmptyCart() {
         {!failed && (
           <Image
             src={roboBasic.media.cutout}
-            alt="Robo waiting to meet you"
+            alt={t("Robo waiting to meet you")}
             fill
             sizes="(max-width:767px) 85vw, 40vw"
             onError={() => setFailed(true)}
@@ -20,16 +22,14 @@ export default function EmptyCart() {
       </div>
       <div>
         <h2>
-          YOUR CART IS
-          <br />
-          <span>FEELING A LITTLE EMPTY.</span>
+          {t("YOUR CART IS")} <br />
+          <span>{t("FEELING A LITTLE EMPTY.")}</span>
         </h2>
-        <p>Your future AI companion is waiting.</p>
+        <p>{t("Your future AI companion is waiting.")}</p>
         <div className="cart-empty-actions">
-          <Button href="/#models">DISCOVER ROBO</Button>
+          <Button href="/#models">{t("DISCOVER ROBO")}</Button>
           <Button href="/products/basic" secondary>
-            EXPLORE BASIC
-          </Button>
+            {t("EXPLORE BASIC")} </Button>
         </div>
       </div>
     </section>

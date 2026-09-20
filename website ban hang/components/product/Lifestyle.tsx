@@ -1,10 +1,13 @@
 "use client";
+import TranslatedHeading from "@/components/ui/TranslatedHeading";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { gsap } from "@/lib/gsap";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 import type { ProductModel } from "@/data/products";
 export default function Lifestyle({ product }: { product: ProductModel }) {
+  const { t } = useLanguage();
   const root = useRef<HTMLElement>(null);
   const reduced = useReducedMotion();
   useEffect(() => {
@@ -31,18 +34,15 @@ export default function Lifestyle({ product }: { product: ProductModel }) {
     <section ref={root} className="pdp-lifestyle">
       <Image
         src={product.media.lifestyle}
-        alt="Robo on a desk beside a laptop and books"
+        alt={t("Robo on a desk beside a laptop and books")}
         fill
         sizes="100vw"
       />
       <div>
-        <p className="eyebrow">A PLACE IN YOUR EVERYDAY</p>
+        <p className="eyebrow">{t("A PLACE IN YOUR EVERYDAY")}</p>
         <h2>
-          AI THAT
-          <br />
-          LIVES WITH YOU.
-        </h2>
-        <p>WORK / LEARN / TALK / CREATE</p>
+          <TranslatedHeading message="AI THAT<br><accent>LIVES WITH YOU.</accent>" /> </h2>
+        <p>{t("WORK / LEARN / TALK / CREATE")}</p>
       </div>
     </section>
   );

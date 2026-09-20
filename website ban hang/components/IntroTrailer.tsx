@@ -1,9 +1,12 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { useEffect, useRef, useState } from "react";
 import { ArrowRight, Play } from "lucide-react";
 import { gsap } from "@/lib/gsap";
+const HOME_HERO_IMAGE = "/images/hinh2.png?v=20260921-012220";
 
 export default function IntroTrailer({ onClose }: { onClose: () => void }) {
+  const { t } = useLanguage();
   const root = useRef<HTMLDivElement>(null);
   const video = useRef<HTMLVideoElement>(null);
   const timeline = useRef<gsap.core.Timeline | null>(null);
@@ -35,7 +38,7 @@ export default function IntroTrailer({ onClose }: { onClose: () => void }) {
       className="intro"
       role="dialog"
       aria-modal="true"
-      aria-label="Meet Robo film"
+      aria-label={t("Meet Robo film")}
       onKeyDown={(e) => {
         if (e.key === "Escape") finish();
         if (e.key === "Tab") {
@@ -60,7 +63,7 @@ export default function IntroTrailer({ onClose }: { onClose: () => void }) {
           muted
           playsInline
           preload="metadata"
-          poster="/images/hinh2.png"
+          poster={HOME_HERO_IMAGE}
           onCanPlay={() => setReady(true)}
           onEnded={finish}
           onError={() => setFailed(true)}
@@ -68,17 +71,15 @@ export default function IntroTrailer({ onClose }: { onClose: () => void }) {
         />
         <div className="intro-shade" />
         <span className="intro-brand">
-          ROBO AI <span>A LITTLE MORE HUMAN.</span>
+          {t("ROBO AI")} <span>{t("A LITTLE MORE HUMAN.")}</span>
         </span>
         {!ready && !failed && !blocked && (
           <p className="intro-status" role="status">
-            Loading the film…
-          </p>
+            {t("Loading the film…")} </p>
         )}
         {failed && (
           <p className="intro-status">
-            The film couldn’t load. Continue to meet Robo.
-          </p>
+            {t("The film couldn’t load. Continue to meet Robo.")} </p>
         )}
         {blocked && !failed && (
           <button
@@ -90,11 +91,10 @@ export default function IntroTrailer({ onClose }: { onClose: () => void }) {
                 .catch(() => setFailed(true));
             }}
           >
-            <Play /> Play film
-          </button>
+            <Play />  {t("Play film")} </button>
         )}
         <button className="skip-intro" onClick={finish}>
-          SKIP INTRO <ArrowRight size={18} />
+          {t("SKIP INTRO")} <ArrowRight size={18} />
         </button>
       </div>
     </div>

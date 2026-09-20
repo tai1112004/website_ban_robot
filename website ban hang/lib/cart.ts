@@ -98,10 +98,10 @@ export function subtotal(items: CartItem[]): number | null {
     0,
   );
 }
-export function formatCartPrice(price: number | null, currency = "USD") {
+export function formatCartPrice(price: number | null, currency = "USD", locale = "en-US") {
   return price === null
     ? "TO BE ANNOUNCED"
-    : new Intl.NumberFormat("en-US", { style: "currency", currency }).format(
+    : new Intl.NumberFormat(locale, { style: "currency", currency }).format(
         price,
       );
 }

@@ -1,4 +1,5 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { useEffect, useRef, useState } from "react";
 import AccountShell from "../account/AccountShell";
 import useRobots from "@/hooks/useRobots";
@@ -10,6 +11,7 @@ import { RobotError, RobotLoading } from "./RobotDataState";
 import { Modal } from "../ui/Modal";
 import { Button } from "../ui/Button";
 export default function MyRobots() {
+  const { t } = useLanguage();
   const { robots, isLoading, error, refresh } = useRobots();
   const { unpair, isUnpairing, error: unpairError, reset } = useUnpairRobot();
   const [selected, setSelected] = useState<RobotDevice | null>(null);
@@ -26,29 +28,27 @@ export default function MyRobots() {
   }
   return (
     <AccountShell active="robots">
-      <nav className="account-breadcrumb" aria-label="Breadcrumb">
-        <a href="/">HOME</a>
+      <nav className="account-breadcrumb" aria-label={t("Breadcrumb")}>
+        <a href="/">{t("HOME")}</a>
         <span>/</span>
-        <a href="/account">ACCOUNT</a>
+        <a href="/account">{t("ACCOUNT")}</a>
         <span>/</span>
-        <span aria-current="page">MY ROBOTS</span>
+        <span aria-current="page">{t("MY ROBOTS")}</span>
       </nav>
       <header className="account-heading robot-heading">
         <div>
-          <p className="eyebrow">MY ROBOTS</p>
+          <p className="eyebrow">{t("MY ROBOTS")}</p>
           <h1 ref={heading} tabIndex={-1}>
-            YOUR ROBOS.
-          </h1>
+            {t("YOUR ROBOS.")} </h1>
           <p>
-            Connect, manage and personalize the Robo devices that belong to you.
-          </p>
+            {t("Connect, manage and personalize the Robo devices that belong to you.")} </p>
         </div>
         {!isLoading && !error && robots.length > 0 && (
-          <Button href="/my-robots/pair">+ ADD ROBO</Button>
+          <Button href="/my-robots/pair">{t("+ ADD ROBO")}</Button>
         )}
       </header>
       <p role="status" className="robot-notice">
-        {notice}
+        {t(notice)}
       </p>
       {isLoading ? (
         <RobotLoading />
@@ -75,32 +75,29 @@ export default function MyRobots() {
       )}
       {selected && (
         <Modal
-          title="UNPAIR THIS ROBO?"
+          title={t("UNPAIR THIS ROBO?")}
           onClose={() => {
             if (!isUnpairing) setSelected(null);
           }}
         >
           <div className="robot-confirm">
             <p>
-              This will remove <strong>{selected.name}</strong> from this
-              account in the current demo.
-            </p>
-            <p>Order history will remain unchanged.</p>
-            {unpairError && <p role="alert">{unpairError}</p>}
+              {t("Remove {name} from this account in the current demo? Your order history will remain unchanged.", { name: selected.name })} </p>
+            <p>{t("Order history will remain unchanged.")}</p>
+            {unpairError && <p role="alert">{t(unpairError)}</p>}
             <div className="button-row">
               <button
                 className="button button-secondary"
                 disabled={isUnpairing}
                 onClick={() => setSelected(null)}
               >
-                CANCEL
-              </button>
+                {t("CANCEL")} </button>
               <button
                 className="button button-primary"
                 disabled={isUnpairing}
                 onClick={confirm}
               >
-                {isUnpairing ? "UNPAIRING..." : "UNPAIR"}
+                {t(isUnpairing ? "UNPAIRING..." : "UNPAIR")}
               </button>
             </div>
           </div>

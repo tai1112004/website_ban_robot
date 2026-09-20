@@ -1,3 +1,6 @@
+"use client";
+import TranslatedHeading from "@/components/ui/TranslatedHeading";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import { AudioLines, Ear, Lightbulb, Smile, MoveUpRight } from "lucide-react";
 import { SectionTitle } from "./ui/SectionTitle";
@@ -21,6 +24,7 @@ const states = [
   { Icon: Smile, name: "HAPPY", copy: "A small reaction. A shared moment." },
 ];
 export default function ExpressiveRobot() {
+  const { t } = useLanguage();
   return (
     <section id="expression" className="expressive section-space">
       <div className="expressive-layout">
@@ -28,31 +32,25 @@ export default function ExpressiveRobot() {
           <div className="expression-glow" />
           <Image
             src="/images/bieucam_vuive.png"
-            alt="Robo with a happy expressive face and its hand raised in greeting"
+            alt={t("Robo with a happy expressive face and its hand raised in greeting")}
             fill
             sizes="(max-width: 767px) 90vw, 45vw"
           />
-          <span className="micro">A FACE. A VOICE. A PHYSICAL PRESENCE.</span>
+          <span className="micro">{t("A FACE. A VOICE. A PHYSICAL PRESENCE.")}</span>
         </div>
         <div className="expressive-copy">
-          <SectionTitle index="05" label="EXPRESSION YOU CAN FEEL">
-            IT DOESN’T
-            <br />
-            JUST TALK.
-            <br />
-            <span className="accent">IT REACTS.</span>
+          <SectionTitle index="05" label={t("EXPRESSION YOU CAN FEEL")}>
+            <TranslatedHeading message="IT DOESN’T<br>JUST TALK.<br><accent>IT REACTS.</accent>" />
           </SectionTitle>
           <p className="section-description" data-reveal>
-            From a thoughtful look to a friendly wave.
-            <br />A little personality, made physical.
-          </p>
+            {t("From a thoughtful look to a friendly wave.")} <br />{t("A little personality, made physical.")} </p>
           <div className="expression-states">
             {states.map(({ Icon, name, copy }) => (
               <div key={name} data-reveal>
                 <Icon size={19} strokeWidth={1.3} />
                 <div>
-                  <h3>{name}</h3>
-                  <p>{copy}</p>
+                  <h3>{t(name)}</h3>
+                  <p>{t(copy)}</p>
                 </div>
               </div>
             ))}
@@ -62,12 +60,12 @@ export default function ExpressiveRobot() {
       <div className="physical-actions" data-reveal>
         <div>
           <MoveUpRight size={22} />
-          <span>PHYSICAL ACTION</span>
+          <span>{t("PHYSICAL ACTION")}</span>
         </div>
-        <p>Wave.</p>
-        <p>Nod.</p>
-        <p>Turn.</p>
-        <a href="#models">EXPLORE ROBO PLUS ↗</a>
+        <p>{t("Wave.")}</p>
+        <p>{t("Nod.")}</p>
+        <p>{t("Turn.")}</p>
+        <a href="#models">{t("EXPLORE ROBO PLUS ↗")}</a>
       </div>
     </section>
   );

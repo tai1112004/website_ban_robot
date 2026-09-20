@@ -4,7 +4,9 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import { Modal } from "../ui/Modal";
 import CartItemList from "./CartItemList";
+import { useLanguage } from "@/context/LanguageContext";
 export default function CartPage() {
+  const { t } = useLanguage();
   const [menu, setMenu] = useState(false);
   const [info, setInfo] = useState<string | null>(null);
   useEffect(() => {
@@ -22,18 +24,17 @@ export default function CartPage() {
   return (
     <div className="cart-page">
       <a href="#cart-main" className="skip-link">
-        Skip to cart
-      </a>
+        {t("Skip to cart")} </a>
       <Navbar homeHref="/" sectionPrefix="/" menu={menu} setMenu={setMenu} />
       <main id="cart-main" className="cart-main" inert={menu}>
-        <nav className="cart-breadcrumb" aria-label="Breadcrumb">
-          <a href="/">HOME</a>
+        <nav className="cart-breadcrumb" aria-label={t("Breadcrumb")}>
+          <a href="/">{t("HOME")}</a>
           <span>/</span>
-          <span aria-current="page">CART</span>
+          <span aria-current="page">{t("CART")}</span>
         </nav>
         <header className="cart-heading">
-          <h1>YOUR CART.</h1>
-          <p>Your Robo is almost ready to meet you.</p>
+          <h1>{t("YOUR CART.")}</h1>
+          <p>{t("Your Robo is almost ready to meet you.")}</p>
         </header>
         <CartItemList />
       </main>
@@ -46,13 +47,9 @@ export default function CartPage() {
         />
       </div>
       {info && (
-        <Modal title={info} onClose={() => setInfo(null)}>
+        <Modal title={t(info)} onClose={() => setInfo(null)}>
           <p className="info-copy">
-            Robo is currently in development. Pricing, release details and
-            official support information will be announced later. This cart
-            stores product selections in your browser only and does not place an
-            order or collect payment.
-          </p>
+            {t("Robo is currently in development. Pricing, release details and official support information will be announced later. This cart stores product selections in your browser only and does not place an order or collect payment.")} </p>
         </Modal>
       )}
     </div>

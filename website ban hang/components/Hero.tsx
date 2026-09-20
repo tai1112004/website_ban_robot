@@ -1,13 +1,17 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import { ArrowDown, Play } from "lucide-react";
 import { Button } from "./ui/Button";
+const HOME_HERO_IMAGE = "/images/hinh2.png?v=20260921-012220";
 export default function Hero({ watchFilm }: { watchFilm: () => void }) {
+  const { t } = useLanguage();
   return (
     <section id="home" className="hero">
       <Image
         className="hero-image"
-        src="/images/hinh2.png"
-        alt="Orange and white Robo waving hello on a desk at sunset"
+        src={HOME_HERO_IMAGE}
+        alt={t("Orange and white Robo waving hello on a desk at sunset")}
         fill
         priority
         sizes="100vw"
@@ -15,39 +19,32 @@ export default function Hero({ watchFilm }: { watchFilm: () => void }) {
       <div className="hero-shade" />
       <div className="hero-copy">
         <p className="eyebrow" data-hero>
-          <span className="status-dot" /> AI COMPANION ROBOT
-        </p>
+          <span className="status-dot" />  {t("AI COMPANION ROBOT")} </p>
         <h1>
-          <span data-hero>SMALL ROBOT.</span>
+          <span data-hero>{t("SMALL ROBOT.")}</span>
           <span data-hero className="accent">
-            BIG
-            <br className="desktop-break" /> PERSONALITY.
-          </span>
+            {t("BIG")} <br className="desktop-break" />  {t("PERSONALITY.")} </span>
         </h1>
         <p className="hero-description" data-hero>
-          More than a robot.
-          <br />
-          An intelligent companion designed to listen,
-          <br className="desktop-break" /> remember, respond and grow with you.
-        </p>
+          {t("More than a robot.")} <br />
+          {t("An intelligent companion designed to listen,")} <br className="desktop-break" />  {t("remember, respond and grow with you.")} </p>
         <div className="button-row" data-hero>
-          <Button href="/products/basic">VIEW ROBO BASIC</Button>
+          <Button href="/products/basic">{t("VIEW ROBO BASIC")}</Button>
           <button className="film-button" onClick={watchFilm}>
             <span>
               <Play size={14} fill="currentColor" />
             </span>{" "}
-            WATCH FILM
-          </button>
+            {t("WATCH FILM")} </button>
         </div>
       </div>
       <div className="hero-bottom">
         <a href="#features">
-          SCROLL TO DISCOVER <ArrowDown size={16} />
+          {t("SCROLL TO DISCOVER")} <ArrowDown size={16} />
         </a>
         <span>
-          THOUGHTFULLY ENGINEERED. <i>PERSONALLY YOURS.</i>
+          {t("THOUGHTFULLY ENGINEERED.")} <i>{t("PERSONALLY YOURS.")}</i>
         </span>
-        <span className="edition">ROBO AI — 2026</span>
+        <span className="edition">{t("ROBO AI — 2026")}</span>
       </div>
     </section>
   );

@@ -1,4 +1,5 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { gsap } from "@/lib/gsap";
@@ -6,6 +7,7 @@ import { useReducedMotion } from "@/hooks/useReducedMotion";
 import { designFeatures, type ProductModel } from "@/data/products";
 import Heading from "./ProductSectionHeading";
 export default function ProductDesign({ product }: { product: ProductModel }) {
+  const { t } = useLanguage();
   const root = useRef<HTMLElement>(null);
   const reduced = useReducedMotion();
   useEffect(() => {
@@ -33,29 +35,28 @@ export default function ProductDesign({ product }: { product: ProductModel }) {
       <div className="pdp-design-images">
         <Image
           src={product.media.gallery[0].src}
-          alt="Robo front design"
+          alt={t("Robo front design")}
           fill
           sizes="(max-width:767px) 90vw, 45vw"
         />
         <Image
           className="pdp-design-angle"
           src={product.media.gallery[1].src}
-          alt="Robo angled design"
+          alt={t("Robo angled design")}
           fill
           sizes="(max-width:767px) 90vw, 45vw"
         />
       </div>
       <div>
-        <Heading index="07" label="DESIGNED TO BE HERE">
-          SMALL FORM.
-          <br />
-          <span className="accent">REAL PRESENCE.</span>
+        <Heading index="07" label={t("DESIGNED TO BE HERE")}>
+          {t("SMALL FORM.")} <br />
+          <span className="accent">{t("REAL PRESENCE.")}</span>
         </Heading>
         <div className="pdp-design-points">
           {designFeatures.map((item) => (
             <article key={item.title}>
-              <h3>{item.title}</h3>
-              <p>{item.text}</p>
+              <h3>{t(item.title)}</h3>
+              <p>{t(item.text)}</p>
             </article>
           ))}
         </div>

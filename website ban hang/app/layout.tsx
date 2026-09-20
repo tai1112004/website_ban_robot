@@ -7,6 +7,7 @@ import "lenis/dist/lenis.css";
 import "./globals.css";
 import "./home.css";
 import { CartProvider } from "@/context/CartContext";
+import { LanguageProvider } from "@/context/LanguageContext";
 import "./cart.css";
 
 export const metadata: Metadata = {
@@ -28,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <CartProvider>{children}</CartProvider>
+        <LanguageProvider><CartProvider>{children}</CartProvider></LanguageProvider>
       </body>
     </html>
   );

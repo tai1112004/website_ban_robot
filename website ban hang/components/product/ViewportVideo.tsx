@@ -1,4 +1,5 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { useEffect, useRef, useState } from "react";
 import { Pause, Play } from "lucide-react";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
@@ -14,6 +15,7 @@ export default function ViewportVideo({
   label: string;
   suspended?: boolean;
 }) {
+  const { t } = useLanguage();
   const root = useRef<HTMLDivElement>(null);
   const video = useRef<HTMLVideoElement>(null);
   const reduced = useReducedMotion();
@@ -83,7 +85,7 @@ export default function ViewportVideo({
         playsInline
         loop
         preload="metadata"
-        aria-label={label}
+        aria-label={t(label)}
         onPlay={() => setPlaying(true)}
         onPause={() => setPlaying(false)}
         onError={() => setFailed(true)}
@@ -94,13 +96,13 @@ export default function ViewportVideo({
           className="pdp-video-fallback"
           style={{ backgroundImage: `url(${poster})` }}
         >
-          <span>Video unavailable. Product preview shown.</span>
+          <span>{t("Video unavailable. Product preview shown.")}</span>
         </div>
       )}
       {!failed && (
         <button
           className="pdp-video-control"
-          aria-label={`${playing ? "Pause" : "Play"} ${label}`}
+          aria-label={t("{value0} {value1}", { value0: t(playing ? "Pause" : "Play"), value1: t(label) })}
           onClick={() => {
             setNear(true);
             setManual(true);
@@ -108,7 +110,7 @@ export default function ViewportVideo({
           }}
         >
           {playing ? <Pause size={16} /> : <Play size={16} />}
-          <span>{playing ? "PAUSE" : "PLAY"} FILM</span>
+          <span>{t(playing ? "PAUSE" : "PLAY")}  {t("FILM")}</span>
         </button>
       )}
     </div>

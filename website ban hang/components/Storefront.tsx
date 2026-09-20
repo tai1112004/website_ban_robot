@@ -1,4 +1,5 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { useEffect, useRef, useState } from "react";
 import { gsap, ScrollTrigger } from "@/lib/gsap";
 import { startSmoothScroll } from "@/lib/lenis";
@@ -35,6 +36,11 @@ const infoCopy: Record<string, string> = {
     "This website introduces the Robo AI concept and model previews. Pricing, availability and final specifications have not been announced. No purchase contract is created and no payment is collected.",
 };
 export default function Storefront() {
+  const { t, localeTag } = useLanguage();
+  useEffect(() => {
+    const frame = requestAnimationFrame(() => ScrollTrigger.refresh());
+    return () => cancelAnimationFrame(frame);
+  }, [localeTag]);
   const [phase, setPhase] = useState<"loading" | "intro" | "home">("loading");
   const [info, setInfo] = useState<string | null>(null);
   const [menu, setMenu] = useState(false);
@@ -121,8 +127,7 @@ export default function Storefront() {
         aria-hidden={phase !== "home"}
       >
         <a href="#main" className="skip-link">
-          Skip to content
-        </a>
+          {t("Skip to content")} </a>
         <Navbar watchFilm={watchFilm} menu={menu} setMenu={setMenu} />
         <main id="main" inert={menu}>
           <Hero watchFilm={watchFilm} />
@@ -143,15 +148,15 @@ export default function Storefront() {
       </div>
       {phase === "loading" && (
         <div className="initial-loading" role="status">
-          ROBO AI<span>YOUR INTELLIGENT COMPANION</span>
+          {t("ROBO AI")}<span>{t("YOUR INTELLIGENT COMPANION")}</span>
         </div>
       )}
       {phase === "intro" && <IntroTrailer onClose={() => setPhase("home")} />}
       {info && (
-        <Modal title={info} onClose={() => setInfo(null)}>
+        <Modal title={t(info)} onClose={() => setInfo(null)}>
           <p className="info-copy">
-            {infoCopy[info] ??
-              `The official Robo AI ${info} channel has not been connected to this demo yet.`}
+            {t(infoCopy[info] ??
+              `The official Robo AI ${info} channel has not been connected to this demo yet.`)}
           </p>
         </Modal>
       )}

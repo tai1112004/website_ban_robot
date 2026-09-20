@@ -1,5 +1,24 @@
 # ROBO AI — Your Intelligent Companion
 
+## Ngôn ngữ giao diện
+
+Website hỗ trợ **English, Tiếng Việt, 日本語, 한국어, 简体中文**. Chọn ngôn ngữ trên thanh điều hướng (desktop và mobile). Tiếng Anh là mặc định; lựa chọn lưu ở `robo-ai-language` trong localStorage và đồng bộ giữa các tab. Nếu trình duyệt chặn storage, vẫn đổi được ngôn ngữ trong trang đang mở. Không dùng Google Translate hay dịch vụ dịch khi chạy.
+
+- `context/LanguageContext.tsx`: locale dùng chung, khôi phục sau hydration, cập nhật `html.lang`.
+- `i18n/locales.ts`: danh sách ngôn ngữ và locale cho ngày/số/tiền tệ.
+- `i18n/catalog.json`: khóa là câu tiếng Anh đã chuẩn hóa; mỗi giá trị lần lượt là `[vi, ja, ko, zh-CN]`. Nội dung tiếng Anh gốc nằm tại vị trí gọi `t(...)` để giữ nguyên giao diện mặc định.
+- `i18n/messages.ts`: tra cứu, giữ kiểu chữ tiêu đề và nội suy biến. Không dịch giá trị nội suy như tên người dùng hoặc mã đơn.
+- `components/ui/LanguageSelector.tsx`: bộ chọn bằng native select, hỗ trợ bàn phím và trình đọc màn hình.
+- `components/ui/TranslatedHeading.tsx`: dịch nguyên câu tiêu đề, hỗ trợ marker `<br>` và `<accent>` để thay đổi thứ tự câu mà không dùng HTML từ bản dịch.
+
+Nội dung Home, Basic, giỏ hàng, checkout, tài khoản, đơn hàng và quản lý robot đều có bản dịch. Ngày/giá dùng locale hiển thị; tiền tệ và giá gốc không thay đổi. Tên robot do người dùng đặt, dữ liệu liên hệ, mã định danh và snapshot đơn hàng giữ nguyên. Nhãn quốc gia được dịch nhưng giá trị form vẫn ổn định. Nội dung API mới chưa có trong từ điển giữ nguyên văn bản nguồn.
+
+Để thêm câu dịch: gọi `t("English source message")`, thêm khóa chữ thường tương ứng và đủ bốn bản dịch vào catalog. Dùng tham số cho câu chứa biến, ví dụ `t("{name} has been added to your cart.", { name: product.name })`. Không dịch trước khi lưu state nghiệp vụ hoặc dùng nhãn đã dịch làm key/value. Khi thêm ngôn ngữ mới, cập nhật locale registry, cột bản dịch và bảng vị trí trong `messages.ts`.
+
+Kiểm tra: `npm test -- tests/i18n.spec.ts`, `npm run typecheck`, `npm run build`. Bộ test i18n kiểm tra đủ bản dịch, biến nội suy, lựa chọn ngôn ngữ, lỗi storage, dữ liệu checkout và bản nháp robot khi đổi ngôn ngữ, cùng bố cục mobile.
+
+Phạm vi hiện tại giữ URL và metadata chung, không có URL SEO riêng theo ngôn ngữ. Chữ đã nhúng trong ảnh/video và âm thanh video không được dịch. Nội dung dịch được quản lý trong source, có thể chỉnh sửa biên tập trực tiếp trong catalog.
+
 Frontend **Home, Product Detail Basic, Cart và Checkout demo** giới thiệu Robot AI với Next.js App Router, React, TypeScript, Tailwind CSS, GSAP/ScrollTrigger, Lenis, Lucide React và font Manrope lưu cục bộ. Chỉ dùng các ảnh/video được cung cấp. Không có backend, database, tài khoản hay thanh toán thật.
 
 ## Đối chiếu brief Home mới

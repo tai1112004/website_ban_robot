@@ -1,4 +1,5 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { useEffect, useState } from "react";
 import { Check, CircleHelp } from "lucide-react";
 import Navbar from "../Navbar";
@@ -17,6 +18,7 @@ import OrderStatus from "./OrderStatus";
 import OrderTimeline from "./OrderTimeline";
 
 export default function OrderSuccess() {
+  const { t } = useLanguage();
   const [result, setResult] = useState<
     RecentOrderResult | { state: "loading" }
   >({ state: "loading" });
@@ -46,30 +48,25 @@ export default function OrderSuccess() {
   return (
     <div className="order-page">
       <a href="#order-main" className="skip-link">
-        Skip to order confirmation
-      </a>
+        {t("Skip to order confirmation")} </a>
       <Navbar homeHref="/" sectionPrefix="/" menu={menu} setMenu={setMenu} />
       <main id="order-main" className="order-main" inert={menu}>
         {result.state === "loading" ? (
           <p className="order-loading" role="status">
-            Loading your order…
-          </p>
+            {t("Loading your order…")} </p>
         ) : result.state === "found" ? (
           <>
             <header className="order-hero">
               <div className="order-confirmation-icon">
                 <Check size={31} strokeWidth={1.5} />
               </div>
-              <p className="eyebrow">YOUR ROBO JOURNEY STARTS HERE</p>
-              <h1>ORDER RECEIVED.</h1>
+              <p className="eyebrow">{t("YOUR ROBO JOURNEY STARTS HERE")}</p>
+              <h1>{t("ORDER RECEIVED.")}</h1>
               <p className="order-hero-subtitle">
-                Thanks for your interest in Robo.
-              </p>
+                {t("Thanks for your interest in Robo.")} </p>
               <p className="order-demo-note">
-                Your demo order request is saved in this browser.
-                <br />
-                Nothing was sent to a seller. No payment has been processed.
-              </p>
+                {t("Your demo order request is saved in this browser.")} <br />
+                {t("Nothing was sent to a seller. No payment has been processed.")} </p>
               <CopyOrderNumber id={result.order.id} />
             </header>
             <div className="order-layout">
@@ -80,79 +77,69 @@ export default function OrderSuccess() {
             <OrderTimeline />
             <section className="order-ownership">
               <div>
-                <p className="eyebrow">AFTER YOUR ROBO ARRIVES</p>
+                <p className="eyebrow">{t("AFTER YOUR ROBO ARRIVES")}</p>
                 <h2>
-                  YOUR ROBO.
-                  <br />
-                  <span>YOUR ACCOUNT.</span>
+                  {t("YOUR ROBO.")} <br />
+                  <span>{t("YOUR ACCOUNT.")}</span>
                 </h2>
               </div>
               <div>
                 <p>
-                  A preview of what comes next: connect your Robo to an account
-                  and personalize the experience when the device and account
-                  features become available.
-                </p>
+                  {t("A preview of what comes next: connect your Robo to an account and personalize the experience when the device and account features become available.")} </p>
                 <ul>
-                  <li>PERSONALITY</li>
-                  <li>MEMORY</li>
-                  <li>KNOWLEDGE PACK</li>
-                  <li>DISPLAY</li>
+                  <li>{t("PERSONALITY")}</li>
+                  <li>{t("MEMORY")}</li>
+                  <li>{t("KNOWLEDGE PACK")}</li>
+                  <li>{t("DISPLAY")}</li>
                 </ul>
-                <a href="/products/basic">LEARN ABOUT ROBO ↗</a>
+                <a href="/products/basic">{t("LEARN ABOUT ROBO ↗")}</a>
               </div>
             </section>
             <div className="order-actions">
               <div className="button-row">
                 <Button href={`/orders/${encodeURIComponent(result.order.id)}`}>
-                  VIEW ORDER
-                </Button>
+                  {t("VIEW ORDER")} </Button>
                 <Button href="/#models" secondary>
-                  CONTINUE EXPLORING
-                </Button>
+                  {t("CONTINUE EXPLORING")} </Button>
               </div>
               <p>
-                <a href="/account">GO TO MY ACCOUNT ↗</a>
+                <a href="/account">{t("GO TO MY ACCOUNT ↗")}</a>
               </p>
               <a href="/" className="order-home-link">
-                BACK TO HOME
-              </a>
+                {t("BACK TO HOME")} </a>
             </div>
           </>
         ) : (
           <section className="order-fallback">
             <CircleHelp size={42} strokeWidth={1} />
             <h1>
-              {result.state === "no-recent"
+              {t(result.state === "no-recent"
                 ? "NO RECENT ORDER FOUND."
                 : result.state === "not-found"
                   ? "ORDER NOT FOUND."
-                  : "ORDER STORAGE UNAVAILABLE."}
+                  : "ORDER STORAGE UNAVAILABLE.")}
             </h1>
             <p>
-              {result.state === "no-recent"
+              {t(result.state === "no-recent"
                 ? "We couldn't find a recent order in this browser."
                 : result.state === "not-found"
                   ? "The order may have been removed from local browser storage."
-                  : "This browser could not read your saved orders. Check storage permissions and try again."}
+                  : "This browser could not read your saved orders. Check storage permissions and try again.")}
             </p>
             <div className="button-row">
-              <Button href="/orders">VIEW ORDERS</Button>
+              <Button href="/orders">{t("VIEW ORDERS")}</Button>
               <Button href="/" secondary>
-                GO HOME
-              </Button>
+                {t("GO HOME")} </Button>
             </div>
             {result.state === "unavailable" && (
               <button
                 className="order-retry"
                 onClick={() => setResult(getRecentOrder())}
               >
-                TRY AGAIN
-              </button>
+                {t("TRY AGAIN")} </button>
             )}
             <p className="order-future-note">
-              Your demo order history is available in this browser.
-            </p>
+              {t("Your demo order history is available in this browser.")} </p>
           </section>
         )}
       </main>
@@ -165,13 +152,9 @@ export default function OrderSuccess() {
         />
       </div>
       {info && (
-        <Modal title={info} onClose={() => setInfo(null)}>
+        <Modal title={t(info)} onClose={() => setInfo(null)}>
           <p className="info-copy">
-            This is a local frontend demonstration. Order details are stored in
-            this browser only; no order, email or payment is sent. Product
-            availability, pricing, delivery and account features will be
-            confirmed in a future release.
-          </p>
+            {t("This is a local frontend demonstration. Order details are stored in this browser only; no order, email or payment is sent. Product availability, pricing, delivery and account features will be confirmed in a future release.")} </p>
         </Modal>
       )}
     </div>
