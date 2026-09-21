@@ -1,3 +1,5 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import {
   BookOpen,
   GraduationCap,
@@ -25,15 +27,13 @@ export default function KnowledgePanel({
 }: {
   state: RobotManagementState;
 }) {
+  const { t } = useLanguage();
   return (
     <>
-      <PanelHeading eyebrow="KNOWLEDGE" title="WHAT SHOULD YOUR ROBO KNOW?">
-        Choose the knowledge that belongs in your Robo&apos;s world.
-      </PanelHeading>
+      <PanelHeading eyebrow={t("KNOWLEDGE")} title={t("WHAT SHOULD YOUR ROBO KNOW?")}>
+        {t("Choose the knowledge that belongs in your Robo's world.")} </PanelHeading>
       <p className="management-note">
-        Demo selections only. Installing a pack saves your preference; it does
-        not download or activate AI content.
-      </p>
+        {t("Demo selections only. Installing a pack saves your preference; it does not download or activate AI content.")} </p>
       <div className="knowledge-grid">
         {state.packs.map((pack, index) => {
           const Icon = icons[index % icons.length];
@@ -45,22 +45,22 @@ export default function KnowledgePanel({
               <div className="knowledge-card-top">
                 <Icon size={25} strokeWidth={1.4} />
                 <span>
-                  {pack.id === "hat-sac-bua"
+                  {t(pack.id === "hat-sac-bua"
                     ? "FIRST KNOWLEDGE PACK"
-                    : pack.category}
+                    : pack.category)}
                 </span>
               </div>
-              <h3>{pack.name}</h3>
-              <p>{pack.description}</p>
+              <h3>{t(pack.name)}</h3>
+              <p>{t(pack.description)}</p>
               <div className="knowledge-card-bottom">
-                <span>{pack.installed ? "INSTALLED" : "AVAILABLE"}</span>
+                <span>{t(pack.installed ? "INSTALLED" : "AVAILABLE")}</span>
                 <button
                   disabled={!!state.pending}
                   className="button button-secondary"
                   onClick={() => state.changePack(pack)}
-                  aria-label={`${pack.installed ? "REMOVE" : "INSTALL"} ${pack.name}`}
+                  aria-label={t("{value0} {value1}", { value0: t(pack.installed ? "REMOVE" : "INSTALL"), value1: t(pack.name) })}
                 >
-                  {pack.installed ? "REMOVE" : "INSTALL"}
+                  {t(pack.installed ? "REMOVE" : "INSTALL")}
                 </button>
               </div>
             </article>
@@ -68,7 +68,7 @@ export default function KnowledgePanel({
         })}
       </div>
       {state.pending === "knowledge" && (
-        <p role="status">UPDATING KNOWLEDGE PACKS...</p>
+        <p role="status">{t("UPDATING KNOWLEDGE PACKS...")}</p>
       )}
       <Feedback state={state} area="knowledge" />
     </>

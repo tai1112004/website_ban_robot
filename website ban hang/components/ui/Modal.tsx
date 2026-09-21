@@ -1,3 +1,5 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { useEffect, useRef, type ReactNode } from "react";
 import { X } from "lucide-react";
 export function Modal({
@@ -11,6 +13,7 @@ export function Modal({
   children: ReactNode;
   drawer?: boolean;
 }) {
+  const { t } = useLanguage();
   const ref = useRef<HTMLDialogElement>(null);
   useEffect(() => {
     const previous = document.activeElement as HTMLElement | null;
@@ -48,10 +51,10 @@ export function Modal({
       data-lenis-prevent
     >
       <div className="modal-heading">
-        <h2 id="modal-title">{title}</h2>
+        <h2 id="modal-title">{t(title)}</h2>
         <button
           className="icon-button"
-          aria-label="Close dialog"
+          aria-label={t("Close dialog")}
           onClick={onClose}
         >
           <X />

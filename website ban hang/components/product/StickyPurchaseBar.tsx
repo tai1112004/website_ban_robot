@@ -1,4 +1,5 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { useEffect, useState } from "react";
 import { ScrollTrigger } from "@/lib/gsap";
 import { ArrowUpRight } from "lucide-react";
@@ -12,6 +13,7 @@ export default function StickyPurchaseBar({
   onInterest: () => void;
   hidden: boolean;
 }) {
+  const { t, localeTag } = useLanguage();
   const [visible, setVisible] = useState(false);
   useEffect(() => {
     const trigger = ScrollTrigger.create({
@@ -25,14 +27,14 @@ export default function StickyPurchaseBar({
   }, []);
   if (!visible || hidden) return null;
   return (
-    <aside className="pdp-purchase-bar" aria-label="Pre-order interest">
+    <aside className="pdp-purchase-bar" aria-label={t("Pre-order interest")}>
       <div>
-        <strong>{product.name}</strong>
-        <span>{product.tagline}</span>
+        <strong>{t(product.name)}</strong>
+        <span>{t(product.tagline)}</span>
       </div>
-      <p>{productPrice(product)}</p>
+      <p>{t(productPrice(product, localeTag))}</p>
       <button className="button button-primary" onClick={onInterest}>
-        JOIN THE LIST <ArrowUpRight size={15} />
+        {t("JOIN THE LIST")} <ArrowUpRight size={15} />
       </button>
     </aside>
   );

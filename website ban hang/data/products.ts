@@ -93,10 +93,10 @@ export const roboBasic: ProductModel = {
   },
 };
 
-export function productPrice(product: ProductModel) {
+export function productPrice(product: ProductModel, locale = "en-US") {
   return product.price === null
     ? "PRICE TO BE ANNOUNCED"
-    : new Intl.NumberFormat("en-US", {
+    : new Intl.NumberFormat(locale, {
         style: "currency",
         currency: product.price.currency,
       }).format(product.price.amount);

@@ -1,4 +1,5 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import { useState } from "react";
 export default function OrderImage({
@@ -10,6 +11,7 @@ export default function OrderImage({
   name: string;
   cutout?: boolean;
 }) {
+  const { t } = useLanguage();
   const [failed, setFailed] = useState(false);
   const safe = /^\/images\/[\w-]+\.(png|jpe?g|webp)$/i.test(src)
     ? src
@@ -17,7 +19,7 @@ export default function OrderImage({
   return (
     <div className={`history-image ${cutout ? "history-cutout" : ""}`}>
       {failed ? (
-        <span>Preview unavailable</span>
+        <span>{t("Preview unavailable")}</span>
       ) : (
         <Image
           src={safe}

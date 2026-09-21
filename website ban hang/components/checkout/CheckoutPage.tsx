@@ -1,4 +1,5 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { ArrowUpRight, Check, Truck, Wallet } from "lucide-react";
@@ -18,6 +19,7 @@ import CheckoutFields from "./CheckoutFields";
 import CheckoutSummary from "./CheckoutSummary";
 
 function CheckoutContent() {
+  const { t, localeTag } = useLanguage();
   const { items, ready, clearCart, getSubtotal } = useCart();
   const router = useRouter();
   const [data, setData] = useState<CheckoutFormData>(initialCheckout);
@@ -44,19 +46,17 @@ function CheckoutContent() {
   if (!ready)
     return (
       <p className="checkout-loading" role="status">
-        Loading your cart…
-      </p>
+        {t("Loading your cart…")} </p>
     );
   if (!items.length && !submitting)
     return (
       <section className="checkout-empty">
-        <h2>NOTHING TO CHECK OUT.</h2>
-        <p>Your cart is currently empty.</p>
+        <h2>{t("NOTHING TO CHECK OUT.")}</h2>
+        <p>{t("Your cart is currently empty.")}</p>
         <div className="button-row">
-          <Button href="/#models">DISCOVER ROBO</Button>
+          <Button href="/#models">{t("DISCOVER ROBO")}</Button>
           <Button href="/cart" secondary>
-            GO TO CART
-          </Button>
+            {t("GO TO CART")} </Button>
         </div>
       </section>
     );
@@ -103,10 +103,7 @@ function CheckoutContent() {
         }}
       >
         <p className="checkout-demo-note">
-          FRONTEND DEMO — No real payment or order will be sent. Submitting
-          saves your contact and address details only in this browser. Use
-          sample information when trying it out.
-        </p>
+          {t("FRONTEND DEMO — No real payment or order will be sent. Submitting saves your contact and address details only in this browser. Use sample information when trying it out.")} </p>
         <fieldset className="checkout-form-body" disabled={submitting}>
           <CheckoutFields
             section="contact"
@@ -136,8 +133,7 @@ function CheckoutContent() {
           />
           <fieldset className="checkout-section">
             <legend>
-              <span>03</span>DELIVERY METHOD
-            </legend>
+              <span>03</span>{t("DELIVERY METHOD")} </legend>
             <label className="checkout-option">
               <input
                 type="radio"
@@ -147,39 +143,31 @@ function CheckoutContent() {
               />
               <Truck size={22} />
               <span>
-                <strong>STANDARD DELIVERY</strong>
+                <strong>{t("STANDARD DELIVERY")}</strong>
                 <small>
-                  Shipping cost will be confirmed when the product becomes
-                  available.
-                </small>
-                <em>CALCULATED LATER</em>
+                  {t("Shipping cost will be confirmed when the product becomes available.")} </small>
+                <em>{t("CALCULATED LATER")}</em>
               </span>
             </label>
           </fieldset>
           <fieldset className="checkout-section">
             <legend>
-              <span>04</span>PAYMENT METHOD
-            </legend>
+              <span>04</span>{t("PAYMENT METHOD")} </legend>
             <label className="checkout-option">
               <input type="radio" name="payment" value="demo" defaultChecked />
               <Wallet size={22} />
               <span>
-                <strong>DEMO CHECKOUT</strong>
+                <strong>{t("DEMO CHECKOUT")}</strong>
                 <small>
-                  No real payment will be processed. Payment details will be
-                  confirmed when Robo enters commercial release.
-                </small>
+                  {t("No real payment will be processed. Payment details will be confirmed when Robo enters commercial release.")} </small>
               </span>
             </label>
           </fieldset>
           <section className="checkout-review" aria-labelledby="review-title">
             <h2 id="review-title">
-              <span>05</span>REVIEW YOUR ORDER
-            </h2>
+              <span>05</span>{t("REVIEW YOUR ORDER")} </h2>
             <p>
-              Review your information and the selected products before
-              continuing.
-            </p>
+              {t("Review your information and the selected products before continuing.")} </p>
             <label className="checkout-confirm">
               <input
                 id="checkout-confirmed"
@@ -198,11 +186,11 @@ function CheckoutContent() {
                   }));
                 }}
               />
-              <span>I confirm that the information above is correct.</span>
+              <span>{t("I confirm that the information above is correct.")}</span>
             </label>
             {errors.confirmed && (
               <p id="error-confirmed" className="checkout-field-error">
-                {errors.confirmed}
+                {t(errors.confirmed)}
               </p>
             )}
             <button
@@ -210,7 +198,7 @@ function CheckoutContent() {
               className="button button-primary checkout-submit"
               disabled={submitting}
             >
-              {submitting ? "PROCESSING..." : "PLACE ORDER"}
+              {t(submitting ? "PROCESSING..." : "PLACE ORDER")}
               {submitting ? (
                 <span className="checkout-spinner" aria-hidden="true" />
               ) : (
@@ -219,24 +207,23 @@ function CheckoutContent() {
             </button>
             <p className="checkout-payment-note">
               <Check size={14} />
-              No payment will be processed at this stage.
-            </p>
+              {t("No payment will be processed at this stage.")} </p>
           </section>
         </fieldset>
         {failure && (
           <p className="checkout-submit-error" role="alert">
-            {failure}
+            {t(failure)}
           </p>
         )}
         <a className="checkout-back" href="/cart">
-          ← BACK TO CART
-        </a>
+          {t("← BACK TO CART")} </a>
       </form>
       <CheckoutSummary items={items} subtotal={getSubtotal()} />
     </div>
   );
 }
 export default function CheckoutPage() {
+  const { t, localeTag } = useLanguage();
   const [menu, setMenu] = useState(false);
   const [info, setInfo] = useState<string | null>(null);
   useEffect(() => {
@@ -254,29 +241,28 @@ export default function CheckoutPage() {
   return (
     <div className="checkout-page">
       <a href="#checkout-main" className="skip-link">
-        Skip to checkout
-      </a>
+        {t("Skip to checkout")} </a>
       <Navbar homeHref="/" sectionPrefix="/" menu={menu} setMenu={setMenu} />
       <main id="checkout-main" className="checkout-main" inert={menu}>
-        <nav className="checkout-breadcrumb" aria-label="Breadcrumb">
-          <a href="/">HOME</a>
+        <nav className="checkout-breadcrumb" aria-label={t("Breadcrumb")}>
+          <a href="/">{t("HOME")}</a>
           <span>/</span>
-          <a href="/cart">CART</a>
+          <a href="/cart">{t("CART")}</a>
           <span>/</span>
-          <span aria-current="page">CHECKOUT</span>
+          <span aria-current="page">{t("CHECKOUT")}</span>
         </nav>
         <header className="checkout-heading">
           <div>
-            <h1>CHECKOUT.</h1>
-            <p>Almost there. Your Robo is waiting.</p>
+            <h1>{t("CHECKOUT.")}</h1>
+            <p>{t("Almost there. Your Robo is waiting.")}</p>
           </div>
-          <ol className="checkout-progress" aria-label="Checkout progress">
+          <ol className="checkout-progress" aria-label={t("Checkout progress")}>
             <li>
-              <a href="/cart">CART</a>
+              <a href="/cart">{t("CART")}</a>
             </li>
-            <li aria-current="step">INFORMATION</li>
-            <li>REVIEW</li>
-            <li>DONE</li>
+            <li aria-current="step">{t("INFORMATION")}</li>
+            <li>{t("REVIEW")}</li>
+            <li>{t("DONE")}</li>
           </ol>
         </header>
         <CheckoutContent />
@@ -290,14 +276,9 @@ export default function CheckoutPage() {
         />
       </div>
       {info && (
-        <Modal title={info} onClose={() => setInfo(null)}>
+        <Modal title={t(info)} onClose={() => setInfo(null)}>
           <p className="info-copy">
-            This is a frontend demonstration. Checkout saves your demo order,
-            including contact and shipping details, in this browser only. No
-            information is sent to a seller and no payment is collected. Final
-            product, support and privacy details will be announced before
-            release.
-          </p>
+            {t("This is a frontend demonstration. Checkout saves your demo order, including contact and shipping details, in this browser only. No information is sent to a seller and no payment is collected. Final product, support and privacy details will be announced before release.")} </p>
         </Modal>
       )}
     </div>

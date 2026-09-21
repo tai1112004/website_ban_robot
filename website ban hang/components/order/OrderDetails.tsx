@@ -1,55 +1,58 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import type { Order } from "@/types/order";
 import { statusLabel } from "./OrderStatus";
 export default function OrderDetails({ order }: { order: Order }) {
+  const { t, localeTag } = useLanguage();
   const address = order.shippingAddress;
   return (
     <section className="order-details" aria-labelledby="order-details-title">
       <div className="order-section-heading">
-        <h2 id="order-details-title">ORDER DETAILS</h2>
+        <h2 id="order-details-title">{t("ORDER DETAILS")}</h2>
       </div>
       <dl className="order-meta">
         <div>
-          <dt>Created</dt>
+          <dt>{t("Created")}</dt>
           <dd>
-            {new Intl.DateTimeFormat("en-US", {
+            {t(new Intl.DateTimeFormat(localeTag, {
               day: "numeric",
               month: "long",
               year: "numeric",
-            }).format(new Date(order.createdAt))}
+            }).format(new Date(order.createdAt)))}
           </dd>
         </div>
         <div>
-          <dt>Status</dt>
+          <dt>{t("Status")}</dt>
           <dd>
             <span className="order-status-badge">
-              {statusLabel(order.status)}
+              {t(statusLabel(order.status))}
             </span>
           </dd>
         </div>
       </dl>
       <section className="order-contact">
-        <h3>CONTACT INFORMATION</h3>
+        <h3>{t("CONTACT INFORMATION")}</h3>
         <dl>
           <div>
-            <dt>Name</dt>
+            <dt>{t("Name")}</dt>
             <dd>
               {[order.customer.firstName, order.customer.lastName]
                 .filter(Boolean)
-                .join(" ") || "Not provided"}
+                .join(" ") || t("Not provided")}
             </dd>
           </div>
           <div>
-            <dt>Email</dt>
-            <dd>{order.customer.email || "Not provided"}</dd>
+            <dt>{t("Email")}</dt>
+            <dd>{order.customer.email || t("Not provided")}</dd>
           </div>
           <div>
-            <dt>Phone</dt>
-            <dd>{order.customer.phone || "Not provided"}</dd>
+            <dt>{t("Phone")}</dt>
+            <dd>{order.customer.phone || t("Not provided")}</dd>
           </div>
         </dl>
       </section>
       <section className="order-delivery">
-        <h3>DELIVERY INFORMATION</h3>
+        <h3>{t("DELIVERY INFORMATION")}</h3>
         <address>
           <strong>
             {address.firstName} {address.lastName}

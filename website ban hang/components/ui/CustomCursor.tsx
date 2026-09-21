@@ -1,7 +1,9 @@
 import { useEffect, useRef } from "react";
+import { useLanguage } from "@/context/LanguageContext";
 import { useIsTouchDevice } from "@/hooks/useIsTouchDevice";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 export default function CustomCursor() {
+  const { t } = useLanguage();
   const ref = useRef<HTMLDivElement>(null);
   const touch = useIsTouchDevice();
   const reduced = useReducedMotion();
@@ -20,7 +22,7 @@ export default function CustomCursor() {
           ? "view"
           : "";
       cursor.textContent =
-        view && !target.closest("a,button,input") ? "VIEW" : "";
+        view && !target.closest("a,button,input") ? t("VIEW") : "";
     };
     const leave = () => {
       cursor.style.opacity = "0";
@@ -31,7 +33,7 @@ export default function CustomCursor() {
       window.removeEventListener("pointermove", move);
       document.removeEventListener("pointerleave", leave);
     };
-  }, [touch, reduced]);
+  }, [touch, reduced, t]);
   return touch || reduced ? null : (
     <div ref={ref} className="custom-cursor" aria-hidden="true" />
   );

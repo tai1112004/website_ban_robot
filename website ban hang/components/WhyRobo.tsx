@@ -1,3 +1,6 @@
+"use client";
+import TranslatedHeading from "@/components/ui/TranslatedHeading";
+import { useLanguage } from "@/context/LanguageContext";
 import { AudioLines, Fingerprint, Brain, BookOpen } from "lucide-react";
 import { SectionTitle } from "./ui/SectionTitle";
 
@@ -29,18 +32,15 @@ const values = [
 ];
 
 export default function WhyRobo() {
+  const { t } = useLanguage();
   return (
     <section id="features" className="why-robo section-space">
       <div className="section-heading">
-        <SectionTitle index="01" label="WHY ROBO AI?">
-          INTELLIGENCE
-          <br />
-          THAT FEELS <span className="accent">PERSONAL.</span>
+        <SectionTitle index="01" label={t("WHY ROBO AI?")}>
+          <TranslatedHeading message="INTELLIGENCE<br>THAT FEELS <accent>PERSONAL.</accent>" />
         </SectionTitle>
         <p data-reveal>
-          AI is more meaningful when it feels like a connection. Meet a
-          companion with a voice, a character and a place in your everyday life.
-        </p>
+          {t("AI is more meaningful when it feels like a connection. Meet a companion with a voice, a character and a place in your everyday life.")} </p>
       </div>
       <div className="value-columns">
         {values.map(({ Icon, title, text, href }, index) => (
@@ -49,10 +49,10 @@ export default function WhyRobo() {
               <Icon size={29} strokeWidth={1.3} />
               <span>0{index + 1}</span>
             </div>
-            <h3>{title}</h3>
-            <p>{text}</p>
+            <h3>{t(title)}</h3>
+            <p>{t(text)}</p>
             <span className="value-link" aria-hidden="true">
-              DISCOVER <span>↗</span>
+              {t("DISCOVER")} <span>↗</span>
             </span>
           </a>
         ))}

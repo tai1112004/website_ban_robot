@@ -1,23 +1,24 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import { useState } from "react";
 import { Plus } from "lucide-react";
 import { hardware, type ProductModel } from "@/data/products";
 import Heading from "./ProductSectionHeading";
 export default function InsideRobot({ product }: { product: ProductModel }) {
+  const { t } = useLanguage();
   const [active, setActive] = useState(0);
   return (
     <section id="technology" className="pdp-section pdp-inside">
-      <Heading index="06" label="INSIDE ROBO">
-        THOUGHTFULLY BUILT.
-        <br />
-        <span>FROM THE INSIDE.</span>
+      <Heading index="06" label={t("INSIDE ROBO")}>
+        {t("THOUGHTFULLY BUILT.")} <br />
+        <span>{t("FROM THE INSIDE.")}</span>
       </Heading>
       <div className="pdp-inside-layout">
         <div className="pdp-exploded">
           <Image
             src={product.media.exploded}
-            alt="Exploded view of Robo's components"
+            alt={t("Exploded view of Robo's components")}
             fill
             sizes="(max-width:767px) 90vw, 60vw"
           />
@@ -25,7 +26,7 @@ export default function InsideRobot({ product }: { product: ProductModel }) {
             <button
               key={item.name}
               className={`pdp-hotspot pdp-hotspot-${i} ${active === i ? "is-active" : ""}`}
-              aria-label={item.name}
+              aria-label={t(item.name)}
               aria-pressed={active === i}
               onClick={() => setActive(i)}
             >
@@ -42,11 +43,11 @@ export default function InsideRobot({ product }: { product: ProductModel }) {
                 onClick={() => setActive(i)}
               >
                 <span>0{i + 1}</span>
-                {item.name}
+                {t(item.name)}
                 <Plus size={16} />
               </button>
               <p id={`hardware-${i}`} hidden={active !== i}>
-                {item.text}
+                {t(item.text)}
               </p>
             </div>
           ))}

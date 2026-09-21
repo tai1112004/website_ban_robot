@@ -1,4 +1,5 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { useRef, useState, type FormEvent } from "react";
 import { Info, QrCode, ArrowUpRight } from "lucide-react";
 import usePairRobot from "@/hooks/usePairRobot";
@@ -7,6 +8,7 @@ import AccountShell from "../account/AccountShell";
 import RobotImage from "./RobotImage";
 import PairSuccess from "./PairSuccess";
 export default function PairRobotForm() {
+  const { t } = useLanguage();
   const { pairRobot, isPairing, error, reset } = usePairRobot();
   const [robot, setRobot] = useState<RobotDevice | null>(null);
   const [deviceId, setDeviceId] = useState("");
@@ -40,12 +42,12 @@ export default function PairRobotForm() {
   }
   return (
     <AccountShell active="robots">
-      <nav className="account-breadcrumb" aria-label="Breadcrumb">
-        <a href="/account">ACCOUNT</a>
+      <nav className="account-breadcrumb" aria-label={t("Breadcrumb")}>
+        <a href="/account">{t("ACCOUNT")}</a>
         <span>/</span>
-        <a href="/my-robots">MY ROBOTS</a>
+        <a href="/my-robots">{t("MY ROBOTS")}</a>
         <span>/</span>
-        <span aria-current="page">PAIR</span>
+        <span aria-current="page">{t("PAIR")}</span>
       </nav>
       {robot ? (
         <PairSuccess robot={robot} />
@@ -53,16 +55,12 @@ export default function PairRobotForm() {
         <section className="pair-layout">
           <div className="pair-intro">
             <header className="account-heading">
-              <p className="eyebrow">DEVICE SETUP</p>
+              <p className="eyebrow">{t("DEVICE SETUP")}</p>
               <h1>
-                CONNECT
-                <br />
-                YOUR ROBO.
-              </h1>
+                {t("CONNECT")} <br />
+                {t("YOUR ROBO.")} </h1>
               <p>
-                Enter the information that came with your Robo to connect it to
-                your account.
-              </p>
+                {t("Enter the information that came with your Robo to connect it to your account.")} </p>
             </header>
             <RobotImage src="/images/robot_phongtrang.png" />
           </div>
@@ -72,10 +70,10 @@ export default function PairRobotForm() {
             noValidate
             aria-busy={isPairing}
           >
-            <p className="eyebrow">01 / DEVICE INFORMATION</p>
-            <h2>A NEW CONNECTION.</h2>
+            <p className="eyebrow">{t("01 / DEVICE INFORMATION")}</p>
+            <h2>{t("A NEW CONNECTION.")}</h2>
             <div className="pair-field">
-              <label htmlFor="device-id">DEVICE ID *</label>
+              <label htmlFor="device-id">{t("DEVICE ID *")}</label>
               <input
                 ref={deviceInput}
                 id="device-id"
@@ -85,7 +83,7 @@ export default function PairRobotForm() {
                   reset();
                 }}
                 disabled={isPairing}
-                placeholder="RB-A8F2K91"
+                placeholder={t("RB-A8F2K91")}
                 maxLength={64}
                 autoCapitalize="characters"
                 spellCheck={false}
@@ -95,17 +93,15 @@ export default function PairRobotForm() {
               />
               <p id="device-help" className="pair-help">
                 <Info size={15} aria-hidden="true" />
-                Device ID can be found on your Robo or included with the device
-                information.
-              </p>
+                {t("Device ID can be found on your Robo or included with the device information.")} </p>
               {errors.deviceId && (
                 <p className="pair-error" id="device-error">
-                  {errors.deviceId}
+                  {t(errors.deviceId)}
                 </p>
               )}
             </div>
             <div className="pair-field">
-              <label htmlFor="activation-code">ACTIVATION CODE *</label>
+              <label htmlFor="activation-code">{t("ACTIVATION CODE *")}</label>
               <input
                 ref={codeInput}
                 id="activation-code"
@@ -127,13 +123,13 @@ export default function PairRobotForm() {
               />
               {errors.activationCode && (
                 <p className="pair-error" id="code-error">
-                  {errors.activationCode}
+                  {t(errors.activationCode)}
                 </p>
               )}
             </div>
             {error && (
               <p className="pair-error" role="alert">
-                {error}
+                {t(error)}
               </p>
             )}
             <button
@@ -141,30 +137,26 @@ export default function PairRobotForm() {
               disabled={isPairing}
               type="submit"
             >
-              {isPairing ? "CONNECTING..." : "CONNECT ROBO"}
+              {t(isPairing ? "CONNECTING..." : "CONNECT ROBO")}
               <ArrowUpRight size={17} />
             </button>
             <p className="pair-help" role="status">
-              {isPairing
+              {t(isPairing
                 ? "Connecting your Robo..."
-                : "Demo pairing: codes are not verified and no physical device is connected. Model defaults to Robo Basic; live status and firmware are unavailable."}
+                : "Demo pairing: codes are not verified and no physical device is connected. Model defaults to Robo Basic; live status and firmware are unavailable.")}
             </p>
             <div className="pair-qr">
               <QrCode size={25} aria-hidden="true" />
               <span>
-                SCAN QR CODE<small>COMING SOON</small>
+                {t("SCAN QR CODE")}<small>{t("COMING SOON")}</small>
               </span>
               <button type="button" disabled>
-                SCAN QR
-              </button>
+                {t("SCAN QR")} </button>
             </div>
             <p className="pair-ownership">
-              A Robo can only be connected to one owner account at a time.
-              <br />
+              {t("A Robo can only be connected to one owner account at a time.")} <br />
               <span>
-                Ownership verification will be enabled with the backend. This
-                demo only prevents duplicate Device IDs in this browser.
-              </span>
+                {t("Ownership verification will be enabled with the backend. This demo only prevents duplicate Device IDs in this browser.")} </span>
             </p>
           </form>
         </section>

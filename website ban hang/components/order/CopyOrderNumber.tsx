@@ -1,7 +1,9 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { useEffect, useRef, useState } from "react";
 import { Copy } from "lucide-react";
 export default function CopyOrderNumber({ id }: { id: string }) {
+  const { t } = useLanguage();
   const input = useRef<HTMLInputElement>(null);
   const [message, setMessage] = useState("");
   const mounted = useRef(true);
@@ -13,7 +15,7 @@ export default function CopyOrderNumber({ id }: { id: string }) {
   }, []);
   return (
     <div className="order-number">
-      <label htmlFor="order-reference">ORDER NUMBER</label>
+      <label htmlFor="order-reference">{t("ORDER NUMBER")}</label>
       <div>
         <input
           ref={input}
@@ -26,7 +28,7 @@ export default function CopyOrderNumber({ id }: { id: string }) {
         />
         <button
           type="button"
-          aria-label="Copy order number"
+          aria-label={t("Copy order number")}
           onClick={async () => {
             try {
               if (!navigator.clipboard)
@@ -52,11 +54,11 @@ export default function CopyOrderNumber({ id }: { id: string }) {
           }}
         >
           <Copy size={16} />
-          <span>COPY ORDER NUMBER</span>
+          <span>{t("COPY ORDER NUMBER")}</span>
         </button>
       </div>
       <p id="order-copy-status" role="status">
-        {message}
+        {t(message)}
       </p>
     </div>
   );

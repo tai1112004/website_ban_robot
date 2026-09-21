@@ -1,3 +1,5 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import type { ReactNode } from "react";
 import type { RobotManagementState } from "@/hooks/useRobotManagement";
 import type { SettingKey } from "@/types/robotConfig";
@@ -10,10 +12,11 @@ export function PanelHeading({
   title: string;
   children?: ReactNode;
 }) {
+  const { t, localeTag } = useLanguage();
   return (
     <header className="management-panel-heading">
-      <p className="eyebrow">{eyebrow}</p>
-      <h2>{title}</h2>
+      <p className="eyebrow">{t(eyebrow)}</p>
+      <h2>{t(title)}</h2>
       {children && <p>{children}</p>}
     </header>
   );
@@ -27,6 +30,7 @@ export function SaveSettings({
   area: SettingKey;
   label: string;
 }) {
+  const { t, localeTag } = useLanguage();
   return (
     <div className="management-save">
       <button
@@ -35,9 +39,9 @@ export function SaveSettings({
         disabled={!!state.pending || !state.dirty(area)}
         onClick={() => state.save(area)}
       >
-        {state.pending === area ? "SAVING..." : label}
+        {t(state.pending === area ? "SAVING..." : label)}
       </button>
-      <span>{state.dirty(area) ? "UNSAVED CHANGES" : "UP TO DATE"}</span>
+      <span>{t(state.dirty(area) ? "UNSAVED CHANGES" : "UP TO DATE")}</span>
       <Feedback state={state} area={area} />
     </div>
   );
@@ -49,13 +53,14 @@ export function Feedback({
   state: RobotManagementState;
   area: string;
 }) {
+  const { t, localeTag } = useLanguage();
   const feedback = state.feedback?.area === area ? state.feedback : null;
   return feedback ? (
     <p
       className={`management-feedback ${feedback.error ? "is-error" : ""}`}
       role={feedback.error ? "alert" : "status"}
     >
-      {feedback.message}
+      {t(feedback.message)}
     </p>
   ) : null;
 }
@@ -78,10 +83,11 @@ export function Range({
   step?: number;
   unit?: string;
 }) {
+  const { t, localeTag } = useLanguage();
   return (
     <div className="management-range">
       <div>
-        <label htmlFor={id}>{label}</label>
+        <label htmlFor={id}>{t(label)}</label>
         <output htmlFor={id}>
           {value}
           {unit}
@@ -113,11 +119,12 @@ export function Toggle({
   onChange: (value: boolean) => void;
   disabled?: boolean;
 }) {
+  const { t, localeTag } = useLanguage();
   return (
     <label className={`management-toggle ${disabled ? "is-disabled" : ""}`}>
       <span>
-        <strong>{label}</strong>
-        {description && <small>{description}</small>}
+        <strong>{t(label)}</strong>
+        {description && <small>{t(description)}</small>}
       </span>
       <input
         type="checkbox"
@@ -125,7 +132,7 @@ export function Toggle({
         checked={checked}
         onChange={(e) => onChange(e.target.checked)}
         disabled={disabled}
-        aria-label={label}
+        aria-label={t(label)}
       />
       <span className="toggle-track" aria-hidden="true" />
     </label>

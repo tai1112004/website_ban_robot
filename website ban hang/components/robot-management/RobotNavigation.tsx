@@ -1,3 +1,5 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { useEffect, useRef } from "react";
 export const tabs = [
   "overview",
@@ -27,6 +29,7 @@ export default function RobotNavigation({
   active: RobotTab;
   select: (tab: RobotTab) => void;
 }) {
+  const { t } = useLanguage();
   const refs = useRef<(HTMLButtonElement | null)[]>([]);
   const navigation = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -53,7 +56,7 @@ export default function RobotNavigation({
       className="management-navigation"
       ref={navigation}
       role="tablist"
-      aria-label="Robot management"
+      aria-label={t("Robot management")}
     >
       {tabs.map((tab, index) => (
         <button
@@ -87,7 +90,7 @@ export default function RobotNavigation({
           }}
         >
           <span aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
-          {tabNames[tab]}
+          {t(tabNames[tab])}
         </button>
       ))}
     </div>

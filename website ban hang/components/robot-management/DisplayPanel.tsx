@@ -1,3 +1,5 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import type { RobotManagementState } from "@/hooks/useRobotManagement";
 import type { RobotExpression } from "@/types/robotConfig";
@@ -13,26 +15,26 @@ export default function DisplayPanel({
 }: {
   state: RobotManagementState;
 }) {
+  const { t } = useLanguage();
   const value = state.draft!.display;
   const active = expressions.find(
     (expression) => expression.id === value.expression,
   )!;
   return (
     <>
-      <PanelHeading eyebrow="FACE & DISPLAY" title="GIVE ROBO AN EXPRESSION.">
-        A little expression. A lot of personality.
-      </PanelHeading>
+      <PanelHeading eyebrow={t("FACE & DISPLAY")} title={t("GIVE ROBO AN EXPRESSION.")}>
+        {t("A little expression. A lot of personality.")} </PanelHeading>
       <div className="display-preview">
         <Image
           src={active.image}
-          alt={`${value.expression} expression preview`}
+          alt={t("{value0} expression preview", { value0: t(value.expression) })}
           fill
           sizes="(max-width:767px) 90vw, 800px"
         />
-        <span>PREVIEW / {value.expression}</span>
+        <span>{t("PREVIEW /")} {t(value.expression)}</span>
       </div>
       <fieldset disabled={!!state.pending} className="management-fields">
-        <legend className="sr-only">Choose expression</legend>
+        <legend className="sr-only">{t("Choose expression")}</legend>
         <div className="expression-grid">
           {expressions.map((expression) => (
             <label
@@ -55,14 +57,14 @@ export default function DisplayPanel({
                   sizes="(max-width:767px) 40vw, 180px"
                 />
               </div>
-              <span>{expression.id}</span>
+              <span>{t(expression.id)}</span>
             </label>
           ))}
         </div>
         <div className="management-settings">
           <Range
             id="brightness"
-            label="Brightness"
+            label={t("Brightness")}
             value={value.brightness}
             onChange={(brightness) =>
               state.edit("display", { ...value, brightness })
@@ -70,7 +72,7 @@ export default function DisplayPanel({
           />
         </div>
       </fieldset>
-      <SaveSettings state={state} area="display" label="APPLY EXPRESSION" />
+      <SaveSettings state={state} area="display" label={t("APPLY EXPRESSION")} />
     </>
   );
 }

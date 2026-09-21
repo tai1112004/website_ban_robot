@@ -1,4 +1,5 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { Check, Minus } from "lucide-react";
 import { comparison, modelLinks, type ProductModel } from "@/data/products";
 import Heading from "./ProductSectionHeading";
@@ -7,60 +8,59 @@ export default function ModelComparison({
 }: {
   product: ProductModel;
 }) {
+  const { t } = useLanguage();
   const cell = (value: boolean | string) =>
     typeof value === "string" ? (
-      value
+      t(value)
     ) : value ? (
       <>
         <Check size={17} aria-hidden="true" />
-        <span className="sr-only">Included</span>
+        <span className="sr-only">{t("Included")}</span>
       </>
     ) : (
       <>
         <Minus size={16} aria-hidden="true" />
-        <span className="sr-only">Not included</span>
+        <span className="sr-only">{t("Not included")}</span>
       </>
     );
   return (
     <section id="models" className="pdp-section pdp-comparison">
-      <Heading index="08" label="FIND YOUR COMPANION">
-        YOUR WORLD.
-        <br />
-        <span className="accent">YOUR ROBO.</span>
+      <Heading index="08" label={t("FIND YOUR COMPANION")}>
+        {t("YOUR WORLD.")} <br />
+        <span className="accent">{t("YOUR ROBO.")}</span>
       </Heading>
       <div className="pdp-basic-features">
-        <h3>{product.name.toUpperCase()}, AT A GLANCE.</h3>
+        <h3>{t(product.name.toUpperCase())}{t(", AT A GLANCE.")}</h3>
         <div>
           {product.features.map((feature) => (
             <span key={feature}>
               <Check size={15} />
-              {feature}
+              {t(feature)}
             </span>
           ))}
         </div>
         <p className="pdp-fine">
-          Prototype preview. Features and specifications may evolve.
-        </p>
+          {t("Prototype preview. Features and specifications may evolve.")} </p>
       </div>
-      <p className="pdp-table-hint">SWIPE TO COMPARE MODELS →</p>
+      <p className="pdp-table-hint">{t("SWIPE TO COMPARE MODELS →")}</p>
       <div
         className="pdp-table-scroll"
         role="region"
-        aria-label="Compare Robo models"
+        aria-label={t("Compare Robo models")}
         tabIndex={0}
       >
         <table>
-          <caption className="sr-only">Planned features by Robo model</caption>
+          <caption className="sr-only">{t("Planned features by Robo model")}</caption>
           <thead>
             <tr>
-              <th scope="col">FIND YOUR FIT</th>
+              <th scope="col">{t("FIND YOUR FIT")}</th>
               {modelLinks.map((model) => (
                 <th
                   key={model.id}
                   scope="col"
                   className={model.id === product.id ? "is-current" : ""}
                 >
-                  ROBO {model.name.toUpperCase()}
+                  {t("ROBO")} {model.name.toUpperCase()}
                 </th>
               ))}
             </tr>
@@ -68,7 +68,7 @@ export default function ModelComparison({
           <tbody>
             {comparison.map((row) => (
               <tr key={row.feature}>
-                <th scope="row">{row.feature}</th>
+                <th scope="row">{t(row.feature)}</th>
                 {modelLinks.map((model) => (
                   <td
                     key={model.id}
@@ -89,10 +89,10 @@ export default function ModelComparison({
                   className={model.id === product.id ? "is-current" : ""}
                 >
                   {model.id === product.id ? (
-                    "YOU'RE VIEWING THIS"
+                    t("YOU'RE VIEWING THIS")
                   ) : (
                     <a href={model.href}>
-                      EXPLORE {model.name.toUpperCase()} ↗
+                      {t("EXPLORE")} {model.name.toUpperCase()} ↗
                     </a>
                   )}
                 </td>

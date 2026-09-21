@@ -1,8 +1,11 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { useEffect, useRef, useState } from "react";
 import { ArrowDown } from "lucide-react";
 import { gsap, ScrollTrigger } from "@/lib/gsap";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 const SCRUB_CATCH_UP_SECONDS = 0.3;
+const HOME_HERO_IMAGE = "/images/hinh2.png?v=20260921-012220";
 const stages = [
   ["MEET ROBO.", "A compact AI companion designed for everyday life."],
   [
@@ -20,6 +23,7 @@ const stages = [
   ],
 ];
 export default function RobotStory() {
+  const { t } = useLanguage();
   const root = useRef<HTMLElement>(null);
   const video = useRef<HTMLVideoElement>(null);
   const reduced = useReducedMotion();
@@ -115,24 +119,24 @@ export default function RobotStory() {
       ref={root}
       id="robot"
       className={`robot-story ${reduced || failed ? "story-static" : ""}`}
-      aria-label="Meet Robo: an interactive film"
+      aria-label={t("Meet Robo: an interactive film")}
     >
       <div className="story-sticky">
         <video
           ref={video}
           src={reduced ? undefined : "/videos/video_chay_o_home.mp4"}
-          poster="/images/hinh2.png"
+          poster={HOME_HERO_IMAGE}
           muted
           playsInline
           preload="metadata"
           onLoadedData={() => setReady(true)}
           onError={() => setFailed(true)}
-          aria-label="Robo transformation controlled by scrolling"
+          aria-label={t("Robo transformation controlled by scrolling")}
         />
         <div className="story-shade" />
         <div className="story-top">
-          <span className="eyebrow">03 / MEET YOUR COMPANION</span>
-          <span className="micro">A LITTLE ROBOT. A WORLD OF POSSIBILITY.</span>
+          <span className="eyebrow">{t("03 / MEET YOUR COMPANION")}</span>
+          <span className="micro">{t("A LITTLE ROBOT. A WORLD OF POSSIBILITY.")}</span>
         </div>
         <div className="story-panels">
           {stages.map(([title, copy], i) => (
@@ -145,20 +149,20 @@ export default function RobotStory() {
               }}
             >
               <span className="story-number">0{i + 1} — 05</span>
-              <h2>{title}</h2>
-              <p>{copy}</p>
+              <h2>{t(title)}</h2>
+              <p>{t(copy)}</p>
             </div>
           ))}
         </div>
         <div className="story-bottom">
           <span>
-            {failed
+            {t(failed
               ? "EXPLORE THE TECHNOLOGY BELOW"
               : reduced
                 ? "YOUR EVERYDAY COMPANION"
                 : !ready
                   ? "LOADING EXPERIENCE…"
-                  : "SCROLL TO BRING ROBO TO LIFE"}{" "}
+                  : "SCROLL TO BRING ROBO TO LIFE")}{" "}
             <ArrowDown size={15} />
           </span>
           <div className="story-track">

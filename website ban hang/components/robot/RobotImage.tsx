@@ -1,4 +1,5 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import { useState } from "react";
 export default function RobotImage({
@@ -8,6 +9,7 @@ export default function RobotImage({
   src?: string;
   name?: string;
 }) {
+  const { t } = useLanguage();
   const [failed, setFailed] = useState(false);
   const fallback = "/images/product_render_chinh_dien.png";
   const safe =
@@ -16,7 +18,7 @@ export default function RobotImage({
     <div className="robot-image">
       <Image
         src={failed ? fallback : safe}
-        alt={name}
+        alt={t(name)}
         fill
         sizes="(max-width: 767px) 90vw, 40vw"
         onError={() => setFailed(true)}

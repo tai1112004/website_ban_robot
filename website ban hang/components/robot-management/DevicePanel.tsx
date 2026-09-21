@@ -1,3 +1,5 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import type { RobotDevice } from "@/types/robot";
@@ -7,44 +9,45 @@ import RobotStatus from "../robot/RobotStatus";
 import { Modal } from "../ui/Modal";
 import { Feedback, PanelHeading } from "./Controls";
 export function DeviceFacts({ robot }: { robot: RobotDevice }) {
+  const { t, localeTag } = useLanguage();
   return (
     <dl className="robot-facts device-facts">
       <div>
-        <dt>Robot Name</dt>
+        <dt>{t("Robot Name")}</dt>
         <dd>{robot.name}</dd>
       </div>
       <div>
-        <dt>Model</dt>
-        <dd>{modelNames[robot.model]}</dd>
+        <dt>{t("Model")}</dt>
+        <dd>{t(modelNames[robot.model])}</dd>
       </div>
       <div>
-        <dt>Device ID</dt>
+        <dt>{t("Device ID")}</dt>
         <dd>{robot.deviceId}</dd>
       </div>
       <div>
-        <dt>Serial Number</dt>
-        <dd>{robot.serialNumber || "Not available"}</dd>
+        <dt>{t("Serial Number")}</dt>
+        <dd>{robot.serialNumber || t("Not available")}</dd>
       </div>
       <div>
-        <dt>Firmware Version</dt>
-        <dd>{robot.firmwareVersion || "Not available"}</dd>
+        <dt>{t("Firmware Version")}</dt>
+        <dd>{robot.firmwareVersion || t("Not available")}</dd>
       </div>
       <div>
-        <dt>Connection Status</dt>
+        <dt>{t("Connection Status")}</dt>
         <dd>
           <RobotStatus status={robot.status} />
         </dd>
       </div>
       <div>
-        <dt>Paired At</dt>
+        <dt>{t("Paired At")}</dt>
         <dd>
-          {robot.pairedAt
-            ? new Date(robot.pairedAt).toLocaleDateString("en-GB", {
+          {t(robot.pairedAt
+            ? new Date(robot.pairedAt).toLocaleDateString(localeTag === "en-US" ? "en-GB" : localeTag, {
                 day: "numeric",
                 month: "short",
                 year: "numeric",
               })
-            : "Not available"}
+            : "Not available")}
         </dd>
       </div>
     </dl>
@@ -57,6 +60,7 @@ export default function DevicePanel({
   robot: RobotDevice;
   state: RobotManagementState;
 }) {
+  const { t, localeTag } = useLanguage();
   const [modal, setModal] = useState<"rename" | "unpair" | null>(null);
   const [name, setName] = useState(robot.name);
   const [invalid, setInvalid] = useState(false);
@@ -69,9 +73,8 @@ export default function DevicePanel({
   }
   return (
     <>
-      <PanelHeading eyebrow="DEVICE" title="YOUR ROBO. THE DETAILS.">
-        The essentials, all in one place.
-      </PanelHeading>
+      <PanelHeading eyebrow={t("DEVICE")} title={t("YOUR ROBO. THE DETAILS.")}>
+        {t("The essentials, all in one place.")} </PanelHeading>
       <DeviceFacts robot={robot} />
       <div className="button-row">
         <button
@@ -83,24 +86,20 @@ export default function DevicePanel({
             setModal("rename");
           }}
         >
-          RENAME ROBO
-        </button>
+          {t("RENAME ROBO")} </button>
         <button
           className="button button-secondary"
           disabled={!!state.pending}
           onClick={() => setModal("unpair")}
         >
-          UNPAIR ROBO
-        </button>
+          {t("UNPAIR ROBO")} </button>
       </div>
       <Feedback state={state} area="device" />
       <p className="management-note">
-        Firmware information is read-only. Device updates will be available with
-        the connected service.
-      </p>
+        {t("Firmware information is read-only. Device updates will be available with the connected service.")} </p>
       {modal && (
         <Modal
-          title={modal === "rename" ? "RENAME YOUR ROBO" : "UNPAIR THIS ROBO?"}
+          title={t(modal === "rename" ? "RENAME YOUR ROBO" : "UNPAIR THIS ROBO?")}
           onClose={() => {
             if (!state.pending) setModal(null);
           }}
@@ -109,8 +108,7 @@ export default function DevicePanel({
             {modal === "rename" ? (
               <form onSubmit={rename} noValidate>
                 <label className="management-select">
-                  Robot Name
-                  <input
+                  {t("Robot Name")} <input
                     value={name}
                     onChange={(e) => {
                       setName(e.target.value);
@@ -125,8 +123,7 @@ export default function DevicePanel({
                 </label>
                 {invalid && (
                   <p id="rename-error" role="alert">
-                    Enter a name with 1–60 characters.
-                  </p>
+                    {t("Enter a name with 1–60 characters.")} </p>
                 )}
                 <Feedback state={state} area="device" />
                 <div className="button-row">
@@ -136,23 +133,20 @@ export default function DevicePanel({
                     disabled={!!state.pending}
                     onClick={() => setModal(null)}
                   >
-                    CANCEL
-                  </button>
+                    {t("CANCEL")} </button>
                   <button
                     className="button button-primary"
                     disabled={!!state.pending}
                     type="submit"
                   >
-                    {state.pending ? "SAVING..." : "SAVE NAME"}
+                    {t(state.pending ? "SAVING..." : "SAVE NAME")}
                   </button>
                 </div>
               </form>
             ) : (
               <>
                 <p>
-                  This Robo will be removed from your current account. Your
-                  order history will remain unchanged.
-                </p>
+                  {t("This Robo will be removed from your current account. Your order history will remain unchanged.")} </p>
                 <Feedback state={state} area="device" />
                 <div className="button-row">
                   <button
@@ -160,8 +154,7 @@ export default function DevicePanel({
                     disabled={!!state.pending}
                     onClick={() => setModal(null)}
                   >
-                    CANCEL
-                  </button>
+                    {t("CANCEL")} </button>
                   <button
                     className="button button-primary"
                     disabled={!!state.pending}
@@ -169,7 +162,7 @@ export default function DevicePanel({
                       if (await state.unpair()) router.replace("/my-robots");
                     }}
                   >
-                    {state.pending ? "UNPAIRING..." : "UNPAIR"}
+                    {t(state.pending ? "UNPAIRING..." : "UNPAIR")}
                   </button>
                 </div>
               </>

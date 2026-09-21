@@ -1,4 +1,5 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { useEffect, useRef, useState } from "react";
 import type { ProductModel } from "@/data/products";
 import Navbar from "../Navbar";
@@ -26,6 +27,11 @@ import StickyPurchaseBar from "./StickyPurchaseBar";
 import VoiceAI from "./VoiceAI";
 
 export default function ProductPage({ product }: { product: ProductModel }) {
+  const { t, localeTag } = useLanguage();
+  useEffect(() => {
+    const frame = requestAnimationFrame(() => ScrollTrigger.refresh());
+    return () => cancelAnimationFrame(frame);
+  }, [localeTag]);
   const root = useRef<HTMLDivElement>(null);
   const reduced = useReducedMotion();
   const [menu, setMenu] = useState(false);
@@ -89,12 +95,11 @@ export default function ProductPage({ product }: { product: ProductModel }) {
     <div ref={root} className="product-page">
       <div inert={film}>
         <a className="skip-link" href="#product-main">
-          Skip to content
-        </a>
+          {t("Skip to content")} </a>
         <Navbar
           homeHref="/"
           discoverHref="#models"
-          discoverLabel="DISCOVER"
+          discoverLabel={t("DISCOVER")}
           watchFilm={() => setFilm(true)}
           menu={menu}
           setMenu={setMenu}
@@ -140,22 +145,22 @@ export default function ProductPage({ product }: { product: ProductModel }) {
         />
       )}
       {info && (
-        <Modal title={info} onClose={() => setInfo(null)}>
+        <Modal title={t(info)} onClose={() => setInfo(null)}>
           <p className="info-copy">
-            {info === "Contact"
+            {t(info === "Contact"
               ? "Official contact details will be announced as Robo moves toward release. You can preview the pre-order interest form on this page."
               : info === "Privacy"
                 ? "This frontend does not store or transmit interest form entries. Product privacy details will be announced before release."
-                : "Robo is currently in development. Explore this page for its planned features and the frequently asked questions. Final specifications and commercial details will be announced as the product moves toward release."}
+                : "Robo is currently in development. Explore this page for its planned features and the frequently asked questions. Final specifications and commercial details will be announced as the product moves toward release.")}
           </p>
         </Modal>
       )}
       {thanks && (
         <div className="pdp-thanks" role="status">
-          <strong>Thanks. We&apos;ll keep you updated.</strong>
-          <span>Demo only — no information was sent or saved.</span>
+          <strong>{t("Thanks. We'll keep you updated.")}</strong>
+          <span>{t("Demo only — no information was sent or saved.")}</span>
           <button
-            aria-label="Dismiss confirmation"
+            aria-label={t("Dismiss confirmation")}
             onClick={() => setThanks(false)}
           >
             ×

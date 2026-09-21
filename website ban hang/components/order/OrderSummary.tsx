@@ -1,12 +1,13 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import { useState } from "react";
 import type { Order } from "@/types/order";
 import type { CartItem } from "@/types/cart";
-function money(value: number | null, currency: string) {
+function money(value: number | null, currency: string, locale = "en-US") {
   if (value === null) return "TO BE ANNOUNCED";
   try {
-    return new Intl.NumberFormat("en-US", {
+    return new Intl.NumberFormat(locale, {
       style: "currency",
       currency,
     }).format(value);
@@ -15,6 +16,7 @@ function money(value: number | null, currency: string) {
   }
 }
 function Item({ item }: { item: CartItem }) {
+  const { t, localeTag } = useLanguage();
   const [failed, setFailed] = useState(false);
   const src = /^\/images\/[\w-]+\.(png|jpe?g|webp)$/i.test(item.image)
     ? item.image
@@ -23,7 +25,7 @@ function Item({ item }: { item: CartItem }) {
     <article className="order-product">
       <div className="order-product-image">
         {failed ? (
-          <span>Product preview unavailable</span>
+          <span>{t("Product preview unavailable")}</span>
         ) : (
           <Image
             src={src}
@@ -36,64 +38,63 @@ function Item({ item }: { item: CartItem }) {
       </div>
       <div>
         <h3>{item.name.toUpperCase()}</h3>
-        <p>{item.tagline}</p>
+        <p>{t(item.tagline)}</p>
         <dl>
           <div>
-            <dt>Model</dt>
+            <dt>{t("Model")}</dt>
             <dd>{item.model}</dd>
           </div>
           <div>
-            <dt>Quantity</dt>
+            <dt>{t("Quantity")}</dt>
             <dd>{item.quantity}</dd>
           </div>
           <div>
-            <dt>Availability</dt>
-            <dd>{item.availability}</dd>
+            <dt>{t("Availability")}</dt>
+            <dd>{t(item.availability)}</dd>
           </div>
         </dl>
         <p className="order-product-price">
-          {item.price === null
+          {t(item.price === null
             ? "PRICE TO BE ANNOUNCED"
-            : money(item.price, item.currency)}
+            : money(item.price, item.currency, localeTag))}
         </p>
       </div>
     </article>
   );
 }
 export default function OrderSummary({ order }: { order: Order }) {
+  const { t, localeTag } = useLanguage();
   const currency = order.items[0].currency;
   return (
     <aside className="order-summary" aria-labelledby="order-summary-title">
       <div className="order-section-heading">
-        <h2 id="order-summary-title">ORDER SUMMARY</h2>
+        <h2 id="order-summary-title">{t("ORDER SUMMARY")}</h2>
         <span>
-          {order.items.reduce((sum, item) => sum + item.quantity, 0)} ITEMS
-        </span>
+          {order.items.reduce((sum, item) => sum + item.quantity, 0)}  {t("ITEMS")} </span>
       </div>
       {order.items.map((item, index) => (
         <Item key={`${item.id}-${index}`} item={item} />
       ))}
       <dl className="order-totals">
         <div>
-          <dt>Subtotal</dt>
-          <dd>{money(order.subtotal, currency)}</dd>
+          <dt>{t("Subtotal")}</dt>
+          <dd>{t(money(order.subtotal, currency, localeTag))}</dd>
         </div>
         <div>
-          <dt>Shipping</dt>
+          <dt>{t("Shipping")}</dt>
           <dd>
-            {order.shipping === null
+            {t(order.shipping === null
               ? "CALCULATED LATER"
-              : money(order.shipping, currency)}
+              : money(order.shipping, currency, localeTag))}
           </dd>
         </div>
         <div>
-          <dt>Total</dt>
-          <dd>{money(order.total, currency)}</dd>
+          <dt>{t("Total")}</dt>
+          <dd>{t(money(order.total, currency, localeTag))}</dd>
         </div>
       </dl>
       <p className="order-summary-note">
-        Saved demo order. No payment has been processed.
-      </p>
+        {t("Saved demo order. No payment has been processed.")} </p>
     </aside>
   );
 }

@@ -1,3 +1,5 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import { useState } from "react";
 import { Plus, Minus } from "lucide-react";
@@ -11,25 +13,22 @@ const features = [
   ["POWER", "Supports the components that bring Robo to life."],
 ];
 export default function Technology() {
+  const { t } = useLanguage();
   const [active, setActive] = useState<number | null>(0);
   return (
     <section id="technology" className="technology section-space">
       <div className="section-heading">
-        <SectionTitle index="04" label="INSIDE THE ROBOT">
-          DESIGNED
-          <br />
-          FROM THE INSIDE OUT.
-        </SectionTitle>
+        <SectionTitle index="04" label={t("INSIDE THE ROBOT")}>
+          {t("DESIGNED")} <br />
+          {t("FROM THE INSIDE OUT.")} </SectionTitle>
         <p data-reveal>
-          Every component works together to give Robo a voice, a face and a
-          physical presence.
-        </p>
+          {t("Every component works together to give Robo a voice, a face and a physical presence.")} </p>
       </div>
       <div className="technology-visual">
         <div className="tech-orbit" aria-hidden="true" />
         <Image
           src="/images/phan_ra_tung_thiet_bi.png"
-          alt="Exploded view of Robo’s screen, processor, orange body and motion components"
+          alt={t("Exploded view of Robo’s screen, processor, orange body and motion components")}
           width={1122}
           height={1402}
           sizes="(max-width: 768px) 100vw, 65vw"
@@ -51,18 +50,17 @@ export default function Technology() {
                 <span className="hotspot-dot">
                   {active === i ? <Minus size={12} /> : <Plus size={12} />}
                 </span>
-                <span>{title}</span>
+                <span>{t(title)}</span>
                 <span className="hotspot-line" />
               </button>
               <p id={`tech-${i}`} hidden={active !== i}>
-                {copy}
+                {t(copy)}
               </p>
             </div>
           ))}
         </div>
         <span className="tech-caption micro">
-          PRECISION IN EVERY DETAIL. PERSONALITY IN EVERY PART.
-        </span>
+          {t("PRECISION IN EVERY DETAIL. PERSONALITY IN EVERY PART.")} </span>
       </div>
     </section>
   );

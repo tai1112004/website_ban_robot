@@ -1,18 +1,20 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import type { Order } from "@/types/order";
 import { statusLabel } from "./OrderStatus";
 import { Button } from "../ui/Button";
 import OrderImage from "./OrderImage";
-export function orderDate(date: string) {
-  return new Intl.DateTimeFormat("en-US", {
+export function orderDate(date: string, locale = "en-US") {
+  return new Intl.DateTimeFormat(locale, {
     day: "numeric",
     month: "long",
     year: "numeric",
   }).format(new Date(date));
 }
-export function orderTotal(order: Order) {
+export function orderTotal(order: Order, locale = "en-US") {
   if (order.total === null) return "TO BE ANNOUNCED";
   try {
-    return new Intl.NumberFormat("en-US", {
+    return new Intl.NumberFormat(locale, {
       style: "currency",
       currency: order.items[0].currency,
     }).format(order.total);
@@ -21,16 +23,17 @@ export function orderTotal(order: Order) {
   }
 }
 export default function OrderCard({ order }: { order: Order }) {
+  const { t, localeTag } = useLanguage();
   return (
-    <article className="history-card" aria-label={`Order ${order.id}`}>
+    <article className="history-card" aria-label={t("Order {value0}", { value0: order.id })}>
       <header>
         <div>
-          <span>ORDER</span>
+          <span>{t("ORDER")}</span>
           <h2>{order.id}</h2>
-          <time dateTime={order.createdAt}>{orderDate(order.createdAt)}</time>
+          <time dateTime={order.createdAt}>{t(orderDate(order.createdAt, localeTag))}</time>
         </div>
         <span className={`history-status status-${order.status.toLowerCase()}`}>
-          {statusLabel(order.status).toUpperCase()}
+          {t(statusLabel(order.status).toUpperCase())}
         </span>
       </header>
       <div className="history-card-body">
@@ -40,18 +43,17 @@ export default function OrderCard({ order }: { order: Order }) {
               <OrderImage src={item.image} name={item.name} />
               <div>
                 <h3>{item.name.toUpperCase()}</h3>
-                <p>Model: {item.model}</p>
-                <p>Qty {item.quantity}</p>
+                <p>{t("Model:")} {item.model}</p>
+                <p>{t("Qty")} {item.quantity}</p>
               </div>
             </div>
           ))}
         </div>
         <div className="history-card-action">
-          <span>TOTAL</span>
-          <p>{orderTotal(order)}</p>
+          <span>{t("TOTAL")}</span>
+          <p>{t(orderTotal(order, localeTag))}</p>
           <Button href={`/orders/${encodeURIComponent(order.id)}`}>
-            VIEW ORDER
-          </Button>
+            {t("VIEW ORDER")} </Button>
         </div>
       </div>
     </article>

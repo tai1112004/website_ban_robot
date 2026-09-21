@@ -1,3 +1,5 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import { ArrowUpRight, Check } from "lucide-react";
 import { SectionTitle } from "./ui/SectionTitle";
@@ -49,40 +51,36 @@ const models = [
   },
 ];
 export default function Models() {
+  const { t } = useLanguage();
   return (
     <section id="models" className="models section-space">
       <div className="section-heading">
-        <SectionTitle index="09" label="THREE WAYS TO MAKE IT YOURS">
-          CHOOSE
-          <br />
-          <span className="accent">YOUR ROBO.</span>
+        <SectionTitle index="09" label={t("THREE WAYS TO MAKE IT YOURS")}>
+          {t("CHOOSE")} <br />
+          <span className="accent">{t("YOUR ROBO.")}</span>
         </SectionTitle>
         <div className="models-heading-note">
           <p>
-            Different possibilities.
-            <br />
-            The same personal connection.
-          </p>
-          <span>PRICING TO BE ANNOUNCED</span>
+            {t("Different possibilities.")} <br />
+            {t("The same personal connection.")} </p>
+          <span>{t("PRICING TO BE ANNOUNCED")}</span>
         </div>
       </div>
       <div className="models-introduction">
         <div className="models-portrait">
           <Image
             src="/images/robot_phongtrang.png"
-            alt="The signature orange and white Robo design"
+            alt={t("The signature orange and white Robo design")}
             fill
             sizes="(max-width: 767px) 80vw, 35vw"
           />
         </div>
         <p data-reveal>
-          YOUR VOICE.
-          <br />
-          YOUR WORLD.
-          <br />
-          <span>YOUR COMPANION.</span>
+          {t("YOUR VOICE.")} <br />
+          {t("YOUR WORLD.")} <br />
+          <span>{t("YOUR COMPANION.")}</span>
         </p>
-        <span className="micro">MEET THE ROBO FAMILY</span>
+        <span className="micro">{t("MEET THE ROBO FAMILY")}</span>
       </div>
       <div className="model-columns">
         {models.map((model) => (
@@ -93,23 +91,23 @@ export default function Models() {
           >
             <div className="model-kicker">
               <span>{model.number} /</span>
-              <span>COMING SOON</span>
+              <span>{t("COMING SOON")}</span>
             </div>
-            <h3>ROBO {model.name}</h3>
-            <p className="model-tagline">{model.tagline}</p>
+            <h3>{t("ROBO")} {model.name}</h3>
+            <p className="model-tagline">{t(model.tagline)}</p>
             <ul>
               {model.features.map((feature) => (
                 <li key={feature}>
                   <Check size={14} strokeWidth={1.5} />
-                  {feature}
+                  {t(feature)}
                 </li>
               ))}
             </ul>
             <a className="model-cta" href={model.href}>
-              {model.button}
+              {t(model.button)}
               <ArrowUpRight size={18} />
             </a>
-            <span className="model-note">{model.note}</span>
+            <span className="model-note">{t(model.note)}</span>
           </article>
         ))}
       </div>

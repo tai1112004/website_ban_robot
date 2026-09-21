@@ -1,7 +1,10 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { Bot, Menu, X, UserRound } from "lucide-react";
 import styles from "./Navbar.module.css";
 import { useEffect, useState } from "react";
 import CartLink from "./cart/CartLink";
+import LanguageSelector from "./ui/LanguageSelector";
 const links = [
   ["HOME", "#home"],
   ["FEATURES", "#features"],
@@ -26,6 +29,7 @@ export default function Navbar({
   discoverLabel?: string;
   sectionPrefix?: string;
 }) {
+  const { t } = useLanguage();
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
     const update = () => setScrolled(window.scrollY > 30);
@@ -37,44 +41,44 @@ export default function Navbar({
     <header
       className={`navbar ${styles.header} ${scrolled || menu ? "nav-scrolled" : ""}`}
     >
-      <a href={homeHref} className="brand" aria-label="Robo AI home">
-        <Bot size={29} strokeWidth={1.8} /> ROBO<span>AI</span>
+      <a href={homeHref} className="brand" aria-label={t("Robo AI home")}>
+        <Bot size={29} strokeWidth={1.8} />  {t("ROBO")}<span>{t("AI")}</span>
       </a>
-      <nav className="desktop-nav" aria-label="Main navigation">
+      <nav className="desktop-nav" aria-label={t("Main navigation")}>
         {links.map(([label, href]) => (
           <a
             key={label}
             href={label === "HOME" ? homeHref : `${sectionPrefix}${href}`}
           >
-            {label}
+            {t(label)}
           </a>
         ))}
       </nav>
       <div className="nav-actions">
+        <LanguageSelector />
         <a
           href="/account"
           className={styles.accountLink}
-          aria-label="My account"
+          aria-label={t("My account")}
         >
           <UserRound size={19} />
         </a>
         <CartLink />
         {watchFilm && (
           <button className="nav-film" onClick={watchFilm}>
-            WATCH FILM
-          </button>
+            {t("WATCH FILM")} </button>
         )}
         <a
           className="button button-primary nav-discover"
           href={discoverHref}
           onClick={() => setMenu(false)}
         >
-          {discoverLabel} ↗
+          {t(discoverLabel)} ↗
         </a>
         <button
           className="icon-button menu-toggle"
           onClick={() => setMenu(!menu)}
-          aria-label={menu ? "Close menu" : "Open menu"}
+          aria-label={t(menu ? "Close menu" : "Open menu")}
           aria-expanded={menu}
           aria-controls="mobile-navigation"
         >
@@ -85,7 +89,7 @@ export default function Navbar({
         <nav
           className="mobile-nav"
           id="mobile-navigation"
-          aria-label="Mobile navigation"
+          aria-label={t("Mobile navigation")}
         >
           {links.map(([label, href], i) => (
             <a
@@ -94,7 +98,7 @@ export default function Navbar({
               onClick={() => setMenu(false)}
             >
               <span>0{i + 1}</span>
-              {label}
+              {t(label)}
             </a>
           ))}
           {watchFilm && (
@@ -105,8 +109,7 @@ export default function Navbar({
                 watchFilm();
               }}
             >
-              WATCH FILM ↗
-            </button>
+              {t("WATCH FILM ↗")} </button>
           )}
         </nav>
       )}

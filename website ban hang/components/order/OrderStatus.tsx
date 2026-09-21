@@ -1,3 +1,5 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { Check } from "lucide-react";
 import type { OrderStatus as Status } from "@/types/order";
 export const orderStages: { key: Status; label: string }[] = [
@@ -13,6 +15,7 @@ export function statusLabel(status: Status) {
   );
 }
 export default function OrderStatus({ status }: { status: Status }) {
+  const { t } = useLanguage();
   const active = orderStages.findIndex((stage) => stage.key === status);
   return (
     <section
@@ -20,8 +23,8 @@ export default function OrderStatus({ status }: { status: Status }) {
       aria-labelledby="order-progress-title"
     >
       <div className="order-section-heading">
-        <h2 id="order-progress-title">ORDER PROGRESS</h2>
-        <span>DEMO STATUS</span>
+        <h2 id="order-progress-title">{t("ORDER PROGRESS")}</h2>
+        <span>{t("DEMO STATUS")}</span>
       </div>
       <ol className="order-progress">
         {orderStages.map((stage, index) => (
@@ -37,13 +40,13 @@ export default function OrderStatus({ status }: { status: Status }) {
                 String(index + 1).padStart(2, "0")
               )}
             </span>
-            <span>{stage.label}</span>
+            <span>{t(stage.label)}</span>
             <small>
-              {index === active
+              {t(index === active
                 ? "CURRENT STATUS"
                 : index < active
                   ? "COMPLETED"
-                  : "UPCOMING"}
+                  : "UPCOMING")}
             </small>
           </li>
         ))}

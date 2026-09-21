@@ -1,3 +1,5 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { ArrowUpRight } from "lucide-react";
 import type { RobotDevice } from "@/types/robot";
 import type { RobotManagementState } from "@/hooks/useRobotManagement";
@@ -15,6 +17,7 @@ export default function RobotOverview({
   state: RobotManagementState;
   select: (tab: RobotTab) => void;
 }) {
+  const { t } = useLanguage();
   const config = state.config!;
   const summaries: { tab: RobotTab; label: string; value: string }[] = [
     {
@@ -30,7 +33,7 @@ export default function RobotOverview({
     {
       tab: "knowledge",
       label: "KNOWLEDGE",
-      value: `${state.packs.filter((p) => p.installed).length} PACKS`,
+      value: t("{count} PACKS", { count: state.packs.filter((p) => p.installed).length }),
     },
     { tab: "voice", label: "VOICE", value: config.voice.profile },
     { tab: "display", label: "DISPLAY", value: config.display.expression },
@@ -43,34 +46,34 @@ export default function RobotOverview({
           name={robot.name}
         />
         <div>
-          <p className="eyebrow">{modelNames[robot.model]}</p>
-          <h2>MEET YOUR ROBO.</h2>
-          <p className="overview-companion">Your personal AI companion.</p>
+          <p className="eyebrow">{t(modelNames[robot.model])}</p>
+          <h2>{t("MEET YOUR ROBO.")}</h2>
+          <p className="overview-companion">{t("Your personal AI companion.")}</p>
           <RobotStatus status={robot.status} />
           <button
             className="button button-primary"
             onClick={() => select("personality")}
           >
-            PERSONALIZE ROBO <ArrowUpRight size={17} />
+            {t("PERSONALIZE ROBO")} <ArrowUpRight size={17} />
           </button>
         </div>
       </div>
       <div className="management-summary">
         {summaries.map((item) => (
           <article key={item.tab}>
-            <span>{item.label}</span>
-            <strong>{item.value}</strong>
+            <span>{t(item.label)}</span>
+            <strong>{t(item.value)}</strong>
             <button
               onClick={() => select(item.tab)}
-              aria-label={`Manage ${item.label.toLowerCase()}`}
+              aria-label={t("Manage {value0}", { value0: t(item.label.toLowerCase()) })}
             >
-              MANAGE <ArrowUpRight size={14} />
+              {t("MANAGE")} <ArrowUpRight size={14} />
             </button>
           </article>
         ))}
       </div>
       <section className="overview-details">
-        <h3>AT A GLANCE</h3>
+        <h3>{t("AT A GLANCE")}</h3>
         <DeviceFacts robot={robot} />
       </section>
     </>

@@ -1,4 +1,5 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import { useState } from "react";
 import { ArrowUpRight } from "lucide-react";
@@ -12,54 +13,54 @@ export default function PersonalityShowcase({
   product: ProductModel;
   suspended: boolean;
 }) {
+  const { t } = useLanguage();
   const [mood, setMood] = useState<number | null>(null);
   return (
     <section id="experience" className="pdp-section pdp-personality">
-      <Heading index="03" label="A PERSONALITY OF ITS OWN">
-        MORE THAN A VOICE.
-        <br />
-        <span className="accent">A LITTLE CHARACTER.</span>
+      <Heading index="03" label={t("A PERSONALITY OF ITS OWN")}>
+        {t("MORE THAN A VOICE.")} <br />
+        <span className="accent">{t("A LITTLE CHARACTER.")}</span>
       </Heading>
       <div className="pdp-expression-stage">
         {mood === null ? (
           <ViewportVideo
             src={product.media.expressions}
             poster={moods[0].image}
-            label="personality video"
+            label={t("personality video")}
             suspended={suspended}
           />
         ) : (
           <Image
             key={mood}
             src={moods[mood].image}
-            alt={`Robo looking ${moods[mood].name.toLowerCase()}`}
+            alt={t("Robo looking {value0}", { value0: moods[mood].name.toLowerCase() })}
             fill
             sizes="(max-width:767px) 90vw, 70vw"
           />
         )}
       </div>
-      <div className="pdp-mood-tabs" aria-label="Robo expressions">
+      <div className="pdp-mood-tabs" aria-label={t("Robo expressions")}>
         {moods.map((item, i) => (
           <button
             key={item.name}
             aria-pressed={mood === i}
             onClick={() => setMood(i)}
           >
-            {item.name}
+            {t(item.name)}
           </button>
         ))}
       </div>
       <p className="pdp-mood-caption" aria-live="polite">
-        {mood === null
+        {t(mood === null
           ? "Expression brings every conversation to life."
-          : moods[mood].description}
+          : moods[mood].description)}
       </p>
       <button
         className="pdp-text-button"
         onClick={() => setMood(null)}
         disabled={mood === null}
       >
-        WATCH EXPRESSIONS <ArrowUpRight size={16} />
+        {t("WATCH EXPRESSIONS")} <ArrowUpRight size={16} />
       </button>
     </section>
   );

@@ -1,3 +1,5 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import {
   Hand,
   ArrowDown,
@@ -25,28 +27,26 @@ export default function ActionsPanel({
   robot: RobotDevice;
   state: RobotManagementState;
 }) {
+  const { t } = useLanguage();
   const motion = robot.capabilities?.includes("MOTION") === true;
   const online = robot.status === "ONLINE";
   return (
     <>
-      <PanelHeading eyebrow="ACTIONS" title="MOVE. REACT. EXPRESS.">
-        Simple commands for a companion with character.
-      </PanelHeading>
+      <PanelHeading eyebrow={t("ACTIONS")} title={t("MOVE. REACT. EXPRESS.")}>
+        {t("Simple commands for a companion with character.")} </PanelHeading>
       {!online && (
         <div className="management-connection-note">
           <strong>
-            {robot.status === "OFFLINE"
+            {t(robot.status === "OFFLINE"
               ? "ROBO IS OFFLINE."
-              : "ROBO IS NOT ONLINE."}
+              : "ROBO IS NOT ONLINE.")}
           </strong>
-          <p>Actions will be available when the device reconnects.</p>
+          <p>{t("Actions will be available when the device reconnects.")}</p>
         </div>
       )}
       {!motion && (
         <p className="management-note">
-          NOT AVAILABLE ON THIS MODEL. Motion capability has not been enabled
-          for this Robo.
-        </p>
+          {t("NOT AVAILABLE ON THIS MODEL. Motion capability has not been enabled for this Robo.")} </p>
       )}
       <div className="actions-grid">
         {actions.map(({ id, label, icon: Icon }) => (
@@ -57,27 +57,24 @@ export default function ActionsPanel({
             onClick={() => state.sendAction(id as RobotAction)}
           >
             <Icon size={30} strokeWidth={1.4} />
-            <strong>{label}</strong>
+            <strong>{t(label)}</strong>
             <small>
-              {!motion
+              {t(!motion
                 ? "NOT AVAILABLE ON THIS MODEL"
                 : !online
                   ? "WAITING FOR CONNECTION"
-                  : "SEND COMMAND"}
+                  : "SEND COMMAND")}
             </small>
           </button>
         ))}
       </div>
       {state.pending === "actions" && (
         <p role="status" className="management-feedback">
-          SENDING COMMAND...
-        </p>
+          {t("SENDING COMMAND...")} </p>
       )}
       <Feedback state={state} area="actions" />
       <p className="management-note">
-        Commands in this demo do not move a physical robot. A sent command is
-        not confirmation that a device has performed the action.
-      </p>
+        {t("Commands in this demo do not move a physical robot. A sent command is not confirmation that a device has performed the action.")} </p>
     </>
   );
 }

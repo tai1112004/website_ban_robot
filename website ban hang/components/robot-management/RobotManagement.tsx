@@ -1,4 +1,5 @@
 "use client";
+import { useLanguage } from "@/context/LanguageContext";
 import { useRouter, useSearchParams } from "next/navigation";
 import useRobot from "@/hooks/useRobot";
 import useRobotManagement from "@/hooks/useRobotManagement";
@@ -18,6 +19,7 @@ import KnowledgePanel from "./KnowledgePanel";
 import ActionsPanel from "./ActionsPanel";
 import DevicePanel from "./DevicePanel";
 function Workspace({ robot }: { robot: RobotDevice }) {
+  const { t, localeTag } = useLanguage();
   const state = useRobotManagement(robot.id);
   const router = useRouter();
   const params = useSearchParams();
@@ -32,38 +34,33 @@ function Workspace({ robot }: { robot: RobotDevice }) {
     <>
       <header className="management-header">
         <div>
-          <p className="eyebrow">{modelNames[robot.model]}</p>
+          <p className="eyebrow">{t(modelNames[robot.model])}</p>
           <h1>{robot.name}</h1>
           <div className="management-header-meta">
             <RobotStatus status={robot.status} />
-            <span>Device ID / {robot.deviceId}</span>
+            <span>{t("Device ID /")} {robot.deviceId}</span>
           </div>
         </div>
         <button
           className="button button-secondary"
           onClick={() => select("device")}
         >
-          DEVICE INFO
-        </button>
+          {t("DEVICE INFO")} </button>
       </header>
       <p className="management-demo">
-        Configuration preview / Changes are saved for this Robo in the demo.
-        They are not applied to a physical device.
-      </p>
+        {t("Configuration preview / Changes are saved for this Robo in the demo. They are not applied to a physical device.")} </p>
       <div className="management-layout">
         <RobotNavigation active={active} select={select} />
         <div className="management-content">
           {state.isLoading ? (
             <div className="management-loading" role="status" aria-busy="true">
-              Loading your Robo settings...
-            </div>
+              {t("Loading your Robo settings...")} </div>
           ) : state.loadError ? (
             <div className="account-empty" role="alert">
-              <h2>SETTINGS UNAVAILABLE.</h2>
-              <p>{state.loadError}</p>
+              <h2>{t("SETTINGS UNAVAILABLE.")}</h2>
+              <p>{t(state.loadError)}</p>
               <button className="button button-primary" onClick={state.reload}>
-                TRY AGAIN
-              </button>
+                {t("TRY AGAIN")} </button>
             </div>
           ) : (
             state.config &&
@@ -105,42 +102,40 @@ function Workspace({ robot }: { robot: RobotDevice }) {
         </div>
       </div>
       <a className="account-back" href="/my-robots">
-        ← BACK TO MY ROBOTS
-      </a>
+        {t("← BACK TO MY ROBOTS")} </a>
     </>
   );
 }
 export default function RobotManagement({ id }: { id: string }) {
+  const { t, localeTag } = useLanguage();
   const { robot, isLoading, error, refresh } = useRobot(id);
   return (
     <AccountShell active="robots">
-      <nav className="account-breadcrumb" aria-label="Breadcrumb">
-        <a href="/account">ACCOUNT</a>
+      <nav className="account-breadcrumb" aria-label={t("Breadcrumb")}>
+        <a href="/account">{t("ACCOUNT")}</a>
         <span>/</span>
-        <a href="/my-robots">MY ROBOTS</a>
+        <a href="/my-robots">{t("MY ROBOTS")}</a>
         <span>/</span>
-        <span aria-current="page">{robot?.name || "ROBO"}</span>
+        <span aria-current="page">{robot?.name || t("ROBO")}</span>
       </nav>
       {isLoading && !robot ? (
         <RobotLoading />
       ) : error ? (
         <section className="account-empty" role="alert">
-          <h1>WE COULDN&apos;T LOAD THIS ROBO.</h1>
-          <p>Try again when device storage or the service is available.</p>
+          <h1>{t("WE COULDN'T LOAD THIS ROBO.")}</h1>
+          <p>{t("Try again when device storage or the service is available.")}</p>
           <div className="button-row">
             <button className="button button-primary" onClick={refresh}>
-              TRY AGAIN
-            </button>
+              {t("TRY AGAIN")} </button>
             <Button secondary href="/my-robots">
-              BACK TO MY ROBOTS
-            </Button>
+              {t("BACK TO MY ROBOTS")} </Button>
           </div>
         </section>
       ) : !robot ? (
         <section className="account-empty">
-          <h1>ROBO NOT FOUND.</h1>
-          <p>This device is no longer connected to your account.</p>
-          <Button href="/my-robots">VIEW MY ROBOTS</Button>
+          <h1>{t("ROBO NOT FOUND.")}</h1>
+          <p>{t("This device is no longer connected to your account.")}</p>
+          <Button href="/my-robots">{t("VIEW MY ROBOTS")}</Button>
         </section>
       ) : (
         <Workspace key={id} robot={robot} />

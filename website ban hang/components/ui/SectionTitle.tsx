@@ -1,3 +1,5 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import type { ReactNode } from "react";
 export function SectionTitle({
   index,
@@ -8,10 +10,11 @@ export function SectionTitle({
   label: string;
   children: ReactNode;
 }) {
+  const { t } = useLanguage();
   return (
     <div data-reveal>
       <p className="eyebrow">
-        <span>{index} /</span> {label}
+        <span>{index} /</span> {t(label)}
       </p>
       <h2>{children}</h2>
     </div>

@@ -1,3 +1,5 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import type { RobotManagementState } from "@/hooks/useRobotManagement";
 import type { PersonalitySettings } from "@/types/robotConfig";
 import { PanelHeading, Range, SaveSettings } from "./Controls";
@@ -6,17 +8,17 @@ export default function PersonalityPanel({
 }: {
   state: RobotManagementState;
 }) {
+  const { t } = useLanguage();
   const value = state.draft!.personality;
   function change(patch: Partial<PersonalitySettings>) {
     state.edit("personality", { ...value, ...patch });
   }
   return (
     <>
-      <PanelHeading eyebrow="PERSONALITY" title="MAKE ROBO FEEL LIKE YOURS.">
-        Choose how Robo communicates, responds and expresses itself.
-      </PanelHeading>
+      <PanelHeading eyebrow={t("PERSONALITY")} title={t("MAKE ROBO FEEL LIKE YOURS.")}>
+        {t("Choose how Robo communicates, responds and expresses itself.")} </PanelHeading>
       <fieldset disabled={!!state.pending} className="management-fields">
-        <legend className="sr-only">Personality profile</legend>
+        <legend className="sr-only">{t("Personality profile")}</legend>
         <div className="personality-grid">
           {state.profiles.map((profile) => (
             <label
@@ -30,9 +32,9 @@ export default function PersonalityPanel({
                 onChange={() => change({ type: profile.type })}
               />
               <span>
-                <strong>{profile.type}</strong>
-                <small>{profile.description}</small>
-                <em>{profile.traits}</em>
+                <strong>{t(profile.type)}</strong>
+                <small>{t(profile.description)}</small>
+                <em>{t(profile.traits)}</em>
               </span>
             </label>
           ))}
@@ -40,8 +42,7 @@ export default function PersonalityPanel({
         {value.type === "CUSTOM" && (
           <div className="management-settings">
             <label className="management-select">
-              Response Length
-              <select
+              {t("Response Length")} <select
                 value={value.responseLength}
                 onChange={(e) =>
                   change({
@@ -50,20 +51,20 @@ export default function PersonalityPanel({
                   })
                 }
               >
-                <option value="SHORT">Short</option>
-                <option value="BALANCED">Balanced</option>
-                <option value="DETAILED">Detailed</option>
+                <option value="SHORT">{t("Short")}</option>
+                <option value="BALANCED">{t("Balanced")}</option>
+                <option value="DETAILED">{t("Detailed")}</option>
               </select>
             </label>
             <Range
               id="humor"
-              label="Humor"
+              label={t("Humor")}
               value={value.humorLevel}
               onChange={(humorLevel) => change({ humorLevel })}
             />
             <Range
               id="formality"
-              label="Formality"
+              label={t("Formality")}
               value={value.formalityLevel}
               onChange={(formalityLevel) => change({ formalityLevel })}
             />
@@ -71,20 +72,19 @@ export default function PersonalityPanel({
         )}
       </fieldset>
       <aside className="personality-preview">
-        <p className="eyebrow">ROBO WOULD SAY</p>
+        <p className="eyebrow">{t("ROBO WOULD SAY")}</p>
         <blockquote>
           “
           {
-            state.profiles.find((profile) => profile.type === value.type)
-              ?.preview
+            t(state.profiles.find((profile) => profile.type === value.type)
+              ?.preview)
           }
           ”
         </blockquote>
         <small>
-          Illustrative preview only. This is not an AI conversation.
-        </small>
+          {t("Illustrative preview only. This is not an AI conversation.")} </small>
       </aside>
-      <SaveSettings state={state} area="personality" label="SAVE PERSONALITY" />
+      <SaveSettings state={state} area="personality" label={t("SAVE PERSONALITY")} />
     </>
   );
 }

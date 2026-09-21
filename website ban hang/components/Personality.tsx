@@ -1,3 +1,6 @@
+"use client";
+import TranslatedHeading from "@/components/ui/TranslatedHeading";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import { useState } from "react";
 import { SectionTitle } from "./ui/SectionTitle";
@@ -28,18 +31,16 @@ const moods = [
   },
 ];
 export default function Personality() {
+  const { t } = useLanguage();
   const [mood, setMood] = useState(0);
   return (
     <section id="experience" className="personality section-space">
       <div className="section-heading">
-        <SectionTitle index="06" label="A PERSONALITY OF ITS OWN">
-          MORE THAN
-          <br />A MACHINE.
-        </SectionTitle>
+        <SectionTitle index="06" label={t("A PERSONALITY OF ITS OWN")}>
+          <TranslatedHeading message="MORE THAN<br><accent>A MACHINE.</accent>" /> </SectionTitle>
         <p data-reveal>
-          One robot.
-          <br />
-          <span className="accent">Many moods.</span>
+          {t("One robot.")} <br />
+          <span className="accent">{t("Many moods.")}</span>
         </p>
       </div>
       <div className="mood-visual" data-cursor="VIEW">
@@ -48,7 +49,7 @@ export default function Personality() {
           <Image
             key={item.name}
             src={`/images/${item.image}`}
-            alt={`Robo looking ${item.name.toLowerCase()}`}
+            alt={t("Robo looking {value0}", { value0: t(item.name.toLowerCase()) })}
             fill
             sizes="(max-width: 768px) 100vw, 65vw"
             className={i === mood ? "mood-image selected" : "mood-image"}
@@ -56,15 +57,13 @@ export default function Personality() {
           />
         ))}
         <span className="mood-side micro">
-          A LITTLE MORE
-          <br />
-          HUMAN.
-        </span>
+          {t("A LITTLE MORE")} <br />
+          {t("HUMAN.")} </span>
       </div>
       <div
         className="mood-controls"
         role="group"
-        aria-label="Choose Robo’s mood"
+        aria-label={t("Choose Robo’s mood")}
       >
         {moods.map((item, i) => (
           <button
@@ -74,13 +73,13 @@ export default function Personality() {
             onMouseEnter={() => setMood(i)}
             onClick={() => setMood(i)}
           >
-            <span aria-hidden="true">{item.face}</span>
-            {item.name}
+            <span aria-hidden="true">{t(item.face)}</span>
+            {t(item.name)}
           </button>
         ))}
       </div>
       <p className="mood-description" aria-live="polite">
-        {moods[mood].text}
+        {t(moods[mood].text)}
       </p>
     </section>
   );

@@ -1,3 +1,5 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { AudioLines, Fingerprint, Brain, LockKeyhole } from "lucide-react";
@@ -29,6 +31,7 @@ const phases = [
 ];
 
 export default function CoreAI() {
+  const { t } = useLanguage();
   const root = useRef<HTMLElement>(null);
   const reduced = useReducedMotion();
   const [active, setActive] = useState(0);
@@ -101,14 +104,13 @@ export default function CoreAI() {
       id="core-ai"
       ref={root}
       className={`core-ai ${reduced ? "core-static" : ""}`}
-      aria-label="Voice, personality and memory"
+      aria-label={t("Voice, personality and memory")}
     >
       <div className="core-sticky">
         <div className="core-top">
           <p className="eyebrow">
-            <span>02 /</span> A CONNECTION, NOT A COMMAND
-          </p>
-          <span className="micro">VOICE. CHARACTER. CONTINUITY.</span>
+            <span>02 /</span>  {t("A CONNECTION, NOT A COMMAND")} </p>
+          <span className="micro">{t("VOICE. CHARACTER. CONTINUITY.")}</span>
         </div>
         <div className="core-layout">
           <div className="core-panels">
@@ -119,15 +121,15 @@ export default function CoreAI() {
                 aria-hidden={!reduced && active !== index}
               >
                 <Icon size={30} strokeWidth={1.2} className="core-icon" />
-                <h2>{title}</h2>
+                <h2>{t(title)}</h2>
                 <p className="core-lines">
                   {lines.map((line) => (
-                    <span key={line}>{line}</span>
+                    <span key={line}>{t(line)}</span>
                   ))}
                 </p>
                 <p className="core-note">
                   {index === 2 && <LockKeyhole size={13} />}
-                  {note}
+                  {t(note)}
                 </p>
               </div>
             ))}
@@ -148,9 +150,9 @@ export default function CoreAI() {
               <span className="status-dot" />
               <span>
                 {
-                  ["HERE TO LISTEN", "UNIQUELY YOURS", "FAMILIAR, BY CHOICE"][
+                  t(["HERE TO LISTEN", "UNIQUELY YOURS", "FAMILIAR, BY CHOICE"][
                     active
-                  ]
+                  ])
                 }
               </span>
             </div>
@@ -160,7 +162,7 @@ export default function CoreAI() {
           <div
             className="core-navigation"
             role="group"
-            aria-label="AI story chapters"
+            aria-label={t("AI story chapters")}
           >
             {phases.map(({ label }, index) => (
               <button
@@ -169,7 +171,7 @@ export default function CoreAI() {
                 aria-pressed={active === index}
               >
                 <span>0{index + 1}</span>
-                {label}
+                {t(label)}
                 <span className="chapter-line" />
               </button>
             ))}

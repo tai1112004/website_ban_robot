@@ -1,33 +1,33 @@
 "use client";
+import TranslatedHeading from "@/components/ui/TranslatedHeading";
+import { useLanguage } from "@/context/LanguageContext";
 import { useState } from "react";
 import Heading from "./ProductSectionHeading";
 export default function PersonalMemory() {
+  const { t } = useLanguage();
   const [enabled, setEnabled] = useState(true);
   return (
     <section id="memory" className="pdp-section pdp-memory">
       <div className="pdp-heading-row">
-        <Heading index="04" label="PERSONAL MEMORY">
-          A LITTLE MORE
-          <br />
-          <span className="accent">YOU.</span>
+        <Heading index="04" label={t("PERSONAL MEMORY")}>
+          <TranslatedHeading message="A LITTLE MORE<br><accent>YOU.</accent>" />
         </Heading>
         <div>
           <p className="pdp-copy">
-            You&apos;re always in control of what Robo remembers.
-          </p>
+            {t("You're always in control of what Robo remembers.")} </p>
           <button
             className="pdp-switch"
             role="switch"
-            aria-label="Memory demo"
+            aria-label={t("Memory demo")}
             aria-checked={enabled}
             onClick={() => setEnabled(!enabled)}
           >
             <span className="pdp-switch-track">
               <i />
             </span>
-            MEMORY {enabled ? "ON" : "OFF"}
+            {t("MEMORY")} {t(enabled ? "ON" : "OFF")}
           </button>
-          <p className="pdp-fine">Interactive demo. Nothing is saved.</p>
+          <p className="pdp-fine">{t("Interactive demo. Nothing is saved.")}</p>
         </div>
       </div>
       <div className={`pdp-memory-cards ${enabled ? "" : "is-off"}`}>
@@ -50,11 +50,11 @@ export default function PersonalMemory() {
           },
         ].map((card) => (
           <article key={card.title}>
-            <h3>{card.title}</h3>
+            <h3>{t(card.title)}</h3>
             {card.values.map((value) => (
               <p key={value}>
-                <span>{value}</span>
-                <span>{enabled ? "Your choice" : "Off"}</span>
+                <span>{t(value)}</span>
+                <span>{t(enabled ? "Your choice" : "Off")}</span>
               </p>
             ))}
           </article>
