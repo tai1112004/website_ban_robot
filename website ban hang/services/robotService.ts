@@ -132,7 +132,7 @@ export async function pairRobot(
       model: "BASIC",
       status: "UNKNOWN",
       pairedAt: new Date().toISOString(),
-      image: "/images/product_render_chinh_dien.png",
+      image: "/images/product_render_chinh_dien.png?v=20260921-1635",
       capabilities: ["VOICE", "MEMORY", "KNOWLEDGE", "DISPLAY"],
     };
     // Activation codes are transient and must never be persisted.

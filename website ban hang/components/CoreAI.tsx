@@ -12,6 +12,8 @@ const phases = [
     title: "REAL-TIME VOICE",
     lines: ["Talk.", "Robo listens.", "Robo responds."],
     note: "A conversation that feels like a connection.",
+    image: "/images/robot_voice_vietnam.png",
+    imageAlt: "Robo in a traditional Vietnamese outfit waving",
     Icon: AudioLines,
   },
   {
@@ -19,6 +21,8 @@ const phases = [
     title: "A PERSONALITY OF ITS OWN.",
     lines: ["Friendly. Focused.", "Curious. Custom."],
     note: "The same Robo. A character that feels like yours.",
+    image: "/images/robot_personality_vietnam.png",
+    imageAlt: "Robo with a lotus flower on a conical hat",
     Icon: Fingerprint,
   },
   {
@@ -26,6 +30,8 @@ const phases = [
     title: "IT REMEMBERS YOU.",
     lines: ["Your name.", "Your preferences.", "The way you like to interact."],
     note: "Only what you allow it to remember.",
+    image: "/images/robot_memory_pair_vietnam.png",
+    imageAlt: "Two Robo companions in Vietnamese outfits",
     Icon: Brain,
   },
 ];
@@ -89,6 +95,17 @@ export default function CoreAI() {
     return () => ctx.revert();
   }, [reduced]);
 
+  useEffect(() => {
+    if (reduced) return;
+    const syncMemoryHash = () => {
+      if (window.location.hash !== "#memory") return;
+      requestAnimationFrame(() => goToPhase(2));
+    };
+    syncMemoryHash();
+    window.addEventListener("hashchange", syncMemoryHash);
+    return () => window.removeEventListener("hashchange", syncMemoryHash);
+  }, [reduced]);
+
   function goToPhase(index: number) {
     const section = root.current;
     if (!section) return;
@@ -140,8 +157,9 @@ export default function CoreAI() {
           >
             <div className="core-halo" />
             <Image
-              src="/images/robot_phongtrang.png"
-              alt=""
+              key={phases[active].image}
+              src={phases[active].image}
+              alt={t(phases[active].imageAlt)}
               fill
               sizes="(max-width: 767px) 70vw, 45vw"
               className="core-portrait"

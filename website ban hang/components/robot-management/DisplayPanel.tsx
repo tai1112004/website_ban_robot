@@ -5,10 +5,10 @@ import type { RobotManagementState } from "@/hooks/useRobotManagement";
 import type { RobotExpression } from "@/types/robotConfig";
 import { PanelHeading, Range, SaveSettings } from "./Controls";
 const expressions: { id: RobotExpression; image: string }[] = [
-  { id: "NORMAL", image: "/images/bieucam_binhthuong.png" },
-  { id: "HAPPY", image: "/images/bieucam_vuive.png" },
-  { id: "CURIOUS", image: "/images/bieucam_khohieu.png" },
-  { id: "SLEEPY", image: "/images/bieucam_chandoi.png" },
+  { id: "NORMAL", image: "/images/bieucam_binhthuong.png?v=20260921-1623" },
+  { id: "HAPPY", image: "/images/bieucam_vuive.png?v=20260921-1623" },
+  { id: "CURIOUS", image: "/images/bieucam_khohieu.png?v=20260921-1623" },
+  { id: "SLEEPY", image: "/images/bieucam_chandoi.png?v=20260921-1623" },
 ];
 export default function DisplayPanel({
   state,

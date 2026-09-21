@@ -31,7 +31,7 @@ export default function ExpressiveRobot() {
         <div className="expressive-portrait" data-reveal>
           <div className="expression-glow" />
           <Image
-            src="/images/bieucam_vuive.png"
+            src="/images/bieucam_vuive.png?v=20260921-1623"
             alt={t("Robo with a happy expressive face and its hand raised in greeting")}
             fill
             sizes="(max-width: 767px) 90vw, 45vw"
