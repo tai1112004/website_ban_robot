@@ -1,0 +1,23 @@
+.accountLink {
+  width: 28px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+@media (max-width: 430px) {
+  .header :global(.nav-actions) {
+    gap: 6px;
+  }
+  .header :global(.nav-discover) {
+    padding-inline: 8px;
+    font-size: 7px;
+  }
+  .accountLink {
+    width: 24px;
+  }
+  .header :global(.brand) {
+    font-size: 17px;
+    gap: 6px;
+  }
+}

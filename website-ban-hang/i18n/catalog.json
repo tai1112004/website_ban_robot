@@ -1,0 +1,5450 @@
+{
+  "language": [
+    "Ngôn ngữ",
+    "言語",
+    "언어",
+    "语言"
+  ],
+  "home": [
+    "Trang chủ",
+    "ホーム",
+    "홈",
+    "首页"
+  ],
+  "features": [
+    "Tính năng",
+    "機能",
+    "기능",
+    "功能"
+  ],
+  "technology": [
+    "Công nghệ",
+    "テクノロジー",
+    "기술",
+    "技术"
+  ],
+  "personality": [
+    "Tính cách",
+    "個性",
+    "성격",
+    "个性"
+  ],
+  "models": [
+    "Các phiên bản",
+    "モデル",
+    "모델",
+    "型号"
+  ],
+  "my account": [
+    "Tài khoản của tôi",
+    "マイアカウント",
+    "내 계정",
+    "我的账户"
+  ],
+  "account": [
+    "Tài khoản",
+    "アカウント",
+    "계정",
+    "账户"
+  ],
+  "overview": [
+    "Tổng quan",
+    "概要",
+    "개요",
+    "概览"
+  ],
+  "orders": [
+    "Đơn hàng",
+    "注文",
+    "주문",
+    "订单"
+  ],
+  "order": [
+    "Đơn hàng",
+    "注文",
+    "주문",
+    "订单"
+  ],
+  "view orders": [
+    "Xem đơn hàng",
+    "注文を見る",
+    "주문 보기",
+    "查看订单"
+  ],
+  "my robots": [
+    "Robot của tôi",
+    "マイロボット",
+    "내 로봇",
+    "我的机器人"
+  ],
+  "view my robots": [
+    "Xem robot của tôi",
+    "ロボットを見る",
+    "내 로봇 보기",
+    "查看我的机器人"
+  ],
+  "profile": [
+    "Hồ sơ",
+    "プロフィール",
+    "프로필",
+    "个人资料"
+  ],
+  "name": [
+    "Tên",
+    "名前",
+    "이름",
+    "姓名"
+  ],
+  "email": [
+    "Email",
+    "メールアドレス",
+    "이메일",
+    "电子邮箱"
+  ],
+  "phone": [
+    "Điện thoại",
+    "電話番号",
+    "전화번호",
+    "电话"
+  ],
+  "not provided": [
+    "Chưa cung cấp",
+    "未入力",
+    "미입력",
+    "未提供"
+  ],
+  "not available": [
+    "Chưa có",
+    "利用不可",
+    "이용 불가",
+    "暂无"
+  ],
+  "support": [
+    "Hỗ trợ",
+    "サポート",
+    "지원",
+    "支持"
+  ],
+  "settings": [
+    "Cài đặt",
+    "設定",
+    "설정",
+    "设置"
+  ],
+  "soon": [
+    "Sắp có",
+    "近日公開",
+    "출시 예정",
+    "即将推出"
+  ],
+  "coming soon": [
+    "Sắp ra mắt",
+    "近日公開",
+    "출시 예정",
+    "即将推出"
+  ],
+  "contact support": [
+    "Liên hệ hỗ trợ",
+    "サポートに連絡",
+    "지원 문의",
+    "联系支持"
+  ],
+  "recent order": [
+    "Đơn hàng gần đây",
+    "最近の注文",
+    "최근 주문",
+    "最近订单"
+  ],
+  "discover robo": [
+    "Khám phá Robo",
+    "Roboを知る",
+    "Robo 알아보기",
+    "探索 Robo"
+  ],
+  "try again": [
+    "Thử lại",
+    "再試行",
+    "다시 시도",
+    "重试"
+  ],
+  "connected": [
+    "Đã kết nối",
+    "接続済み",
+    "연결됨",
+    "已连接"
+  ],
+  "cart": [
+    "Giỏ hàng",
+    "カート",
+    "장바구니",
+    "购物车"
+  ],
+  "add to cart": [
+    "Thêm vào giỏ",
+    "カートに追加",
+    "장바구니에 담기",
+    "加入购物车"
+  ],
+  "added to cart": [
+    "Đã thêm vào giỏ",
+    "カートに追加しました",
+    "장바구니에 담았습니다",
+    "已加入购物车"
+  ],
+  "view cart": [
+    "Xem giỏ hàng",
+    "カートを見る",
+    "장바구니 보기",
+    "查看购物车"
+  ],
+  "continue shopping": [
+    "Tiếp tục mua sắm",
+    "買い物を続ける",
+    "쇼핑 계속하기",
+    "继续购物"
+  ],
+  "model": [
+    "Phiên bản",
+    "モデル",
+    "모델",
+    "型号"
+  ],
+  "availability": [
+    "Tình trạng ra mắt",
+    "販売状況",
+    "출시 상태",
+    "上市状态"
+  ],
+  "quantity": [
+    "Số lượng",
+    "数量",
+    "수량",
+    "数量"
+  ],
+  "remove": [
+    "Xóa",
+    "削除",
+    "삭제",
+    "移除"
+  ],
+  "item": [
+    "Sản phẩm",
+    "商品",
+    "상품",
+    "商品"
+  ],
+  "items": [
+    "Sản phẩm",
+    "商品",
+    "상품",
+    "商品"
+  ],
+  "continue exploring": [
+    "Tiếp tục khám phá",
+    "さらに見る",
+    "계속 둘러보기",
+    "继续探索"
+  ],
+  "breadcrumb": [
+    "Điều hướng trang",
+    "パンくずリスト",
+    "탐색 경로",
+    "面包屑导航"
+  ],
+  "order summary": [
+    "Tóm tắt đơn hàng",
+    "注文概要",
+    "주문 요약",
+    "订单摘要"
+  ],
+  "subtotal": [
+    "Tạm tính",
+    "小計",
+    "소계",
+    "小计"
+  ],
+  "shipping": [
+    "Phí vận chuyển",
+    "送料",
+    "배송비",
+    "运费"
+  ],
+  "total": [
+    "Tổng cộng",
+    "合計",
+    "합계",
+    "总计"
+  ],
+  "calculated later": [
+    "Sẽ tính sau",
+    "後日計算",
+    "추후 계산",
+    "稍后计算"
+  ],
+  "to be announced": [
+    "Sẽ công bố sau",
+    "後日発表",
+    "추후 공개",
+    "待公布"
+  ],
+  "price to be announced": [
+    "Giá sẽ công bố sau",
+    "価格は後日発表",
+    "가격 추후 공개",
+    "价格待公布"
+  ],
+  "pricing to be announced": [
+    "Giá sẽ công bố sau",
+    "価格は後日発表",
+    "가격 추후 공개",
+    "价格待公布"
+  ],
+  "proceed to checkout": [
+    "Tiến hành đặt hàng",
+    "注文手続きへ",
+    "주문 진행",
+    "前往结算"
+  ],
+  "explore basic": [
+    "Khám phá Basic",
+    "Basicを見る",
+    "Basic 알아보기",
+    "探索 Basic"
+  ],
+  "explore plus": [
+    "Khám phá Plus",
+    "Plusを見る",
+    "Plus 알아보기",
+    "探索 Plus"
+  ],
+  "explore models": [
+    "Khám phá các phiên bản",
+    "モデルを見る",
+    "모델 둘러보기",
+    "探索各型号"
+  ],
+  "view robo basic": [
+    "Xem Robo Basic",
+    "Robo Basicを見る",
+    "Robo Basic 보기",
+    "查看 Robo Basic"
+  ],
+  "phone number": [
+    "Số điện thoại",
+    "電話番号",
+    "전화번호",
+    "电话号码"
+  ],
+  "first name": [
+    "Tên",
+    "名",
+    "이름",
+    "名"
+  ],
+  "last name": [
+    "Họ",
+    "姓",
+    "성",
+    "姓"
+  ],
+  "address": [
+    "Địa chỉ",
+    "住所",
+    "주소",
+    "地址"
+  ],
+  "apartment / suite": [
+    "Căn hộ / Phòng",
+    "部屋番号",
+    "동 / 호수",
+    "公寓 / 房间"
+  ],
+  "city": [
+    "Thành phố",
+    "市区町村",
+    "도시",
+    "城市"
+  ],
+  "province / state": [
+    "Tỉnh / Bang",
+    "都道府県",
+    "도 / 주",
+    "省 / 州"
+  ],
+  "postal code": [
+    "Mã bưu chính",
+    "郵便番号",
+    "우편번호",
+    "邮政编码"
+  ],
+  "country": [
+    "Quốc gia",
+    "国・地域",
+    "국가",
+    "国家或地区"
+  ],
+  "contact information": [
+    "Thông tin liên hệ",
+    "連絡先情報",
+    "연락처 정보",
+    "联系信息"
+  ],
+  "shipping information": [
+    "Thông tin giao hàng",
+    "配送先情報",
+    "배송 정보",
+    "配送信息"
+  ],
+  "(optional)": [
+    "(không bắt buộc)",
+    "（任意）",
+    "(선택)",
+    "（选填）"
+  ],
+  "go to cart": [
+    "Đến giỏ hàng",
+    "カートへ",
+    "장바구니로",
+    "前往购物车"
+  ],
+  "delivery method": [
+    "Phương thức giao hàng",
+    "配送方法",
+    "배송 방법",
+    "配送方式"
+  ],
+  "standard delivery": [
+    "Giao hàng tiêu chuẩn",
+    "通常配送",
+    "일반 배송",
+    "标准配送"
+  ],
+  "payment method": [
+    "Phương thức thanh toán",
+    "支払い方法",
+    "결제 방법",
+    "付款方式"
+  ],
+  "demo checkout": [
+    "Đặt hàng thử nghiệm",
+    "注文デモ",
+    "주문 체험",
+    "模拟结算"
+  ],
+  "review your order": [
+    "Kiểm tra đơn hàng",
+    "注文内容の確認",
+    "주문 확인",
+    "核对订单"
+  ],
+  "processing...": [
+    "Đang xử lý...",
+    "処理中...",
+    "처리 중...",
+    "处理中…"
+  ],
+  "place order": [
+    "Đặt hàng",
+    "注文する",
+    "주문하기",
+    "提交订单"
+  ],
+  "checkout": [
+    "Đặt hàng",
+    "注文手続き",
+    "주문하기",
+    "结算"
+  ],
+  "checkout.": [
+    "Đặt hàng.",
+    "注文手続き。",
+    "주문하기.",
+    "结算。"
+  ],
+  "information": [
+    "Thông tin",
+    "情報",
+    "정보",
+    "信息"
+  ],
+  "review": [
+    "Kiểm tra",
+    "確認",
+    "확인",
+    "核对"
+  ],
+  "done": [
+    "Hoàn tất",
+    "完了",
+    "완료",
+    "完成"
+  ],
+  "hide details": [
+    "Ẩn chi tiết",
+    "詳細を閉じる",
+    "상세 정보 접기",
+    "收起详情"
+  ],
+  "show details": [
+    "Hiện chi tiết",
+    "詳細を表示",
+    "상세 정보 보기",
+    "显示详情"
+  ],
+  "frontend demo": [
+    "Bản demo giao diện",
+    "フロントエンドデモ",
+    "프런트엔드 데모",
+    "前端演示"
+  ],
+  "loading...": [
+    "Đang tải...",
+    "読み込み中...",
+    "불러오는 중...",
+    "加载中…"
+  ],
+  "back to home": [
+    "Về trang chủ",
+    "ホームに戻る",
+    "홈으로",
+    "返回首页"
+  ],
+  "voice": [
+    "Giọng nói",
+    "音声",
+    "음성",
+    "语音"
+  ],
+  "memory": [
+    "Bộ nhớ",
+    "メモリー",
+    "기억",
+    "记忆"
+  ],
+  "knowledge": [
+    "Kiến thức",
+    "知識",
+    "지식",
+    "知识"
+  ],
+  "knowledge packs": [
+    "Gói kiến thức",
+    "知識パック",
+    "지식 팩",
+    "知识包"
+  ],
+  "product": [
+    "Sản phẩm",
+    "製品",
+    "제품",
+    "产品"
+  ],
+  "platform": [
+    "Nền tảng",
+    "プラットフォーム",
+    "플랫폼",
+    "平台"
+  ],
+  "company": [
+    "Công ty",
+    "会社",
+    "회사",
+    "公司"
+  ],
+  "about": [
+    "Giới thiệu",
+    "会社概要",
+    "소개",
+    "关于"
+  ],
+  "research": [
+    "Nghiên cứu",
+    "研究",
+    "연구",
+    "研究"
+  ],
+  "contact": [
+    "Liên hệ",
+    "お問い合わせ",
+    "문의",
+    "联系"
+  ],
+  "help": [
+    "Trợ giúp",
+    "ヘルプ",
+    "도움말",
+    "帮助"
+  ],
+  "faq": [
+    "Câu hỏi thường gặp",
+    "よくある質問",
+    "자주 묻는 질문",
+    "常见问题"
+  ],
+  "privacy": [
+    "Quyền riêng tư",
+    "プライバシー",
+    "개인정보 보호",
+    "隐私"
+  ],
+  "terms": [
+    "Điều khoản",
+    "利用規約",
+    "이용약관",
+    "条款"
+  ],
+  "watch film": [
+    "Xem phim",
+    "映像を見る",
+    "영상 보기",
+    "观看影片"
+  ],
+  "watch film ↗": [
+    "Xem phim ↗",
+    "映像を見る ↗",
+    "영상 보기 ↗",
+    "观看影片 ↗"
+  ],
+  "play film": [
+    "Phát phim",
+    "映像を再生",
+    "영상 재생",
+    "播放影片"
+  ],
+  "skip intro": [
+    "Bỏ qua giới thiệu",
+    "イントロをスキップ",
+    "소개 건너뛰기",
+    "跳过开场"
+  ],
+  "general assistant": [
+    "Trợ lý đa năng",
+    "日常アシスタント",
+    "일상 도우미",
+    "通用助手"
+  ],
+  "education": [
+    "Giáo dục",
+    "教育",
+    "교육",
+    "教育"
+  ],
+  "english practice": [
+    "Luyện tiếng Anh",
+    "英会話練習",
+    "영어 연습",
+    "英语练习"
+  ],
+  "kids": [
+    "Trẻ em",
+    "キッズ",
+    "어린이",
+    "儿童"
+  ],
+  "museum guide": [
+    "Hướng dẫn bảo tàng",
+    "ミュージアムガイド",
+    "박물관 안내",
+    "博物馆导览"
+  ],
+  "business": [
+    "Doanh nghiệp",
+    "ビジネス",
+    "비즈니스",
+    "商务"
+  ],
+  "custom": [
+    "Tùy chỉnh",
+    "カスタム",
+    "맞춤형",
+    "定制"
+  ],
+  "voice ai": [
+    "AI giọng nói",
+    "音声AI",
+    "음성 AI",
+    "语音 AI"
+  ],
+  "expressive display": [
+    "Màn hình biểu cảm",
+    "表情豊かなディスプレイ",
+    "표정 디스플레이",
+    "表情显示屏"
+  ],
+  "everything in basic": [
+    "Mọi tính năng của Basic",
+    "Basicの全機能",
+    "Basic의 모든 기능",
+    "Basic 的全部功能"
+  ],
+  "physical actions": [
+    "Hành động vật lý",
+    "身体動作",
+    "물리적 동작",
+    "肢体动作"
+  ],
+  "physical action": [
+    "Hành động vật lý",
+    "身体動作",
+    "물리적 동작",
+    "肢体动作"
+  ],
+  "servo motion": [
+    "Chuyển động servo",
+    "サーボ動作",
+    "서보 동작",
+    "舵机运动"
+  ],
+  "sensors": [
+    "Cảm biến",
+    "センサー",
+    "센서",
+    "传感器"
+  ],
+  "enhanced interaction": [
+    "Tương tác nâng cao",
+    "高度な対話",
+    "향상된 상호작용",
+    "增强互动"
+  ],
+  "custom shell": [
+    "Vỏ tùy chỉnh",
+    "カスタム外装",
+    "맞춤 외장",
+    "定制外壳"
+  ],
+  "custom personality": [
+    "Tính cách tùy chỉnh",
+    "カスタム個性",
+    "맞춤 성격",
+    "定制个性"
+  ],
+  "custom knowledge": [
+    "Kiến thức tùy chỉnh",
+    "カスタム知識",
+    "맞춤 지식",
+    "定制知识"
+  ],
+  "branding": [
+    "Nhận diện thương hiệu",
+    "ブランディング",
+    "브랜딩",
+    "品牌定制"
+  ],
+  "integration options": [
+    "Tùy chọn tích hợp",
+    "連携オプション",
+    "통합 옵션",
+    "集成选项"
+  ],
+  "talk to us": [
+    "Trao đổi với chúng tôi",
+    "お問い合わせ",
+    "문의하기",
+    "联系我们"
+  ],
+  "order number": [
+    "Mã đơn hàng",
+    "注文番号",
+    "주문 번호",
+    "订单编号"
+  ],
+  "copy order number": [
+    "Sao chép mã đơn",
+    "注文番号をコピー",
+    "주문 번호 복사",
+    "复制订单编号"
+  ],
+  "order number copied": [
+    "Đã sao chép mã đơn",
+    "注文番号をコピーしました",
+    "주문 번호 복사 완료",
+    "订单编号已复制"
+  ],
+  "back to account": [
+    "Về tài khoản",
+    "アカウントに戻る",
+    "계정으로 돌아가기",
+    "返回账户"
+  ],
+  "currency unavailable": [
+    "Chưa có đơn vị tiền tệ",
+    "通貨情報なし",
+    "통화 정보 없음",
+    "暂无币种信息"
+  ],
+  "qty": [
+    "SL",
+    "数量",
+    "수량",
+    "数量"
+  ],
+  "view order": [
+    "Xem đơn hàng",
+    "注文を見る",
+    "주문 보기",
+    "查看订单"
+  ],
+  "view all orders": [
+    "Xem tất cả đơn hàng",
+    "すべての注文を見る",
+    "모든 주문 보기",
+    "查看全部订单"
+  ],
+  "go home": [
+    "Về trang chủ",
+    "ホームへ",
+    "홈으로",
+    "返回首页"
+  ],
+  "view product": [
+    "Xem sản phẩm",
+    "製品を見る",
+    "제품 보기",
+    "查看产品"
+  ],
+  "order details": [
+    "Chi tiết đơn hàng",
+    "注文詳細",
+    "주문 상세",
+    "订单详情"
+  ],
+  "created": [
+    "Ngày tạo",
+    "作成日",
+    "생성일",
+    "创建时间"
+  ],
+  "status": [
+    "Trạng thái",
+    "ステータス",
+    "상태",
+    "状态"
+  ],
+  "delivery information": [
+    "Thông tin giao hàng",
+    "配送情報",
+    "배송 정보",
+    "配送信息"
+  ],
+  "sort by": [
+    "Sắp xếp theo",
+    "並び替え",
+    "정렬 기준",
+    "排序方式"
+  ],
+  "newest": [
+    "Mới nhất",
+    "新しい順",
+    "최신순",
+    "最新"
+  ],
+  "oldest": [
+    "Cũ nhất",
+    "古い順",
+    "오래된순",
+    "最早"
+  ],
+  "order received": [
+    "Đã nhận đơn",
+    "注文受付済み",
+    "주문 접수",
+    "已收到订单"
+  ],
+  "confirmed": [
+    "Đã xác nhận",
+    "確認済み",
+    "확인됨",
+    "已确认"
+  ],
+  "processing": [
+    "Đang xử lý",
+    "処理中",
+    "처리 중",
+    "处理中"
+  ],
+  "shipped": [
+    "Đã gửi hàng",
+    "発送済み",
+    "배송 중",
+    "已发货"
+  ],
+  "delivered": [
+    "Đã giao hàng",
+    "配達済み",
+    "배송 완료",
+    "已送达"
+  ],
+  "order progress": [
+    "Tiến trình đơn hàng",
+    "注文の進捗",
+    "주문 진행 상황",
+    "订单进度"
+  ],
+  "demo status": [
+    "Trạng thái demo",
+    "デモの状態",
+    "데모 상태",
+    "演示状态"
+  ],
+  "current status": [
+    "Trạng thái hiện tại",
+    "現在の状態",
+    "현재 상태",
+    "当前状态"
+  ],
+  "completed": [
+    "Đã hoàn tất",
+    "完了",
+    "완료",
+    "已完成"
+  ],
+  "upcoming": [
+    "Sắp tới",
+    "今後の予定",
+    "예정",
+    "即将进行"
+  ],
+  "display": [
+    "Màn hình",
+    "ディスプレイ",
+    "디스플레이",
+    "显示屏"
+  ],
+  "confirmation": [
+    "Xác nhận",
+    "確認",
+    "확인",
+    "确认"
+  ],
+  "normal": [
+    "Bình thường",
+    "通常",
+    "기본",
+    "正常"
+  ],
+  "happy": [
+    "Vui vẻ",
+    "うれしい",
+    "행복",
+    "开心"
+  ],
+  "curious": [
+    "Tò mò",
+    "好奇心",
+    "호기심",
+    "好奇"
+  ],
+  "sleepy": [
+    "Buồn ngủ",
+    "眠い",
+    "졸림",
+    "困倦"
+  ],
+  "view": [
+    "Xem",
+    "表示",
+    "보기",
+    "查看"
+  ],
+  "join the list": [
+    "Đăng ký quan tâm",
+    "登録する",
+    "관심 등록",
+    "登记意向"
+  ],
+  "compare models": [
+    "So sánh phiên bản",
+    "モデルを比較",
+    "모델 비교",
+    "比较型号"
+  ],
+  "interested model": [
+    "Phiên bản quan tâm",
+    "興味のあるモデル",
+    "관심 모델",
+    "感兴趣的型号"
+  ],
+  "included": [
+    "Có",
+    "あり",
+    "포함",
+    "包含"
+  ],
+  "not included": [
+    "Không có",
+    "なし",
+    "미포함",
+    "不包含"
+  ],
+  "explore": [
+    "Khám phá",
+    "詳しく見る",
+    "알아보기",
+    "探索"
+  ],
+  "personal memory": [
+    "Bộ nhớ cá nhân",
+    "パーソナルメモリー",
+    "개인 기억",
+    "个人记忆"
+  ],
+  "on": [
+    "Bật",
+    "オン",
+    "켜짐",
+    "开启"
+  ],
+  "off": [
+    "Tắt",
+    "オフ",
+    "꺼짐",
+    "关闭"
+  ],
+  "nickname": [
+    "Biệt danh",
+    "ニックネーム",
+    "별명",
+    "昵称"
+  ],
+  "preferred language": [
+    "Ngôn ngữ ưu tiên",
+    "希望する言語",
+    "선호 언어",
+    "偏好语言"
+  ],
+  "response style": [
+    "Phong cách trả lời",
+    "応答スタイル",
+    "응답 스타일",
+    "回复风格"
+  ],
+  "volume": [
+    "Âm lượng",
+    "音量",
+    "음량",
+    "音量"
+  ],
+  "selected context": [
+    "Ngữ cảnh đã chọn",
+    "選択した文脈",
+    "선택한 맥락",
+    "所选上下文"
+  ],
+  "what matters to you": [
+    "Điều bạn quan tâm",
+    "あなたが大切にすること",
+    "내게 중요한 것",
+    "您关心的事"
+  ],
+  "only what you allow": [
+    "Chỉ những gì bạn cho phép",
+    "許可したことだけ",
+    "허용한 내용만",
+    "仅限您允许的内容"
+  ],
+  "your choice": [
+    "Do bạn chọn",
+    "あなたの選択",
+    "나의 선택",
+    "由您选择"
+  ],
+  "contact us": [
+    "Liên hệ chúng tôi",
+    "お問い合わせ",
+    "문의하기",
+    "联系我们"
+  ],
+  "select a model": [
+    "Chọn phiên bản",
+    "モデルを選択",
+    "모델 선택",
+    "选择型号"
+  ],
+  "explore features": [
+    "Khám phá tính năng",
+    "機能を見る",
+    "기능 알아보기",
+    "探索功能"
+  ],
+  "discover": [
+    "Khám phá",
+    "詳しく見る",
+    "알아보기",
+    "探索"
+  ],
+  "pause": [
+    "Tạm dừng",
+    "一時停止",
+    "일시 정지",
+    "暂停"
+  ],
+  "play": [
+    "Phát",
+    "再生",
+    "재생",
+    "播放"
+  ],
+  "film": [
+    "Phim",
+    "映像",
+    "영상",
+    "影片"
+  ],
+  "voice interaction": [
+    "Tương tác giọng nói",
+    "音声対話",
+    "음성 상호작용",
+    "语音互动"
+  ],
+  "modular design": [
+    "Thiết kế mô-đun",
+    "モジュラー設計",
+    "모듈형 설계",
+    "模块化设计"
+  ],
+  "buy now": [
+    "Mua ngay",
+    "今すぐ購入",
+    "지금 구매",
+    "立即购买"
+  ],
+  "view details": [
+    "Xem chi tiết",
+    "詳細を見る",
+    "상세 보기",
+    "查看详情"
+  ],
+  "pair your robo": [
+    "Ghép nối Robo",
+    "Roboをペアリング",
+    "Robo 연결하기",
+    "配对 Robo"
+  ],
+  "explore robo": [
+    "Khám phá Robo",
+    "Roboを見る",
+    "Robo 알아보기",
+    "探索 Robo"
+  ],
+  "cancel": [
+    "Hủy",
+    "キャンセル",
+    "취소",
+    "取消"
+  ],
+  "unpair": [
+    "Hủy ghép nối",
+    "ペアリング解除",
+    "연결 해제",
+    "取消配对"
+  ],
+  "pair": [
+    "Ghép nối",
+    "ペアリング",
+    "연결",
+    "配对"
+  ],
+  "device setup": [
+    "Thiết lập thiết bị",
+    "デバイス設定",
+    "기기 설정",
+    "设备设置"
+  ],
+  "connect": [
+    "Kết nối",
+    "接続",
+    "연결",
+    "连接"
+  ],
+  "connect robo": [
+    "Kết nối Robo",
+    "Roboを接続",
+    "Robo 연결",
+    "连接 Robo"
+  ],
+  "scan qr code": [
+    "Quét mã QR",
+    "QRコードを読み取る",
+    "QR 코드 스캔",
+    "扫描二维码"
+  ],
+  "scan qr": [
+    "Quét QR",
+    "QRを読み取る",
+    "QR 스캔",
+    "扫描二维码"
+  ],
+  "setup complete": [
+    "Thiết lập hoàn tất",
+    "設定完了",
+    "설정 완료",
+    "设置完成"
+  ],
+  "robot name": [
+    "Tên robot",
+    "ロボット名",
+    "로봇 이름",
+    "机器人名称"
+  ],
+  "device id": [
+    "Mã thiết bị",
+    "デバイスID",
+    "기기 ID",
+    "设备 ID"
+  ],
+  "manage robo": [
+    "Quản lý Robo",
+    "Roboを管理",
+    "Robo 관리",
+    "管理 Robo"
+  ],
+  "firmware": [
+    "Firmware",
+    "ファームウェア",
+    "펌웨어",
+    "固件"
+  ],
+  "paired": [
+    "Đã ghép nối",
+    "ペアリング済み",
+    "연결됨",
+    "已配对"
+  ],
+  "device details": [
+    "Chi tiết thiết bị",
+    "デバイス詳細",
+    "기기 상세",
+    "设备详情"
+  ],
+  "unpair robo": [
+    "Hủy ghép nối Robo",
+    "Roboのペアリング解除",
+    "Robo 연결 해제",
+    "取消 Robo 配对"
+  ],
+  "wave": [
+    "Vẫy tay",
+    "手を振る",
+    "손 흔들기",
+    "挥手"
+  ],
+  "nod": [
+    "Gật đầu",
+    "うなずく",
+    "끄덕이기",
+    "点头"
+  ],
+  "turn left": [
+    "Quay trái",
+    "左を向く",
+    "왼쪽으로 회전",
+    "向左转"
+  ],
+  "turn right": [
+    "Quay phải",
+    "右を向く",
+    "오른쪽으로 회전",
+    "向右转"
+  ],
+  "idle": [
+    "Nghỉ",
+    "待機",
+    "대기",
+    "待机"
+  ],
+  "stop": [
+    "Dừng",
+    "停止",
+    "정지",
+    "停止"
+  ],
+  "motion": [
+    "Chuyển động",
+    "動作",
+    "동작",
+    "运动"
+  ],
+  "online": [
+    "Trực tuyến",
+    "オンライン",
+    "온라인",
+    "在线"
+  ],
+  "offline": [
+    "Ngoại tuyến",
+    "オフライン",
+    "오프라인",
+    "离线"
+  ],
+  "pairing": [
+    "Đang ghép nối",
+    "ペアリング中",
+    "연결 중",
+    "配对中"
+  ],
+  "unknown": [
+    "Chưa xác định",
+    "不明",
+    "알 수 없음",
+    "未知"
+  ],
+  "actions": [
+    "Hành động",
+    "アクション",
+    "동작",
+    "动作"
+  ],
+  "send command": [
+    "Gửi lệnh",
+    "コマンドを送信",
+    "명령 전송",
+    "发送指令"
+  ],
+  "saving...": [
+    "Đang lưu...",
+    "保存中...",
+    "저장 중...",
+    "保存中…"
+  ],
+  "unsaved changes": [
+    "Có thay đổi chưa lưu",
+    "未保存の変更",
+    "저장하지 않은 변경 사항",
+    "有未保存的更改"
+  ],
+  "up to date": [
+    "Đã cập nhật",
+    "最新の状態",
+    "최신 상태",
+    "已更新"
+  ],
+  "serial number": [
+    "Số sê-ri",
+    "シリアル番号",
+    "일련번호",
+    "序列号"
+  ],
+  "firmware version": [
+    "Phiên bản firmware",
+    "ファームウェアバージョン",
+    "펌웨어 버전",
+    "固件版本"
+  ],
+  "connection status": [
+    "Trạng thái kết nối",
+    "接続状態",
+    "연결 상태",
+    "连接状态"
+  ],
+  "paired at": [
+    "Thời điểm ghép nối",
+    "ペアリング日時",
+    "연결 일시",
+    "配对时间"
+  ],
+  "device": [
+    "Thiết bị",
+    "デバイス",
+    "기기",
+    "设备"
+  ],
+  "rename robo": [
+    "Đổi tên Robo",
+    "Roboの名前を変更",
+    "Robo 이름 변경",
+    "重命名 Robo"
+  ],
+  "rename your robo": [
+    "Đổi tên Robo của bạn",
+    "Roboの名前を変更",
+    "내 Robo 이름 변경",
+    "重命名您的 Robo"
+  ],
+  "save name": [
+    "Lưu tên",
+    "名前を保存",
+    "이름 저장",
+    "保存名称"
+  ],
+  "choose expression": [
+    "Chọn biểu cảm",
+    "表情を選択",
+    "표정 선택",
+    "选择表情"
+  ],
+  "brightness": [
+    "Độ sáng",
+    "明るさ",
+    "밝기",
+    "亮度"
+  ],
+  "apply expression": [
+    "Áp dụng biểu cảm",
+    "表情を適用",
+    "표정 적용",
+    "应用表情"
+  ],
+  "installed": [
+    "Đã cài",
+    "インストール済み",
+    "설치됨",
+    "已安装"
+  ],
+  "available": [
+    "Có sẵn",
+    "利用可能",
+    "사용 가능",
+    "可用"
+  ],
+  "install": [
+    "Cài đặt",
+    "インストール",
+    "설치",
+    "安装"
+  ],
+  "memory permissions": [
+    "Quyền ghi nhớ",
+    "メモリー権限",
+    "기억 권한",
+    "记忆权限"
+  ],
+  "memory enabled": [
+    "Bật bộ nhớ",
+    "メモリーを有効にする",
+    "기억 활성화",
+    "启用记忆"
+  ],
+  "profile memory": [
+    "Ghi nhớ hồ sơ",
+    "プロフィールの記憶",
+    "프로필 기억",
+    "个人资料记忆"
+  ],
+  "preferences": [
+    "Sở thích",
+    "好み",
+    "선호 사항",
+    "偏好"
+  ],
+  "conversation memory": [
+    "Ghi nhớ hội thoại",
+    "会話の記憶",
+    "대화 기억",
+    "对话记忆"
+  ],
+  "save memory": [
+    "Lưu bộ nhớ",
+    "メモリーを保存",
+    "기억 설정 저장",
+    "保存记忆设置"
+  ],
+  "clear memory": [
+    "Xóa bộ nhớ",
+    "メモリーを消去",
+    "기억 삭제",
+    "清除记忆"
+  ],
+  "personality profile": [
+    "Hồ sơ tính cách",
+    "個性プロフィール",
+    "성격 프로필",
+    "个性档案"
+  ],
+  "response length": [
+    "Độ dài câu trả lời",
+    "応答の長さ",
+    "응답 길이",
+    "回复长度"
+  ],
+  "short": [
+    "Ngắn",
+    "短い",
+    "짧게",
+    "简短"
+  ],
+  "balanced": [
+    "Cân bằng",
+    "バランス",
+    "균형",
+    "适中"
+  ],
+  "detailed": [
+    "Chi tiết",
+    "詳しい",
+    "자세히",
+    "详细"
+  ],
+  "humor": [
+    "Hài hước",
+    "ユーモア",
+    "유머",
+    "幽默"
+  ],
+  "formality": [
+    "Trang trọng",
+    "丁寧さ",
+    "격식",
+    "正式程度"
+  ],
+  "save personality": [
+    "Lưu tính cách",
+    "個性を保存",
+    "성격 저장",
+    "保存个性"
+  ],
+  "device info": [
+    "Thông tin thiết bị",
+    "デバイス情報",
+    "기기 정보",
+    "设备信息"
+  ],
+  "back to my robots": [
+    "Về robot của tôi",
+    "マイロボットに戻る",
+    "내 로봇으로 돌아가기",
+    "返回我的机器人"
+  ],
+  "robot management": [
+    "Quản lý robot",
+    "ロボット管理",
+    "로봇 관리",
+    "机器人管理"
+  ],
+  "enabled": [
+    "Đã bật",
+    "有効",
+    "활성화",
+    "已启用"
+  ],
+  "disabled": [
+    "Đã tắt",
+    "無効",
+    "비활성화",
+    "已禁用"
+  ],
+  "personalize robo": [
+    "Cá nhân hóa Robo",
+    "Roboをカスタマイズ",
+    "Robo 맞춤 설정",
+    "个性化 Robo"
+  ],
+  "manage": [
+    "Quản lý",
+    "管理",
+    "관리",
+    "管理"
+  ],
+  "at a glance": [
+    "Tổng quan nhanh",
+    "ひと目でわかる",
+    "한눈에 보기",
+    "一目了然"
+  ],
+  "voice settings": [
+    "Cài đặt giọng nói",
+    "音声設定",
+    "음성 설정",
+    "语音设置"
+  ],
+  "voice profile": [
+    "Kiểu giọng nói",
+    "音声プロフィール",
+    "음성 유형",
+    "语音类型"
+  ],
+  "default": [
+    "Mặc định",
+    "デフォルト",
+    "기본",
+    "默认"
+  ],
+  "warm": [
+    "Ấm áp",
+    "温かい",
+    "따뜻함",
+    "温暖"
+  ],
+  "clear": [
+    "Rõ ràng",
+    "クリア",
+    "또렷함",
+    "清晰"
+  ],
+  "energetic": [
+    "Năng động",
+    "元気",
+    "활기참",
+    "活力"
+  ],
+  "vietnamese": [
+    "Tiếng Việt",
+    "ベトナム語",
+    "베트남어",
+    "越南语"
+  ],
+  "english": [
+    "Tiếng Anh",
+    "英語",
+    "영어",
+    "英语"
+  ],
+  "speech speed": [
+    "Tốc độ nói",
+    "話す速さ",
+    "말하기 속도",
+    "语速"
+  ],
+  "preview voice": [
+    "Nghe thử giọng",
+    "音声プレビュー",
+    "음성 미리 듣기",
+    "试听语音"
+  ],
+  "save voice": [
+    "Lưu giọng nói",
+    "音声設定を保存",
+    "음성 저장",
+    "保存语音"
+  ],
+  "ai controller": [
+    "Bộ điều khiển AI",
+    "AIコントローラー",
+    "AI 제어기",
+    "AI 控制器"
+  ],
+  "voice input": [
+    "Đầu vào giọng nói",
+    "音声入力",
+    "음성 입력",
+    "语音输入"
+  ],
+  "audio system": [
+    "Hệ thống âm thanh",
+    "オーディオシステム",
+    "오디오 시스템",
+    "音频系统"
+  ],
+  "power": [
+    "Nguồn điện",
+    "電源",
+    "전원",
+    "电源"
+  ],
+  "close dialog": [
+    "Đóng hộp thoại",
+    "ダイアログを閉じる",
+    "대화 상자 닫기",
+    "关闭对话框"
+  ],
+  "cheerful": [
+    "Vui tươi",
+    "明るい",
+    "명랑함",
+    "开朗"
+  ],
+  "serious": [
+    "Nghiêm túc",
+    "真面目",
+    "진지함",
+    "严肃"
+  ],
+  "calm": [
+    "Điềm tĩnh",
+    "穏やか",
+    "차분함",
+    "平静"
+  ],
+  "direct": [
+    "Thẳng thắn",
+    "率直",
+    "직설적",
+    "直接"
+  ],
+  "everyday": [
+    "Hằng ngày",
+    "日常",
+    "일상",
+    "日常"
+  ],
+  "learning": [
+    "Học tập",
+    "学習",
+    "학습",
+    "学习"
+  ],
+  "culture": [
+    "Văn hóa",
+    "文化",
+    "문화",
+    "文化"
+  ],
+  "work": [
+    "Công việc",
+    "仕事",
+    "업무",
+    "工作"
+  ],
+  "personal": [
+    "Cá nhân",
+    "パーソナル",
+    "개인",
+    "个人"
+  ],
+  "integrated audio": [
+    "Âm thanh tích hợp",
+    "内蔵オーディオ",
+    "내장 오디오",
+    "集成音频"
+  ],
+  "front": [
+    "Mặt trước",
+    "正面",
+    "정면",
+    "正面"
+  ],
+  "angle": [
+    "Góc nghiêng",
+    "斜め",
+    "측면 각도",
+    "斜侧面"
+  ],
+  "side": [
+    "Mặt bên",
+    "側面",
+    "측면",
+    "侧面"
+  ],
+  "rear": [
+    "Mặt sau",
+    "背面",
+    "후면",
+    "背面"
+  ],
+  "detail": [
+    "Chi tiết",
+    "詳細",
+    "상세",
+    "细节"
+  ],
+  "microphone": [
+    "Micrô",
+    "マイク",
+    "마이크",
+    "麦克风"
+  ],
+  "motion system": [
+    "Hệ thống chuyển động",
+    "動作システム",
+    "동작 시스템",
+    "运动系统"
+  ],
+  "compact form": [
+    "Kiểu dáng nhỏ gọn",
+    "コンパクトな形",
+    "컴팩트한 형태",
+    "小巧外形"
+  ],
+  "modular thinking": [
+    "Tư duy mô-đun",
+    "モジュラー発想",
+    "모듈형 설계 사고",
+    "模块化思维"
+  ],
+  "physical presence": [
+    "Hiện diện thực tế",
+    "物理的な存在感",
+    "물리적 존재감",
+    "实体陪伴"
+  ],
+  "expressive face": [
+    "Khuôn mặt biểu cảm",
+    "表情豊かな顔",
+    "풍부한 표정",
+    "生动表情"
+  ],
+  "limited": [
+    "Giới hạn",
+    "限定的",
+    "제한적",
+    "有限"
+  ],
+  "enhanced": [
+    "Nâng cao",
+    "拡張",
+    "향상됨",
+    "增强"
+  ],
+  "optional": [
+    "Tùy chọn",
+    "オプション",
+    "선택 사항",
+    "可选"
+  ],
+  "custom integration": [
+    "Tích hợp tùy chỉnh",
+    "カスタム連携",
+    "맞춤 통합",
+    "定制集成"
+  ],
+  "vietnam": [
+    "Việt Nam",
+    "ベトナム",
+    "베트남",
+    "越南"
+  ],
+  "united states": [
+    "Hoa Kỳ",
+    "アメリカ",
+    "미국",
+    "美国"
+  ],
+  "united kingdom": [
+    "Vương quốc Anh",
+    "イギリス",
+    "영국",
+    "英国"
+  ],
+  "singapore": [
+    "Singapore",
+    "シンガポール",
+    "싱가포르",
+    "新加坡"
+  ],
+  "japan": [
+    "Nhật Bản",
+    "日本",
+    "일본",
+    "日本"
+  ],
+  "south korea": [
+    "Hàn Quốc",
+    "韓国",
+    "대한민국",
+    "韩国"
+  ],
+  "other": [
+    "Khác",
+    "その他",
+    "기타",
+    "其他"
+  ],
+  "close menu": [
+    "Đóng menu",
+    "メニューを閉じる",
+    "메뉴 닫기",
+    "关闭菜单"
+  ],
+  "open menu": [
+    "Mở menu",
+    "メニューを開く",
+    "메뉴 열기",
+    "打开菜单"
+  ],
+  "main navigation": [
+    "Điều hướng chính",
+    "メインナビゲーション",
+    "주 탐색",
+    "主导航"
+  ],
+  "mobile navigation": [
+    "Điều hướng di động",
+    "モバイルナビゲーション",
+    "모바일 탐색",
+    "移动端导航"
+  ],
+  "robo ai home": [
+    "Trang chủ Robo AI",
+    "Robo AI ホーム",
+    "Robo AI 홈",
+    "Robo AI 首页"
+  ],
+  "your cart.": [
+    "Giỏ hàng của bạn.",
+    "カート。",
+    "장바구니.",
+    "您的购物车。"
+  ],
+  "cart, {value0} {value1}": [
+    "Giỏ hàng, {value0} {value1}",
+    "カート、{value0}点の{value1}",
+    "장바구니, {value1} {value0}개",
+    "购物车，{value0} 件{value1}"
+  ],
+  "a personality of its own": [
+    "Một tính cách riêng",
+    "自分だけの個性",
+    "자신만의 개성",
+    "独具个性"
+  ],
+  "robo looking {value0}": [
+    "Robo có biểu cảm {value0}",
+    "{value0}な表情のRobo",
+    "{value0} 표정의 Robo",
+    "呈现{value0}表情的 Robo"
+  ],
+  "order {value0}": [
+    "Đơn hàng {value0}",
+    "注文 {value0}",
+    "주문 {value0}",
+    "订单 {value0}"
+  ],
+  "{value0} quantity": [
+    "Số lượng {value0}",
+    "{value0}の数量",
+    "{value0} 수량",
+    "{value0} 数量"
+  ],
+  "decrease {value0} quantity": [
+    "Giảm số lượng {value0}",
+    "{value0}の数量を減らす",
+    "{value0} 수량 줄이기",
+    "减少 {value0} 数量"
+  ],
+  "increase {value0} quantity": [
+    "Tăng số lượng {value0}",
+    "{value0}の数量を増やす",
+    "{value0} 수량 늘리기",
+    "增加 {value0} 数量"
+  ],
+  "view {value0}": [
+    "Xem {value0}",
+    "{value0}を見る",
+    "{value0} 보기",
+    "查看{value0}"
+  ],
+  "remove {value0} from cart": [
+    "Xóa {value0} khỏi giỏ hàng",
+    "{value0}をカートから削除",
+    "장바구니에서 {value0} 삭제",
+    "从购物车移除 {value0}"
+  ],
+  "/ qty:": [
+    "/ SL:",
+    "/ 数量:",
+    "/ 수량:",
+    "/ 数量："
+  ],
+  "manage {value0}": [
+    "Quản lý {value0}",
+    "{value0}を管理",
+    "{value0} 관리",
+    "管理{value0}"
+  ],
+  "{value0} expression preview": [
+    "Xem trước biểu cảm {value0}",
+    "{value0}の表情プレビュー",
+    "{value0} 표정 미리보기",
+    "{value0}表情预览"
+  ],
+  "{value0} {value1}": [
+    "{value0} {value1}",
+    "{value1}を{value0}",
+    "{value1} {value0}",
+    "{value0}{value1}"
+  ],
+  "{value0} companion": [
+    "Người bạn {value0}",
+    "パートナーの{value0}",
+    "동반자 {value0}",
+    "伙伴 {value0}"
+  ],
+  "{count} packs": [
+    "{count} gói",
+    "{count}パック",
+    "팩 {count}개",
+    "{count} 个知识包"
+  ],
+  "search products and features": [
+    "Tìm sản phẩm và tính năng",
+    "製品と機能を検索",
+    "제품 및 기능 검색",
+    "搜索产品与功能"
+  ],
+  "search products, technology, personality...": [
+    "Tìm sản phẩm, công nghệ, tính cách…",
+    "製品、技術、個性を検索…",
+    "제품, 기술, 성격 검색…",
+    "搜索产品、技术、个性…"
+  ],
+  "results": [
+    "Kết quả",
+    "検索結果",
+    "검색 결과",
+    "结果"
+  ],
+  "no matches. try “robo”, “voice” or “personality”.": [
+    "Không có kết quả. Thử “Robo”, “giọng nói” hoặc “tính cách”.",
+    "結果がありません。「Robo」「音声」「個性」でお試しください。",
+    "결과가 없습니다. “Robo”, “음성”, “성격”으로 검색해 보세요.",
+    "没有结果，请尝试“Robo”“语音”或“个性”。"
+  ],
+  "your intelligent companion — $499": [
+    "Người bạn thông minh — $499",
+    "賢いパートナー — $499",
+    "똑똑한 동반자 — $499",
+    "您的智能伙伴 — $499"
+  ],
+  "ai core, voice array, vision sensor and motion": [
+    "Lõi AI, micrô, cảm biến hình ảnh và chuyển động",
+    "AIコア、音声アレイ、視覚センサー、動作",
+    "AI 코어, 음성 배열, 비전 센서 및 동작",
+    "AI 核心、语音阵列、视觉传感器及运动"
+  ],
+  "design & features": [
+    "Thiết kế & tính năng",
+    "デザインと機能",
+    "디자인 및 기능",
+    "设计与功能"
+  ],
+  "vision, voice, personality and battery": [
+    "Thị giác, giọng nói, tính cách và pin",
+    "視覚、音声、個性、バッテリー",
+    "비전, 음성, 성격, 배터리",
+    "视觉、语音、个性及电池"
+  ],
+  "normal, happy, curious and sleepy": [
+    "Bình thường, vui vẻ, tò mò và buồn ngủ",
+    "通常、うれしい、好奇心、眠い",
+    "기본, 행복, 호기심, 졸림",
+    "正常、开心、好奇、困倦"
+  ],
+  "robo ai explores a more personal relationship with technology: a small, expressive companion designed around everyday connection.": [
+    "Robo AI hướng đến sự gắn kết gần gũi với công nghệ: người bạn nhỏ, giàu biểu cảm cho cuộc sống hằng ngày.",
+    "Robo AIは技術との身近な関係を探ります。毎日のつながりのための、小さく表情豊かなパートナーです。",
+    "Robo AI는 기술과 더 가까운 관계를 탐구합니다. 일상의 교감을 위한 작고 표정이 풍부한 친구입니다.",
+    "Robo AI 探索人与技术更贴近的关系：为日常连接设计的小巧、富有表情的伙伴。"
+  ],
+  "explore how voice, memory, personality and knowledge come together in the core ai and technology sections. more research stories will be shared here in the future.": [
+    "Khám phá sự kết hợp giữa giọng nói, bộ nhớ, tính cách và kiến thức tại Core AI và Công nghệ. Những câu chuyện nghiên cứu mới sẽ được chia sẻ sau.",
+    "Core AIとテクノロジーで、音声・メモリー・個性・知識の連携をご覧ください。研究の紹介は今後追加します。",
+    "Core AI와 기술 섹션에서 음성, 기억, 성격, 지식의 결합을 알아보세요. 더 많은 연구 이야기는 추후 공유됩니다.",
+    "在 Core AI 和技术部分了解语音、记忆、个性与知识的结合。更多研究故事将在后续分享。"
+  ],
+  "use features to discover robo's ai, technology to explore its components, and models to compare basic, plus and custom. watch film replays the introduction.": [
+    "Xem Tính năng để khám phá AI, Công nghệ để tìm hiểu cấu tạo, Các phiên bản để so sánh Basic, Plus và Custom. Xem phim để phát lại phần giới thiệu.",
+    "機能でAIを、テクノロジーで構造を、モデルでBasic・Plus・Customを比較できます。「映像を見る」で紹介を再生します。",
+    "기능에서 AI를, 기술에서 부품을 살펴보고 모델에서 Basic, Plus, Custom을 비교하세요. 영상 보기로 소개를 다시 재생합니다.",
+    "通过功能了解 AI，通过技术探索部件，通过型号比较 Basic、Plus、Custom。点击观看影片可重播介绍。"
+  ],
+  "pricing and availability have not been announced. basic, plus and custom are previews; their product detail pages are planned for a later phase. knowledge packs introduce how robo can adapt to different purposes.": [
+    "Giá và thời điểm bán chưa công bố. Basic, Plus và Custom đang ở giai đoạn xem trước; các trang chi tiết được triển khai theo từng giai đoạn. Gói kiến thức giới thiệu cách Robo thích ứng với nhiều mục đích.",
+    "価格と販売時期は未発表です。Basic・Plus・Customはプレビューで、詳細ページは段階的に公開予定です。知識パックは用途に合わせる方法を紹介します。",
+    "가격과 판매 일정은 미정입니다. Basic, Plus, Custom은 미리보기이며 상세 페이지는 단계적으로 제공됩니다. 지식 팩은 다양한 용도에 맞추는 방법을 소개합니다.",
+    "价格和上市时间尚未公布。Basic、Plus、Custom 处于预览阶段，详情页分阶段提供。知识包展示 Robo 如何适应不同用途。"
+  ],
+  "contact details will be published when the store launches. no messages are collected by this demo.": [
+    "Thông tin liên hệ sẽ công bố khi cửa hàng ra mắt. Demo không thu thập tin nhắn.",
+    "連絡先はストア公開時に発表します。このデモではメッセージを収集しません。",
+    "연락처는 스토어 출시 시 공개됩니다. 이 데모는 메시지를 수집하지 않습니다.",
+    "商店上线时将公布联系方式，本演示不收集消息。"
+  ],
+  "this website stores your cart and demo orders in this browser. demo orders include the contact and shipping details you submit. the memory section describes a product concept; this website does not record conversations. no real order or payment is sent.": [
+    "Website lưu giỏ hàng và đơn demo trong trình duyệt, gồm thông tin liên hệ và giao hàng bạn nhập. Phần Bộ nhớ mô tả ý tưởng sản phẩm; website không ghi hội thoại và không gửi đơn hay thanh toán thật.",
+    "カートとデモ注文は、入力した連絡先・配送先を含めブラウザー内に保存されます。メモリー欄は製品コンセプトで、会話は記録しません。実際の注文や決済は送信されません。",
+    "장바구니와 데모 주문은 입력한 연락처, 배송 정보와 함께 브라우저에 저장됩니다. 기억 섹션은 제품 콘셉트이며 대화는 기록하지 않습니다. 실제 주문이나 결제는 전송하지 않습니다.",
+    "网站在浏览器中保存购物车和演示订单，包括您提交的联系和配送信息。记忆部分仅描述产品概念，网站不记录对话，也不发送真实订单或付款。"
+  ],
+  "this website introduces the robo ai concept and model previews. pricing, availability and final specifications have not been announced. no purchase contract is created and no payment is collected.": [
+    "Website giới thiệu ý tưởng Robo AI và các phiên bản xem trước. Giá, thời điểm bán và thông số cuối cùng chưa công bố. Không tạo hợp đồng mua bán hay thu tiền.",
+    "Robo AIのコンセプトとモデルのプレビューです。価格・販売時期・最終仕様は未発表です。売買契約の成立や決済は行いません。",
+    "Robo AI 콘셉트와 모델 미리보기를 소개합니다. 가격, 판매 일정, 최종 사양은 미정입니다. 구매 계약이나 결제는 이루어지지 않습니다.",
+    "此网站介绍 Robo AI 概念及型号预览。价格、上市时间和最终规格尚未公布，不会形成购买合同或收款。"
+  ],
+  "the official robo ai {channel} channel has not been connected to this demo yet.": [
+    "Kênh {channel} chính thức của Robo AI chưa được kết nối với demo.",
+    "Robo AIの公式{channel}はこのデモにまだ接続されていません。",
+    "Robo AI 공식 {channel} 채널은 아직 이 데모에 연결되지 않았습니다.",
+    "Robo AI 官方{channel}渠道尚未连接至本演示。"
+  ],
+  "website language": [
+    "Ngôn ngữ trang web",
+    "サイトの言語",
+    "웹사이트 언어",
+    "网站语言"
+  ],
+  "ready to meet<br>your <accent>new companion?</accent>": [
+    "SẴN SÀNG GẶP<br><accent>NGƯỜI BẠN MỚI?</accent>",
+    "新しい<accent>パートナー</accent>に<br>出会いませんか？",
+    "새로운 <accent>동반자</accent>를<br>만날 준비가 되셨나요?",
+    "准备好认识<br><accent>您的新伙伴了吗？</accent>"
+  ],
+  "intelligence<br>that feels <accent>personal.</accent>": [
+    "TRÍ THÔNG MINH<br>THẬT <accent>GẦN GŨI.</accent>",
+    "あなたに寄り添う<br><accent>インテリジェンス。</accent>",
+    "나에게 가까운<br><accent>지능.</accent>",
+    "贴近您的<br><accent>智能。</accent>"
+  ],
+  "what should<br><accent>robo know?</accent>": [
+    "BẠN MUỐN<br><accent>ROBO BIẾT GÌ?</accent>",
+    "Roboに<br><accent>何を知ってほしい？</accent>",
+    "Robo가<br><accent>무엇을 알면 좋을까요?</accent>",
+    "希望<br><accent>Robo 了解什么？</accent>"
+  ],
+  "ready to make<br>robo yours?": [
+    "SẴN SÀNG ĐÓN<br>ROBO VỀ BÊN BẠN?",
+    "Roboを<br>迎える準備はできましたか？",
+    "나만의 Robo를<br>만날 준비가 되셨나요?",
+    "准备好迎接<br>您的 Robo 了吗？"
+  ],
+  "it doesn't<br>just talk.<br><accent>it reacts.</accent>": [
+    "KHÔNG CHỈ<br>TRÒ CHUYỆN.<br><accent>ROBO CÒN PHẢN ỨNG.</accent>",
+    "ただ話すだけじゃない。<br><accent>気持ちに応える。</accent>",
+    "말하는 것에서 더 나아가<br><accent>함께 반응합니다.</accent>",
+    "不只是说话。<br><accent>还会回应。</accent>"
+  ],
+  "more than<br><accent>a machine.</accent>": [
+    "HƠN CẢ<br><accent>MỘT CỖ MÁY.</accent>",
+    "ただの<accent>機械</accent>を<br>超えた存在。",
+    "단순한 <accent>기계</accent>를<br>넘어서.",
+    "不止于<br><accent>机器。</accent>"
+  ],
+  "a little more<br><accent>you.</accent>": [
+    "THÊM DẤU ẤN<br><accent>CỦA BẠN.</accent>",
+    "もっと<br><accent>あなたらしく。</accent>",
+    "조금 더<br><accent>나답게.</accent>",
+    "多一点<br><accent>您的风格。</accent>"
+  ],
+  "ai that<br><accent>lives with you.</accent>": [
+    "AI<br><accent>ĐỒNG HÀNH CÙNG BẠN.</accent>",
+    "あなたと<br><accent>暮らすAI。</accent>",
+    "당신과<br><accent>함께 사는 AI.</accent>",
+    "与您<br><accent>一起生活的 AI。</accent>"
+  ],
+  "no robos<br><accent>connected yet.</accent>": [
+    "CHƯA CÓ ROBO<br><accent>ĐƯỢC KẾT NỐI.</accent>",
+    "Roboはまだ<br><accent>接続されていません。</accent>",
+    "아직 연결된<br><accent>Robo가 없습니다.</accent>",
+    "尚未连接<br><accent>任何 Robo。</accent>"
+  ],
+  "please enter your email.": [
+    "Vui lòng nhập email.",
+    "メールアドレスを入力してください。",
+    "이메일을 입력하세요.",
+    "请输入电子邮箱。"
+  ],
+  "please enter your phone number.": [
+    "Vui lòng nhập số điện thoại.",
+    "電話番号を入力してください。",
+    "전화번호를 입력하세요.",
+    "请输入电话号码。"
+  ],
+  "real-time voice": [
+    "Giọng nói thời gian thực",
+    "リアルタイム音声",
+    "실시간 음성",
+    "实时语音"
+  ],
+  "realtime voice ai": [
+    "AI giọng nói thời gian thực",
+    "リアルタイム音声AI",
+    "실시간 음성 AI",
+    "实时语音 AI"
+  ],
+  "talk.": [
+    "Trò chuyện.",
+    "話しかける。",
+    "말해 보세요.",
+    "开口交流。"
+  ],
+  "robo listens.": [
+    "Robo lắng nghe.",
+    "Roboが聞く。",
+    "Robo가 듣습니다.",
+    "Robo 倾听。"
+  ],
+  "robo responds.": [
+    "Robo trả lời.",
+    "Roboが応える。",
+    "Robo가 답합니다.",
+    "Robo 回应。"
+  ],
+  "a conversation that feels like a connection.": [
+    "Cuộc trò chuyện tạo nên sự gắn kết.",
+    "つながりを感じる会話。",
+    "교감이 느껴지는 대화.",
+    "让对话成为连接。"
+  ],
+  "a personality of its own.": [
+    "Một tính cách riêng.",
+    "自分だけの個性。",
+    "자신만의 개성.",
+    "独具个性。"
+  ],
+  "friendly. focused.": [
+    "Thân thiện. Tập trung.",
+    "親しみやすく、集中できる。",
+    "친근하게. 집중하며.",
+    "友善，专注。"
+  ],
+  "curious. custom.": [
+    "Tò mò. Tùy chỉnh.",
+    "好奇心豊かに、自分らしく。",
+    "호기심 가득. 나에게 맞게.",
+    "好奇，随心定制。"
+  ],
+  "the same robo. a character that feels like yours.": [
+    "Vẫn là Robo ấy. Tính cách hợp với bạn.",
+    "同じRoboに、あなたに合った個性を。",
+    "같은 Robo, 나에게 맞는 성격.",
+    "同一个 Robo，拥有贴合您的个性。"
+  ],
+  "it remembers you.": [
+    "Ghi nhớ về bạn.",
+    "あなたを覚えている。",
+    "당신을 기억합니다.",
+    "记得您。"
+  ],
+  "your name.": [
+    "Tên của bạn.",
+    "あなたの名前。",
+    "당신의 이름.",
+    "您的名字。"
+  ],
+  "your preferences.": [
+    "Sở thích của bạn.",
+    "あなたの好み。",
+    "당신의 취향.",
+    "您的偏好。"
+  ],
+  "the way you like to interact.": [
+    "Cách bạn thích tương tác.",
+    "あなたの好きな接し方。",
+    "당신이 좋아하는 소통 방식.",
+    "您喜欢的互动方式。"
+  ],
+  "only what you allow it to remember.": [
+    "Chỉ ghi nhớ những gì bạn cho phép.",
+    "覚えるのは、あなたが許可したことだけ。",
+    "허용한 내용만 기억합니다.",
+    "只记住您允许的内容。"
+  ],
+  "voice, personality and memory": [
+    "Giọng nói, tính cách và bộ nhớ",
+    "音声、個性、メモリー",
+    "음성, 성격, 기억",
+    "语音、个性与记忆"
+  ],
+  "a connection, not a command": [
+    "Gắn kết qua từng cuộc trò chuyện",
+    "指示を超えたつながり",
+    "명령을 넘어 교감으로",
+    "超越指令的连接"
+  ],
+  "voice. character. continuity.": [
+    "Giọng nói. Tính cách. Gắn bó.",
+    "声。個性。つながり。",
+    "목소리. 개성. 이어지는 관계.",
+    "声音、个性、持续陪伴。"
+  ],
+  "here to listen": [
+    "Luôn sẵn sàng lắng nghe",
+    "あなたの声を聞くために",
+    "당신의 이야기를 듣습니다",
+    "为倾听而来"
+  ],
+  "uniquely yours": [
+    "Mang dấu ấn của bạn",
+    "あなただけの存在",
+    "오직 나만의 존재",
+    "专属于您"
+  ],
+  "familiar, by choice": [
+    "Thân quen theo cách bạn chọn",
+    "あなたの選択で深まる親しさ",
+    "내 선택으로 가까워지는",
+    "由您选择的熟悉感"
+  ],
+  "ai story chapters": [
+    "Các chương câu chuyện AI",
+    "AIストーリーの章",
+    "AI 이야기 장",
+    "AI 故事章节"
+  ],
+  "robo ready to become your new companion": [
+    "Robo sẵn sàng trở thành người bạn mới",
+    "新しいパートナーになる準備ができたRobo",
+    "새로운 친구가 될 준비를 마친 Robo",
+    "准备成为您新伙伴的 Robo"
+  ],
+  "the future feels personal.": [
+    "Tương lai gần gũi với bạn.",
+    "未来が、身近になる。",
+    "미래가 더 가까워집니다.",
+    "未来，更贴近您。"
+  ],
+  "ready to meet": [
+    "Sẵn sàng gặp",
+    "出会う準備はできましたか",
+    "만날 준비가 되셨나요",
+    "准备好认识"
+  ],
+  "your": [
+    "Của bạn",
+    "あなたの",
+    "나의",
+    "您的"
+  ],
+  "new": [
+    "Mới",
+    "新しい",
+    "새로운",
+    "新"
+  ],
+  "companion?": [
+    "Người bạn đồng hành?",
+    "パートナー？",
+    "동반자?",
+    "伙伴了吗？"
+  ],
+  "a smarter, more personal way": [
+    "Một cách thông minh và gần gũi hơn",
+    "もっと賢く、もっと自分らしい",
+    "더 스마트하고 나다운 방식으로",
+    "更智能、更贴心地"
+  ],
+  "to interact with ai.": [
+    "để tương tác với AI.",
+    "AIとの関わり方。",
+    "AI와 소통하세요.",
+    "与 AI 互动。"
+  ],
+  "built with intelligence. designed for connection.": [
+    "Thông minh từ bên trong. Thiết kế để gắn kết.",
+    "知性を備え、つながりのために設計。",
+    "지능을 담아, 교감을 위해 설계했습니다.",
+    "以智能打造，为连接而设计。"
+  ],
+  "listening": [
+    "Lắng nghe",
+    "聞いている",
+    "듣는 중",
+    "倾听"
+  ],
+  "thinking": [
+    "Suy nghĩ",
+    "考えている",
+    "생각 중",
+    "思考"
+  ],
+  "speaking": [
+    "Đang nói",
+    "話している",
+    "말하는 중",
+    "说话"
+  ],
+  "a face that lets you know you have its attention.": [
+    "Khuôn mặt cho bạn biết Robo đang chú ý.",
+    "あなたに集中していると伝わる表情。",
+    "당신에게 집중하고 있음을 보여주는 표정.",
+    "让您感受到关注的表情。"
+  ],
+  "a little curiosity you can see.": [
+    "Một chút tò mò hiện rõ trên nét mặt.",
+    "目に見える小さな好奇心。",
+    "눈에 보이는 작은 호기심.",
+    "看得见的小小好奇心。"
+  ],
+  "expression that brings a conversation to life.": [
+    "Biểu cảm khiến cuộc trò chuyện sống động.",
+    "会話に命を吹き込む表情。",
+    "대화에 생기를 더하는 표정.",
+    "让对话生动起来的表情。"
+  ],
+  "a small reaction. a shared moment.": [
+    "Một phản ứng nhỏ. Một khoảnh khắc chung.",
+    "小さな反応。分かち合う瞬間。",
+    "작은 반응, 함께하는 순간.",
+    "小小回应，共享时刻。"
+  ],
+  "robo with a happy expressive face and its hand raised in greeting": [
+    "Robo vui vẻ giơ tay chào",
+    "うれしそうに手を上げて挨拶するRobo",
+    "밝은 표정으로 손을 들어 인사하는 Robo",
+    "带着开心表情挥手问好的 Robo"
+  ],
+  "a face. a voice. a physical presence.": [
+    "Một khuôn mặt. Một giọng nói. Một sự hiện diện.",
+    "顔。声。そして、そこにいる存在。",
+    "얼굴. 목소리. 곁에 있는 존재.",
+    "有表情，有声音，有真实陪伴。"
+  ],
+  "expression you can feel": [
+    "Biểu cảm bạn có thể cảm nhận",
+    "感じられる表情",
+    "느낄 수 있는 표정",
+    "感受得到的表情"
+  ],
+  "it doesn't": [
+    "Không chỉ",
+    "ただ",
+    "단순히",
+    "不只是"
+  ],
+  "just talk.": [
+    "Trò chuyện.",
+    "話すだけではない。",
+    "말하는 것이 아닙니다.",
+    "说话。"
+  ],
+  "it reacts.": [
+    "Robo còn phản ứng.",
+    "反応する。",
+    "반응합니다.",
+    "还会回应。"
+  ],
+  "from a thoughtful look to a friendly wave.": [
+    "Từ ánh nhìn suy tư đến cái vẫy tay thân thiện.",
+    "考え込む表情から、親しみのある手振りまで。",
+    "생각에 잠긴 표정부터 다정한 손인사까지.",
+    "从思考的神情，到友善的挥手。"
+  ],
+  "a little personality, made physical.": [
+    "Một chút cá tính, thể hiện qua chuyển động.",
+    "個性を、動きに。",
+    "움직임으로 표현하는 작은 개성.",
+    "让个性化为动作。"
+  ],
+  "wave.": [
+    "Vẫy tay.",
+    "手を振る。",
+    "손을 흔들어요.",
+    "挥手。"
+  ],
+  "nod.": [
+    "Gật đầu.",
+    "うなずく。",
+    "고개를 끄덕여요.",
+    "点头。"
+  ],
+  "turn.": [
+    "Quay người.",
+    "振り向く。",
+    "몸을 돌려요.",
+    "转身。"
+  ],
+  "explore robo plus ↗": [
+    "Khám phá Robo Plus ↗",
+    "Robo Plusを見る ↗",
+    "Robo Plus 알아보기 ↗",
+    "探索 Robo Plus ↗"
+  ],
+  "a little intelligence.": [
+    "Một chút thông minh.",
+    "小さな知性。",
+    "작은 지능.",
+    "小小智能。"
+  ],
+  "a lot of personality.": [
+    "Thật nhiều cá tính.",
+    "たくさんの個性。",
+    "가득한 개성.",
+    "满满个性。"
+  ],
+  "© 2026 robo ai. all rights reserved.": [
+    "© 2026 ROBO AI. Bảo lưu mọi quyền.",
+    "© 2026 ROBO AI. 無断転載を禁じます。",
+    "© 2026 ROBO AI. 모든 권리 보유.",
+    "© 2026 ROBO AI. 保留所有权利。"
+  ],
+  "back to top ↑": [
+    "Về đầu trang ↑",
+    "ページ上部へ ↑",
+    "맨 위로 ↑",
+    "返回顶部 ↑"
+  ],
+  "orange and white robo waving hello on a desk at sunset": [
+    "Robo cam trắng vẫy chào trên bàn lúc hoàng hôn",
+    "夕暮れの机で手を振るオレンジと白のRobo",
+    "노을 속 책상 위에서 인사하는 주황색과 흰색 Robo",
+    "夕阳下在桌上挥手问好的橙白色 Robo"
+  ],
+  "ai companion robot": [
+    "Robot AI đồng hành",
+    "AIコンパニオンロボット",
+    "AI 동반자 로봇",
+    "AI 陪伴机器人"
+  ],
+  "small robot.": [
+    "Robot nhỏ.",
+    "小さなロボット。",
+    "작은 로봇.",
+    "小小机器人。"
+  ],
+  "big": [
+    "Thật nhiều",
+    "大きな",
+    "커다란",
+    "大大的"
+  ],
+  "personality.": [
+    "Cá tính.",
+    "個性。",
+    "개성.",
+    "个性。"
+  ],
+  "more than a robot.": [
+    "Hơn cả một robot.",
+    "ロボット以上の存在。",
+    "로봇 그 이상의 존재.",
+    "不止于机器人。"
+  ],
+  "an intelligent companion designed to listen,": [
+    "Người bạn thông minh biết lắng nghe,",
+    "聞くために生まれた賢いパートナー。",
+    "듣고 이해하는 똑똑한 친구,",
+    "为倾听而设计的智能伙伴，"
+  ],
+  "remember, respond and grow with you.": [
+    "ghi nhớ, phản hồi và trưởng thành cùng bạn.",
+    "覚えて、応えて、一緒に成長する。",
+    "기억하고 답하며 함께 성장합니다.",
+    "与您一起记忆、回应、成长。"
+  ],
+  "scroll to discover": [
+    "Cuộn để khám phá",
+    "スクロールして見る",
+    "스크롤하여 알아보기",
+    "滚动探索"
+  ],
+  "thoughtfully engineered.": [
+    "Thiết kế kỹ lưỡng.",
+    "細部まで考え抜かれた設計。",
+    "세심하게 설계했습니다.",
+    "精心设计。"
+  ],
+  "personally yours.": [
+    "Dành riêng cho bạn.",
+    "あなたらしい存在。",
+    "오직 나를 위해.",
+    "专属于您。"
+  ],
+  "meet robo film": [
+    "Phim giới thiệu Robo",
+    "Roboの紹介映像",
+    "Robo 소개 영상",
+    "Robo 介绍影片"
+  ],
+  "a little more human.": [
+    "Thêm một chút gần gũi.",
+    "少し、人に近づく。",
+    "조금 더 사람처럼.",
+    "多一分人情味。"
+  ],
+  "loading the film...": [
+    "Đang tải phim…",
+    "映像を読み込み中…",
+    "영상을 불러오는 중…",
+    "正在加载影片…"
+  ],
+  "the film couldn't load. continue to meet robo.": [
+    "Không tải được phim. Tiếp tục khám phá Robo.",
+    "映像を読み込めません。Roboの紹介へ進んでください。",
+    "영상을 불러오지 못했습니다. 계속해서 Robo를 만나보세요.",
+    "影片无法加载，请继续认识 Robo。"
+  ],
+  "a little help with everyday questions.": [
+    "Trợ giúp những câu hỏi hằng ngày.",
+    "日々の疑問に、ちょっとした助けを。",
+    "일상의 궁금증에 작은 도움을.",
+    "为日常问题提供帮助。"
+  ],
+  "make room for curiosity and discovery.": [
+    "Mở lối cho tò mò và khám phá.",
+    "好奇心と発見のための場所。",
+    "호기심과 발견을 위한 공간.",
+    "为好奇与发现留出空间。"
+  ],
+  "a companion for everyday conversation.": [
+    "Người bạn trò chuyện mỗi ngày.",
+    "毎日の会話のパートナー。",
+    "매일 대화하는 친구.",
+    "日常交流的伙伴。"
+  ],
+  "a world of stories and questions.": [
+    "Thế giới của câu chuyện và câu hỏi.",
+    "物語と疑問が広がる世界。",
+    "이야기와 질문이 가득한 세상.",
+    "充满故事与问题的世界。"
+  ],
+  "bring places and their stories closer.": [
+    "Đưa địa điểm và câu chuyện đến gần hơn.",
+    "場所とその物語を、もっと身近に。",
+    "장소와 그 이야기를 더 가까이.",
+    "拉近与地点及其故事的距离。"
+  ],
+  "knowledge shaped around your work.": [
+    "Kiến thức phù hợp công việc của bạn.",
+    "あなたの仕事に合った知識。",
+    "업무에 맞춘 지식.",
+    "贴合工作需求的知识。"
+  ],
+  "start with what matters to you.": [
+    "Bắt đầu từ điều bạn quan tâm.",
+    "あなたが大切にすることから。",
+    "내게 중요한 것부터 시작하세요.",
+    "从您关心的事开始。"
+  ],
+  "a world of knowledge. your world.": [
+    "Thế giới kiến thức. Thế giới của bạn.",
+    "知識の世界。あなたの世界。",
+    "지식의 세계, 나만의 세계.",
+    "知识的世界，您的世界。"
+  ],
+  "what should": [
+    "Bạn muốn",
+    "何を",
+    "무엇을",
+    "希望"
+  ],
+  "robo know?": [
+    "Robo biết gì?",
+    "Roboに知ってほしいですか？",
+    "Robo가 알면 좋을까요?",
+    "Robo 了解什么？"
+  ],
+  "knowledge packs let robo adapt to different people, places and purposes.": [
+    "Gói kiến thức giúp Robo thích ứng với nhiều người, địa điểm và mục đích.",
+    "知識パックで、Roboをさまざまな人・場所・目的に合わせられます。",
+    "지식 팩으로 Robo를 다양한 사람, 장소, 목적에 맞출 수 있습니다.",
+    "知识包让 Robo 适应不同人群、场所和用途。"
+  ],
+  "first knowledge pack": [
+    "Gói kiến thức đầu tiên",
+    "最初の知識パック",
+    "첫 번째 지식 팩",
+    "首个知识包"
+  ],
+  "knowledge pack": [
+    "Gói kiến thức",
+    "知識パック",
+    "지식 팩",
+    "知识包"
+  ],
+  "a place for cultural knowledge.": [
+    "Nơi lưu giữ tri thức văn hóa.",
+    "文化の知識に触れる場所。",
+    "문화 지식을 담는 공간.",
+    "文化知识的空间。"
+  ],
+  "a new way to explore its stories.": [
+    "Cách mới để khám phá những câu chuyện.",
+    "物語を知る、新しい方法。",
+    "이야기를 탐색하는 새로운 방법.",
+    "探索故事的新方式。"
+  ],
+  "knowledge, with character.": [
+    "Kiến thức mang cá tính.",
+    "個性のある知識。",
+    "개성이 담긴 지식.",
+    "富有个性的知识。"
+  ],
+  "one companion. different possibilities.": [
+    "Một người bạn. Nhiều khả năng.",
+    "ひとつのパートナー。広がる可能性。",
+    "하나의 친구, 다양한 가능성.",
+    "一个伙伴，多种可能。"
+  ],
+  "a preview of the knowledge pack concept.": [
+    "Xem trước ý tưởng gói kiến thức.",
+    "知識パックのコンセプトプレビュー。",
+    "지식 팩 콘셉트 미리보기.",
+    "知识包概念预览。"
+  ],
+  "explore knowledge": [
+    "Khám phá kiến thức",
+    "知識を探る",
+    "지식 탐색",
+    "探索知识"
+  ],
+  "find the robo that fits your world": [
+    "Tìm Robo phù hợp với thế giới của bạn",
+    "あなたの世界に合うRoboを",
+    "내 세상에 맞는 Robo 찾기",
+    "寻找适合您世界的 Robo"
+  ],
+  "for everyday ai companionship.": [
+    "Đồng hành cùng AI mỗi ngày.",
+    "毎日のAIパートナーに。",
+    "매일 함께하는 AI 친구.",
+    "日常 AI 陪伴。"
+  ],
+  "your everyday companion": [
+    "Người bạn đồng hành hằng ngày",
+    "毎日のパートナー",
+    "일상의 동반자",
+    "您的日常伙伴"
+  ],
+  "more movement. more interaction.": [
+    "Nhiều chuyển động. Nhiều tương tác.",
+    "もっと動いて、もっと触れ合う。",
+    "더 많은 움직임, 더 많은 교감.",
+    "更多动作，更多互动。"
+  ],
+  "a little more expression": [
+    "Thêm một chút biểu cảm",
+    "もう少し豊かな表現を",
+    "조금 더 풍부한 표현",
+    "多一分表达"
+  ],
+  "made for your idea.": [
+    "Được tạo cho ý tưởng của bạn.",
+    "あなたのアイデアのために。",
+    "나의 아이디어를 위해.",
+    "为您的创意而生。"
+  ],
+  "your idea. your robo.": [
+    "Ý tưởng của bạn. Robo của bạn.",
+    "あなたのアイデア。あなたのRobo。",
+    "나의 아이디어, 나의 Robo.",
+    "您的创意，您的 Robo。"
+  ],
+  "three ways to make it yours": [
+    "Ba cách để tạo dấu ấn riêng",
+    "自分らしくする3つの方法",
+    "나만의 Robo를 만드는 세 가지 방법",
+    "三种专属方式"
+  ],
+  "choose": [
+    "Lựa chọn",
+    "選ぼう",
+    "선택하세요",
+    "选择"
+  ],
+  "your robo.": [
+    "Robo của bạn.",
+    "あなたのRobo。",
+    "나의 Robo.",
+    "您的 Robo。"
+  ],
+  "different possibilities.": [
+    "Nhiều khả năng khác nhau.",
+    "さまざまな可能性。",
+    "다양한 가능성.",
+    "不同的可能性。"
+  ],
+  "the same personal connection.": [
+    "Vẫn một sự gắn kết gần gũi.",
+    "変わらない、あなただけのつながり。",
+    "변함없는 나만의 교감.",
+    "同样贴心的连接。"
+  ],
+  "the signature orange and white robo design": [
+    "Thiết kế Robo cam trắng đặc trưng",
+    "Roboを象徴するオレンジと白のデザイン",
+    "Robo 특유의 주황색과 흰색 디자인",
+    "Robo 标志性的橙白配色设计"
+  ],
+  "your voice.": [
+    "Giọng nói của bạn.",
+    "あなたの声。",
+    "나의 목소리.",
+    "您的声音。"
+  ],
+  "your world.": [
+    "Thế giới của bạn.",
+    "あなたの世界。",
+    "나의 세계.",
+    "您的世界。"
+  ],
+  "your companion.": [
+    "Người bạn của bạn.",
+    "あなたのパートナー。",
+    "나의 동반자.",
+    "您的伙伴。"
+  ],
+  "meet the robo family": [
+    "Gặp gỡ gia đình Robo",
+    "Roboファミリーに会う",
+    "Robo 가족 만나기",
+    "认识 Robo 家族"
+  ],
+  "ready for whatever comes next.": [
+    "Sẵn sàng cho điều tiếp theo.",
+    "次のことにも、準備万端。",
+    "다음 일을 위한 준비 완료.",
+    "为下一刻做好准备。"
+  ],
+  "a little more joy in every interaction.": [
+    "Thêm niềm vui trong mỗi tương tác.",
+    "やり取りのたびに、少しの喜びを。",
+    "매 순간의 교감에 작은 즐거움을.",
+    "每次互动，多一份快乐。"
+  ],
+  "always listening. always learning.": [
+    "Luôn lắng nghe. Luôn học hỏi.",
+    "いつも聞いて、いつも学ぶ。",
+    "언제나 듣고, 언제나 배웁니다.",
+    "始终倾听，不断学习。"
+  ],
+  "even robots need a moment to recharge.": [
+    "Robot cũng cần phút nghỉ ngơi.",
+    "ロボットにも、ひと休みが必要。",
+    "로봇도 잠깐의 충전이 필요해요.",
+    "机器人也需要片刻休息。"
+  ],
+  "more than": [
+    "Hơn cả",
+    "ただの",
+    "그 이상의",
+    "不止是"
+  ],
+  "a machine.": [
+    "Một cỗ máy.",
+    "機械じゃない。",
+    "기계.",
+    "机器。"
+  ],
+  "one robot.": [
+    "Một robot.",
+    "ひとつのロボット。",
+    "하나의 로봇.",
+    "一个机器人。"
+  ],
+  "many moods.": [
+    "Nhiều cảm xúc.",
+    "たくさんの表情。",
+    "다양한 기분.",
+    "多种心情。"
+  ],
+  "a little more": [
+    "Thêm một chút",
+    "もう少し",
+    "조금 더",
+    "多一分"
+  ],
+  "human.": [
+    "Gần gũi.",
+    "人らしく。",
+    "사람처럼.",
+    "人情味。"
+  ],
+  "choose robo's mood": [
+    "Chọn tâm trạng Robo",
+    "Roboの気分を選ぶ",
+    "Robo의 기분 선택",
+    "选择 Robo 的心情"
+  ],
+  "meet robo.": [
+    "Gặp gỡ Robo.",
+    "Roboに会おう。",
+    "Robo를 만나보세요.",
+    "认识 Robo。"
+  ],
+  "a compact ai companion designed for everyday life.": [
+    "Người bạn AI nhỏ gọn cho cuộc sống hằng ngày.",
+    "日常のためのコンパクトなAIパートナー。",
+    "일상을 위해 설계된 작은 AI 친구.",
+    "为日常生活设计的小巧 AI 伙伴。"
+  ],
+  "built to think.": [
+    "Được tạo để suy nghĩ.",
+    "考えるために生まれた。",
+    "생각하도록 설계되었습니다.",
+    "为思考而生。"
+  ],
+  "realtime intelligence designed to understand and respond.": [
+    "Trí tuệ thời gian thực để thấu hiểu và phản hồi.",
+    "理解し応える、リアルタイムの知性。",
+    "이해하고 반응하는 실시간 지능.",
+    "为理解与回应而设计的实时智能。"
+  ],
+  "built to listen.": [
+    "Được tạo để lắng nghe.",
+    "聞くために生まれた。",
+    "듣도록 설계되었습니다.",
+    "为倾听而生。"
+  ],
+  "voice interaction designed to feel natural.": [
+    "Tương tác giọng nói thật tự nhiên.",
+    "自然に感じる音声対話。",
+    "자연스러운 음성 상호작용.",
+    "自然的语音互动。"
+  ],
+  "intelligence at its core.": [
+    "Thông minh từ cốt lõi.",
+    "中心にあるのは、知性。",
+    "핵심에 담긴 지능.",
+    "智能融于核心。"
+  ],
+  "voice, memory, personality and knowledge working together.": [
+    "Giọng nói, bộ nhớ, tính cách và kiến thức cùng phối hợp.",
+    "音声・メモリー・個性・知識がひとつに。",
+    "음성, 기억, 성격, 지식이 함께 작동합니다.",
+    "语音、记忆、个性与知识协同工作。"
+  ],
+  "made to be with you.": [
+    "Được tạo để bên bạn.",
+    "あなたといるために。",
+    "당신과 함께하기 위해.",
+    "为陪伴您而生。"
+  ],
+  "technology becomes meaningful when it becomes personal.": [
+    "Công nghệ có ý nghĩa khi trở nên gần gũi.",
+    "身近になることで、技術は意味を持つ。",
+    "기술은 나에게 가까워질 때 의미가 생깁니다.",
+    "贴近个人，科技才更有意义。"
+  ],
+  "meet robo: an interactive film": [
+    "Gặp gỡ Robo: phim tương tác",
+    "Roboに会う：インタラクティブ映像",
+    "Robo 만나기: 인터랙티브 영상",
+    "认识 Robo：互动影片"
+  ],
+  "robo transformation controlled by scrolling": [
+    "Chuyển cảnh Robo theo thao tác cuộn",
+    "スクロールで変化するRobo",
+    "스크롤로 제어하는 Robo 변환",
+    "通过滚动控制的 Robo 变换"
+  ],
+  "03 / meet your companion": [
+    "03 / Gặp người bạn đồng hành",
+    "03 / パートナーに会う",
+    "03 / 동반자 만나기",
+    "03 / 认识您的伙伴"
+  ],
+  "a little robot. a world of possibility.": [
+    "Một robot nhỏ. Cả thế giới khả năng.",
+    "小さなロボット。広がる可能性。",
+    "작은 로봇, 무한한 가능성.",
+    "小小机器人，无限可能。"
+  ],
+  "explore the technology below": [
+    "Khám phá công nghệ bên dưới",
+    "下のテクノロジーを見る",
+    "아래에서 기술 알아보기",
+    "探索下方技术"
+  ],
+  "loading experience...": [
+    "Đang tải trải nghiệm…",
+    "体験を読み込み中…",
+    "경험을 불러오는 중…",
+    "正在加载体验…"
+  ],
+  "scroll to bring robo to life": [
+    "Cuộn để Robo trở nên sống động",
+    "スクロールでRoboに命を",
+    "스크롤하여 Robo를 깨워보세요",
+    "滚动唤醒 Robo"
+  ],
+  "your intelligent companion": [
+    "Người bạn đồng hành thông minh",
+    "あなたの賢いパートナー",
+    "나의 똑똑한 동반자",
+    "您的智能伙伴"
+  ],
+  "coordinates voice, personality, memory and knowledge.": [
+    "Điều phối giọng nói, tính cách, bộ nhớ và kiến thức.",
+    "音声・個性・メモリー・知識を統合。",
+    "음성, 성격, 기억, 지식을 조율합니다.",
+    "协调语音、个性、记忆与知识。"
+  ],
+  "brings your voice into the conversation.": [
+    "Đưa giọng nói của bạn vào cuộc trò chuyện.",
+    "あなたの声を会話へ。",
+    "당신의 목소리를 대화로 이어줍니다.",
+    "让您的声音融入对话。"
+  ],
+  "gives robo a voice of its own.": [
+    "Mang đến giọng nói riêng cho Robo.",
+    "Robo自身の声を生み出す。",
+    "Robo만의 목소리를 만듭니다.",
+    "赋予 Robo 自己的声音。"
+  ],
+  "makes listening, thinking and emotion visible.": [
+    "Hiển thị sự lắng nghe, suy nghĩ và cảm xúc.",
+    "聞く・考える・感じるを見える形に。",
+    "듣기, 생각, 감정을 눈에 보이게 합니다.",
+    "让倾听、思考和情感可见。"
+  ],
+  "turns interaction into physical expression.": [
+    "Biến tương tác thành biểu đạt qua chuyển động.",
+    "やり取りを身体の表現に。",
+    "상호작용을 움직임으로 표현합니다.",
+    "将互动化为肢体表达。"
+  ],
+  "supports the components that bring robo to life.": [
+    "Cấp nguồn cho các bộ phận giúp Robo hoạt động.",
+    "Roboを動かす各部品を支える。",
+    "Robo를 움직이는 부품에 전원을 공급합니다.",
+    "为赋予 Robo 活力的部件提供支持。"
+  ],
+  "inside the robot": [
+    "Bên trong robot",
+    "ロボットの内部",
+    "로봇의 내부",
+    "机器人内部"
+  ],
+  "designed": [
+    "Được thiết kế",
+    "設計された",
+    "설계",
+    "精心设计"
+  ],
+  "from the inside out.": [
+    "Từ trong ra ngoài.",
+    "内側から外側まで。",
+    "안에서 밖까지.",
+    "由内而外。"
+  ],
+  "every component works together to give robo a voice, a face and a physical presence.": [
+    "Mọi bộ phận phối hợp để Robo có giọng nói, khuôn mặt và sự hiện diện thực tế.",
+    "すべての部品が連携し、Roboの声・顔・存在感を生み出します。",
+    "모든 부품이 함께 작동해 Robo의 목소리, 얼굴, 실재감을 만듭니다.",
+    "每个部件协同工作，赋予 Robo 声音、表情与真实存在感。"
+  ],
+  "exploded view of robo's screen, processor, orange body and motion components": [
+    "Hình tách lớp màn hình, bộ xử lý, thân cam và bộ phận chuyển động Robo",
+    "Roboの画面・プロセッサー・オレンジの本体・動作部品の分解図",
+    "Robo의 화면, 프로세서, 주황색 본체, 동작 부품 분해도",
+    "Robo 屏幕、处理器、橙色机身及运动部件的分解图"
+  ],
+  "precision in every detail. personality in every part.": [
+    "Chính xác từng chi tiết. Cá tính từng bộ phận.",
+    "細部に精度を。すべてに個性を。",
+    "모든 디테일에 정밀함을, 모든 부품에 개성을.",
+    "每个细节都精准，每个部件有个性。"
+  ],
+  "talk naturally in real time.": [
+    "Trò chuyện tự nhiên theo thời gian thực.",
+    "リアルタイムで自然に会話。",
+    "실시간으로 자연스럽게 대화하세요.",
+    "实时自然交流。"
+  ],
+  "choose how robo speaks and behaves.": [
+    "Chọn cách Robo trò chuyện và ứng xử.",
+    "Roboの話し方や振る舞いを選ぶ。",
+    "Robo의 말투와 행동을 선택하세요.",
+    "选择 Robo 的说话与行为方式。"
+  ],
+  "robo remembers the things you allow it to remember.": [
+    "Robo ghi nhớ những điều bạn cho phép.",
+    "Roboが覚えるのは、あなたが許可したことだけ。",
+    "Robo는 허용한 내용만 기억합니다.",
+    "Robo 只记住您允许的内容。"
+  ],
+  "give robo the knowledge that matters to you.": [
+    "Trang bị cho Robo kiến thức bạn quan tâm.",
+    "あなたに大切な知識をRoboに。",
+    "내게 중요한 지식을 Robo에게 주세요.",
+    "赋予 Robo 您关心的知识。"
+  ],
+  "why robo ai?": [
+    "Vì sao chọn Robo AI?",
+    "Robo AIを選ぶ理由",
+    "왜 Robo AI인가요?",
+    "为什么选择 Robo AI？"
+  ],
+  "intelligence": [
+    "Trí thông minh",
+    "知性",
+    "지능",
+    "智能"
+  ],
+  "that feels": [
+    "Thật",
+    "感じられる",
+    "가까이 느껴지는",
+    "感受"
+  ],
+  "personal.": [
+    "Gần gũi.",
+    "自分らしさ。",
+    "나만의.",
+    "专属陪伴。"
+  ],
+  "ai is more meaningful when it feels like a connection. meet a companion with a voice, a character and a place in your everyday life.": [
+    "AI ý nghĩa hơn khi tạo nên sự gắn kết. Gặp người bạn có giọng nói, tính cách và một vị trí trong cuộc sống hằng ngày.",
+    "つながりを感じると、AIはもっと意味のある存在に。声と個性を持ち、日常に寄り添うパートナーです。",
+    "교감을 느낄 때 AI는 더 의미 있어집니다. 목소리와 개성을 갖고 일상에 함께하는 친구를 만나보세요.",
+    "有了连接，AI 才更有意义。认识一个有声音、有个性、融入日常生活的伙伴。"
+  ],
+  "robo in a cinematic orange environment": [
+    "Robo trong không gian cam đậm chất điện ảnh",
+    "映画のようなオレンジの空間にいるRobo",
+    "영화 같은 주황색 공간의 Robo",
+    "电影感橙色空间中的 Robo"
+  ],
+  "the next chapter starts here.": [
+    "Chương tiếp theo bắt đầu từ đây.",
+    "次の章がここから始まる。",
+    "다음 장이 여기서 시작됩니다.",
+    "下一篇章从此开始。"
+  ],
+  "ready to make": [
+    "Sẵn sàng để",
+    "準備はできましたか",
+    "준비되셨나요",
+    "准备让"
+  ],
+  "robo yours?": [
+    "Robo thành của bạn?",
+    "Roboをあなたのものに？",
+    "나만의 Robo를 만들까요?",
+    "Robo 成为您的伙伴？"
+  ],
+  "inside robo": [
+    "Bên trong Robo",
+    "Roboの内部",
+    "Robo 내부",
+    "Robo 内部"
+  ],
+  "thoughtfully built.": [
+    "Chế tạo kỹ lưỡng.",
+    "考え抜かれた構造。",
+    "세심하게 만들었습니다.",
+    "精心打造。"
+  ],
+  "from the inside.": [
+    "Từ bên trong.",
+    "内側から。",
+    "내부부터.",
+    "由内而生。"
+  ],
+  "exploded view of robo's components": [
+    "Hình tách lớp các bộ phận Robo",
+    "Roboの部品の分解図",
+    "Robo 부품 분해도",
+    "Robo 部件分解图"
+  ],
+  "meet your future companion": [
+    "Gặp người bạn đồng hành tương lai",
+    "未来のパートナーに会う",
+    "미래의 동반자 만나기",
+    "认识未来的伙伴"
+  ],
+  "leave a little interest in what comes next.": [
+    "Đăng ký quan tâm đến bước phát triển tiếp theo.",
+    "これからの展開に関心をお寄せください。",
+    "앞으로의 소식에 관심을 남겨주세요.",
+    "登记您对后续进展的兴趣。"
+  ],
+  "frontend demo: this form does not send or save your information and does not join a real mailing list.": [
+    "Demo giao diện: biểu mẫu không gửi hay lưu thông tin và không đăng ký danh sách nhận tin thật.",
+    "デモ用フォームです。情報の送信・保存や実際のメール登録は行いません。",
+    "데모 양식입니다. 정보를 전송하거나 저장하지 않으며 실제 메일 목록에 등록되지 않습니다.",
+    "前端演示：此表单不会发送或保存信息，也不会加入真实邮件列表。"
+  ],
+  "submit interest ↗": [
+    "Gửi thông tin quan tâm ↗",
+    "関心を送信 ↗",
+    "관심 등록 ↗",
+    "提交意向 ↗"
+  ],
+  "robo on a desk beside a laptop and books": [
+    "Robo trên bàn cạnh máy tính và sách",
+    "ノートPCと本の隣の机にいるRobo",
+    "노트북과 책 옆 책상 위의 Robo",
+    "笔记本电脑和书籍旁桌上的 Robo"
+  ],
+  "a place in your everyday": [
+    "Một vị trí trong đời sống hằng ngày",
+    "日常の中の居場所",
+    "일상 속의 자리",
+    "融入您的日常"
+  ],
+  "ai that": [
+    "AI",
+    "あなたと",
+    "당신과",
+    "与您"
+  ],
+  "lives with you.": [
+    "Sống cùng bạn.",
+    "暮らすAI。",
+    "함께 사는 AI.",
+    "一起生活的 AI。"
+  ],
+  "work / learn / talk / create": [
+    "Làm việc / Học hỏi / Trò chuyện / Sáng tạo",
+    "働く / 学ぶ / 話す / 創る",
+    "일하기 / 배우기 / 대화하기 / 만들기",
+    "工作 / 学习 / 交流 / 创作"
+  ],
+  "find your companion": [
+    "Tìm người bạn đồng hành",
+    "パートナーを見つける",
+    "나의 동반자 찾기",
+    "寻找您的伙伴"
+  ],
+  ", at a glance.": [
+    ", nhìn tổng quan.",
+    "の概要。",
+    ", 한눈에 보기.",
+    "，一目了然。"
+  ],
+  "prototype preview. features and specifications may evolve.": [
+    "Bản xem trước nguyên mẫu. Tính năng và thông số có thể thay đổi.",
+    "試作版のプレビューです。機能や仕様は変更される場合があります。",
+    "프로토타입 미리보기입니다. 기능과 사양은 변경될 수 있습니다.",
+    "原型预览，功能和规格可能调整。"
+  ],
+  "swipe to compare models →": [
+    "Vuốt để so sánh phiên bản →",
+    "スワイプしてモデルを比較 →",
+    "밀어서 모델 비교 →",
+    "滑动比较型号 →"
+  ],
+  "compare robo models": [
+    "So sánh các phiên bản Robo",
+    "Roboモデルを比較",
+    "Robo 모델 비교",
+    "比较 Robo 型号"
+  ],
+  "planned features by robo model": [
+    "Tính năng dự kiến theo phiên bản Robo",
+    "Roboモデル別の予定機能",
+    "Robo 모델별 예정 기능",
+    "各 Robo 型号的计划功能"
+  ],
+  "find your fit": [
+    "Tìm phiên bản phù hợp",
+    "ぴったりのモデルを",
+    "나에게 맞는 모델",
+    "找到适合您的型号"
+  ],
+  "you're viewing this": [
+    "Bạn đang xem phiên bản này",
+    "表示中のモデル",
+    "현재 보고 있는 모델",
+    "当前查看的型号"
+  ],
+  "more than a voice.": [
+    "Hơn cả giọng nói.",
+    "声だけじゃない。",
+    "목소리 그 이상.",
+    "不止于声音。"
+  ],
+  "a little character.": [
+    "Một chút cá tính.",
+    "小さな個性。",
+    "작은 개성.",
+    "多一分个性。"
+  ],
+  "personality video": [
+    "video biểu cảm",
+    "個性の映像",
+    "성격 영상",
+    "个性视频"
+  ],
+  "robo expressions": [
+    "Biểu cảm Robo",
+    "Roboの表情",
+    "Robo 표정",
+    "Robo 表情"
+  ],
+  "expression brings every conversation to life.": [
+    "Biểu cảm làm mỗi cuộc trò chuyện sống động.",
+    "表情が、会話に命を吹き込む。",
+    "표정이 모든 대화에 생기를 더합니다.",
+    "表情让每次对话生动起来。"
+  ],
+  "watch expressions": [
+    "Xem biểu cảm",
+    "表情を見る",
+    "표정 보기",
+    "观看表情"
+  ],
+  "you.": [
+    "Bạn.",
+    "あなた。",
+    "당신.",
+    "您。"
+  ],
+  "you're always in control of what robo remembers.": [
+    "Bạn luôn kiểm soát những gì Robo ghi nhớ.",
+    "Roboが覚えることは、いつもあなたが決めます。",
+    "Robo가 기억할 내용은 언제나 직접 결정합니다.",
+    "Robo 记住什么，始终由您掌控。"
+  ],
+  "memory demo": [
+    "Demo bộ nhớ",
+    "メモリーデモ",
+    "기억 데모",
+    "记忆演示"
+  ],
+  "interactive demo. nothing is saved.": [
+    "Demo tương tác. Không lưu dữ liệu.",
+    "体験用デモです。何も保存されません。",
+    "체험용 데모입니다. 아무것도 저장되지 않습니다.",
+    "互动演示，不保存任何内容。"
+  ],
+  "01 / profile": [
+    "01 / Hồ sơ",
+    "01 / プロフィール",
+    "01 / 프로필",
+    "01 / 个人资料"
+  ],
+  "02 / preferences": [
+    "02 / Sở thích",
+    "02 / 好み",
+    "02 / 선호 사항",
+    "02 / 偏好"
+  ],
+  "03 / conversation": [
+    "03 / Hội thoại",
+    "03 / 会話",
+    "03 / 대화",
+    "03 / 对话"
+  ],
+  "every angle. one companion.": [
+    "Mọi góc nhìn. Một người bạn.",
+    "どの角度からも、同じパートナー。",
+    "모든 각도에서 만나는 하나의 친구.",
+    "每个角度，同一个伙伴。"
+  ],
+  "get to know": [
+    "Tìm hiểu",
+    "知ってみよう",
+    "알아보세요",
+    "认识"
+  ],
+  "360 degree product video": [
+    "Video sản phẩm 360 độ",
+    "製品の360度映像",
+    "제품 360도 영상",
+    "产品 360 度视频"
+  ],
+  "a closer look at": [
+    "Khám phá kỹ hơn",
+    "もっと近くで見る",
+    "더 가까이 보기",
+    "近距离了解"
+  ],
+  "360° product view": [
+    "Xem sản phẩm 360°",
+    "360°製品ビュー",
+    "360° 제품 보기",
+    "360° 产品展示"
+  ],
+  "your next companion": [
+    "Người bạn đồng hành tiếp theo",
+    "次のパートナー",
+    "다음 동반자",
+    "您的下一位伙伴"
+  ],
+  "meet your": [
+    "Gặp gỡ",
+    "出会おう",
+    "만나보세요",
+    "认识您的"
+  ],
+  "join pre-order list": [
+    "Đăng ký quan tâm đặt trước",
+    "予約の関心リストに登録",
+    "사전 주문 관심 등록",
+    "登记预购意向"
+  ],
+  "robo front design": [
+    "Thiết kế mặt trước Robo",
+    "Roboの正面デザイン",
+    "Robo 정면 디자인",
+    "Robo 正面设计"
+  ],
+  "robo angled design": [
+    "Thiết kế góc nghiêng Robo",
+    "Roboの斜めからのデザイン",
+    "Robo 사선 디자인",
+    "Robo 斜侧面设计"
+  ],
+  "designed to be here": [
+    "Thiết kế để ở bên bạn",
+    "ここにいるためのデザイン",
+    "곁에 있도록 설계했습니다",
+    "为陪在身边而设计"
+  ],
+  "small form.": [
+    "Kiểu dáng nhỏ.",
+    "小さな形。",
+    "작은 형태.",
+    "小巧外形。"
+  ],
+  "real presence.": [
+    "Hiện diện thật.",
+    "確かな存在感。",
+    "확실한 존재감.",
+    "真实陪伴。"
+  ],
+  "a few things to know": [
+    "Những điều cần biết",
+    "知っておきたいこと",
+    "알아두면 좋은 점",
+    "需要了解的事"
+  ],
+  "good questions.": [
+    "Câu hỏi hay.",
+    "良い質問。",
+    "좋은 질문.",
+    "好问题。"
+  ],
+  "honest answers.": [
+    "Trả lời chân thành.",
+    "正直な答え。",
+    "솔직한 답변.",
+    "真诚回答。"
+  ],
+  "product gallery": [
+    "Bộ ảnh sản phẩm",
+    "製品ギャラリー",
+    "제품 갤러리",
+    "产品图库"
+  ],
+  "robot views. use left and right arrow keys or swipe.": [
+    "Ảnh robot. Dùng phím mũi tên trái, phải hoặc vuốt.",
+    "ロボットの画像。左右の矢印キーまたはスワイプで操作できます。",
+    "로봇 이미지입니다. 좌우 화살표 키 또는 밀기로 이동하세요.",
+    "机器人视图，使用左右方向键或滑动切换。"
+  ],
+  "robo / object study": [
+    "Robo / Khám phá thiết kế",
+    "Robo / デザイン研究",
+    "Robo / 디자인 연구",
+    "Robo / 设计研究"
+  ],
+  "previous product view": [
+    "Ảnh sản phẩm trước",
+    "前の製品画像",
+    "이전 제품 이미지",
+    "上一张产品图"
+  ],
+  "next product view": [
+    "Ảnh sản phẩm tiếp theo",
+    "次の製品画像",
+    "다음 제품 이미지",
+    "下一张产品图"
+  ],
+  "choose a product view": [
+    "Chọn góc nhìn sản phẩm",
+    "製品の角度を選択",
+    "제품 각도 선택",
+    "选择产品视角"
+  ],
+  "pre-order interest": [
+    "Quan tâm đặt trước",
+    "予約への関心登録",
+    "사전 주문 관심",
+    "预购意向"
+  ],
+  "a first look at what's next.": [
+    "Cái nhìn đầu tiên về điều sắp tới.",
+    "これからの姿を、ひと足先に。",
+    "다가올 모습을 미리 만나보세요.",
+    "抢先看看未来。"
+  ],
+  "currently in development. no payment required.": [
+    "Đang phát triển. Không yêu cầu thanh toán.",
+    "開発中です。お支払いは不要です。",
+    "현재 개발 중입니다. 결제가 필요하지 않습니다.",
+    "目前开发中，无需付款。"
+  ],
+  "skip to content": [
+    "Đến nội dung chính",
+    "本文へスキップ",
+    "본문으로 건너뛰기",
+    "跳至正文"
+  ],
+  "official contact details will be announced as robo moves toward release. you can preview the pre-order interest form on this page.": [
+    "Thông tin liên hệ chính thức sẽ công bố khi Robo gần ra mắt. Bạn có thể xem trước biểu mẫu quan tâm đặt trước tại đây.",
+    "公式連絡先は発売に向けて発表します。このページで予約の関心登録フォームを体験できます。",
+    "공식 연락처는 Robo 출시를 앞두고 공개됩니다. 이 페이지에서 사전 주문 관심 양식을 체험할 수 있습니다.",
+    "官方联系方式将在 Robo 发布前公布。您可在此预览预购意向表单。"
+  ],
+  "this frontend does not store or transmit interest form entries. product privacy details will be announced before release.": [
+    "Giao diện không lưu hay gửi thông tin trong biểu mẫu quan tâm. Chi tiết quyền riêng tư sẽ công bố trước khi ra mắt.",
+    "この画面は関心登録フォームの入力を保存・送信しません。プライバシーの詳細は発売前に発表します。",
+    "이 화면은 관심 양식의 입력 정보를 저장하거나 전송하지 않습니다. 개인정보 처리 상세는 출시 전에 공개됩니다.",
+    "此界面不会保存或传输意向表单内容，产品隐私详情将在发布前公布。"
+  ],
+  "robo is currently in development. explore this page for its planned features and the frequently asked questions. final specifications and commercial details will be announced as the product moves toward release.": [
+    "Robo đang phát triển. Trang này giới thiệu tính năng dự kiến và câu hỏi thường gặp. Thông số cuối cùng và chi tiết thương mại sẽ công bố khi gần ra mắt.",
+    "Roboは開発中です。このページで予定機能とFAQをご覧ください。最終仕様と販売情報は発売に向けて発表します。",
+    "Robo는 개발 중입니다. 이 페이지에서 예정 기능과 자주 묻는 질문을 확인하세요. 최종 사양과 판매 정보는 출시를 앞두고 공개됩니다.",
+    "Robo 正在开发中。此页面介绍计划功能与常见问题，最终规格及商业详情将在发布前公布。"
+  ],
+  "thanks. we'll keep you updated.": [
+    "Cảm ơn bạn đã quan tâm.",
+    "ご関心をありがとうございます。",
+    "관심을 가져 주셔서 감사합니다.",
+    "感谢您的关注。"
+  ],
+  "demo only — no information was sent or saved.": [
+    "Chỉ là demo — không gửi hoặc lưu thông tin.",
+    "デモのみ — 情報は送信・保存されていません。",
+    "데모 전용 — 정보를 전송하거나 저장하지 않았습니다.",
+    "仅为演示 — 未发送或保存信息。"
+  ],
+  "dismiss confirmation": [
+    "Đóng thông báo xác nhận",
+    "確認メッセージを閉じる",
+    "확인 메시지 닫기",
+    "关闭确认信息"
+  ],
+  "video unavailable. product preview shown.": [
+    "Không phát được video. Đang hiển thị ảnh sản phẩm.",
+    "映像を利用できません。製品プレビューを表示しています。",
+    "영상을 사용할 수 없어 제품 미리보기를 표시합니다.",
+    "视频不可用，已显示产品预览。"
+  ],
+  "talk naturally.": [
+    "Trò chuyện tự nhiên.",
+    "自然に話そう。",
+    "자연스럽게 대화하세요.",
+    "自然交流。"
+  ],
+  "a conversation that feels at home in your world. ask a question, explore an idea, or simply say hello.": [
+    "Trò chuyện thật gần gũi. Đặt câu hỏi, khám phá ý tưởng hoặc đơn giản là chào nhau.",
+    "あなたの日常になじむ会話。質問やアイデア、気軽な挨拶から。",
+    "일상에 자연스럽게 어울리는 대화. 질문하거나 아이디어를 나누거나 가볍게 인사해 보세요.",
+    "融入日常的对话。提个问题、探索创意，或简单打声招呼。"
+  ],
+  "a preview of the conversation experience.": [
+    "Xem trước trải nghiệm trò chuyện.",
+    "会話体験のプレビュー。",
+    "대화 경험 미리보기.",
+    "对话体验预览。"
+  ],
+  "a close look at robo's face": [
+    "Cận cảnh khuôn mặt Robo",
+    "Roboの顔のクローズアップ",
+    "Robo 얼굴 클로즈업",
+    "Robo 面部特写"
+  ],
+  "a face for every interaction.": [
+    "Biểu cảm cho mỗi tương tác.",
+    "すべてのやり取りに表情を。",
+    "모든 교감에 어울리는 표정.",
+    "每次互动，都有表情。"
+  ],
+  "natural conversation.": [
+    "Trò chuyện tự nhiên.",
+    "自然な会話。",
+    "자연스러운 대화.",
+    "自然对话。"
+  ],
+  "personality expressed through movement.": [
+    "Cá tính thể hiện qua chuyển động.",
+    "動きで伝わる個性。",
+    "움직임으로 표현하는 개성.",
+    "通过动作展现个性。"
+  ],
+  "different possibilities, brought together.": [
+    "Kết hợp nhiều khả năng.",
+    "さまざまな可能性をひとつに。",
+    "다양한 가능성이 한곳에.",
+    "汇聚多种可能。"
+  ],
+  "form meets feeling": [
+    "Kiểu dáng kết nối cảm xúc",
+    "形と感情の出会い",
+    "형태와 감정의 만남",
+    "形态与情感相遇"
+  ],
+  "designed to": [
+    "Thiết kế để",
+    "デザインで",
+    "디자인으로",
+    "设计旨在"
+  ],
+  "stand out.": [
+    "Nổi bật.",
+    "際立つ。",
+    "눈에 띄게.",
+    "脱颖而出。"
+  ],
+  "compact by design.": [
+    "Thiết kế nhỏ gọn.",
+    "コンパクトな設計。",
+    "컴팩트한 디자인.",
+    "小巧设计。"
+  ],
+  "full of personality.": [
+    "Tràn đầy cá tính.",
+    "個性がいっぱい。",
+    "개성이 가득합니다.",
+    "个性满满。"
+  ],
+  "robo ai / industrial design": [
+    "Robo AI / Thiết kế công nghiệp",
+    "Robo AI / 工業デザイン",
+    "Robo AI / 산업 디자인",
+    "Robo AI / 工业设计"
+  ],
+  "robo ai, front view": [
+    "Robo AI, mặt trước",
+    "Robo AIの正面",
+    "Robo AI 정면",
+    "Robo AI 正面"
+  ],
+  "robo ai, three-quarter view": [
+    "Robo AI, góc nghiêng",
+    "Robo AIの斜めからの姿",
+    "Robo AI 사선 뷰",
+    "Robo AI 斜侧面"
+  ],
+  "every angle. a little character.": [
+    "Mỗi góc nhìn. Một chút cá tính.",
+    "どの角度にも、小さな個性。",
+    "모든 각도에 작은 개성.",
+    "每个角度，都有个性。"
+  ],
+  "make room for something extraordinary": [
+    "Dành chỗ cho điều khác biệt",
+    "特別な存在のための場所を",
+    "특별한 무언가를 위한 자리",
+    "为非凡之物留个位置"
+  ],
+  "new companion.": [
+    "Người bạn mới.",
+    "新しいパートナー。",
+    "새로운 동반자.",
+    "新伙伴。"
+  ],
+  "robo ai one in its signature orange and white finish": [
+    "Robo AI One với màu cam trắng đặc trưng",
+    "象徴的なオレンジと白のRobo AI One",
+    "특유의 주황색과 흰색 Robo AI One",
+    "标志性橙白配色的 Robo AI One"
+  ],
+  "signature orange / cloud white": [
+    "Cam đặc trưng / Trắng mây",
+    "シグネチャーオレンジ / クラウドホワイト",
+    "시그니처 오렌지 / 클라우드 화이트",
+    "标志橙 / 云朵白"
+  ],
+  "big possibilities.": [
+    "Nhiều khả năng lớn.",
+    "大きな可能性。",
+    "커다란 가능성.",
+    "大大可能。"
+  ],
+  "usd · demo price": [
+    "USD · Giá demo",
+    "USD · デモ価格",
+    "USD · 데모 가격",
+    "美元 · 演示价格"
+  ],
+  "one little companion. a whole new connection.": [
+    "Một người bạn nhỏ. Một sự gắn kết mới.",
+    "小さなパートナー。新しいつながり。",
+    "작은 친구, 새로운 교감.",
+    "一个小伙伴，一段新连接。"
+  ],
+  "ai powered": [
+    "Vận hành bằng AI",
+    "AI搭載",
+    "AI 기반",
+    "AI 驱动"
+  ],
+  "expressive emotions": [
+    "Cảm xúc biểu cảm",
+    "豊かな感情表現",
+    "풍부한 감정 표현",
+    "丰富情感表达"
+  ],
+  "smart vision": [
+    "Thị giác thông minh",
+    "スマートビジョン",
+    "스마트 비전",
+    "智能视觉"
+  ],
+  "your next chapter": [
+    "Chương tiếp theo của bạn",
+    "あなたの次の章",
+    "나의 다음 장",
+    "您的下一篇章"
+  ],
+  "real-time voice.": [
+    "Giọng nói thời gian thực.",
+    "リアルタイム音声。",
+    "실시간 음성.",
+    "实时语音。"
+  ],
+  "memory that adapts to you.": [
+    "Bộ nhớ thích ứng với bạn.",
+    "あなたに合わせるメモリー。",
+    "나에게 맞추는 기억.",
+    "适应您的记忆。"
+  ],
+  "robo basic front view in orange and white": [
+    "Mặt trước Robo Basic màu cam trắng",
+    "オレンジと白のRobo Basicの正面",
+    "주황색과 흰색 Robo Basic 정면",
+    "橙白色 Robo Basic 正面"
+  ],
+  "robo basic three-quarter view": [
+    "Góc nghiêng Robo Basic",
+    "Robo Basicの斜めからの姿",
+    "Robo Basic 사선 뷰",
+    "Robo Basic 斜侧面"
+  ],
+  "side view of the supplied robo design": [
+    "Mặt bên thiết kế Robo",
+    "Roboデザインの側面",
+    "Robo 디자인 측면",
+    "Robo 设计侧面"
+  ],
+  "rear view of the supplied robo design": [
+    "Mặt sau thiết kế Robo",
+    "Roboデザインの背面",
+    "Robo 디자인 후면",
+    "Robo 设计背面"
+  ],
+  "close-up of robo's expressive face and orange shell": [
+    "Cận cảnh biểu cảm và vỏ cam của Robo",
+    "Roboの表情とオレンジの外装の接写",
+    "Robo의 표정과 주황색 외장 클로즈업",
+    "Robo 表情与橙色外壳特写"
+  ],
+  "natural realtime conversations.": [
+    "Trò chuyện tự nhiên theo thời gian thực.",
+    "自然なリアルタイム会話。",
+    "자연스러운 실시간 대화.",
+    "自然实时对话。"
+  ],
+  "choose how robo talks and reacts.": [
+    "Chọn cách Robo nói và phản ứng.",
+    "Roboの話し方と反応を選択。",
+    "Robo의 말투와 반응을 선택하세요.",
+    "选择 Robo 的说话与回应方式。"
+  ],
+  "robo remembers what you allow.": [
+    "Robo ghi nhớ những gì bạn cho phép.",
+    "Roboは許可したことを覚えます。",
+    "Robo는 허용한 내용을 기억합니다.",
+    "Robo 记住您允许的内容。"
+  ],
+  "give robo knowledge for different purposes.": [
+    "Trang bị kiến thức cho nhiều mục đích.",
+    "さまざまな目的に合う知識をRoboに。",
+    "다양한 목적에 맞는 지식을 Robo에게 주세요.",
+    "为 Robo 配备适合不同用途的知识。"
+  ],
+  "always listening. always thinking.": [
+    "Luôn lắng nghe. Luôn suy nghĩ.",
+    "いつも聞いて、いつも考える。",
+    "언제나 듣고, 언제나 생각합니다.",
+    "始终倾听，不断思考。"
+  ],
+  "a little more personality in every interaction.": [
+    "Thêm cá tính trong mỗi tương tác.",
+    "やり取りのたびに、もう少しの個性を。",
+    "모든 교감에 조금 더 개성을.",
+    "每次互动，多一分个性。"
+  ],
+  "even robo needs a quiet moment.": [
+    "Robo cũng cần phút yên tĩnh.",
+    "Roboにも静かなひとときが必要。",
+    "Robo도 조용한 시간이 필요해요.",
+    "Robo 也需要安静片刻。"
+  ],
+  "the core device layer responsible for voice, display and interaction.": [
+    "Bộ phận cốt lõi phụ trách giọng nói, hiển thị và tương tác.",
+    "音声・表示・対話を担う中核部分。",
+    "음성, 화면, 상호작용을 담당하는 핵심 장치.",
+    "负责语音、显示与交互的核心设备层。"
+  ],
+  "captures voice input for realtime interaction.": [
+    "Thu giọng nói để tương tác thời gian thực.",
+    "リアルタイム対話のために音声を収録。",
+    "실시간 상호작용을 위해 음성을 입력받습니다.",
+    "采集语音以实现实时互动。"
+  ],
+  "integrated audio for robo's responses.": [
+    "Âm thanh tích hợp để Robo phản hồi.",
+    "Roboの応答用の内蔵オーディオ。",
+    "Robo의 응답을 위한 내장 오디오.",
+    "用于 Robo 回应的集成音频。"
+  ],
+  "the expressive face of robo.": [
+    "Khuôn mặt giàu biểu cảm của Robo.",
+    "Roboの表情豊かな顔。",
+    "표정이 풍부한 Robo의 얼굴.",
+    "Robo 富有表现力的面部。"
+  ],
+  "enables physical actions on supported models.": [
+    "Hỗ trợ hành động vật lý trên phiên bản tương thích.",
+    "対応モデルで身体動作を実現。",
+    "지원 모델에서 물리적 동작을 제공합니다.",
+    "在支持的型号上实现肢体动作。"
+  ],
+  "designed around the needs of display, audio and motion hardware.": [
+    "Thiết kế theo nhu cầu màn hình, âm thanh và phần cứng chuyển động.",
+    "表示・音声・動作ハードウェアの要件に合わせた設計。",
+    "화면, 오디오, 동작 하드웨어 요구에 맞춘 설계.",
+    "围绕显示、音频和运动硬件需求设计。"
+  ],
+  "a recognizable physical ai companion.": [
+    "Người bạn AI hữu hình dễ nhận diện.",
+    "ひと目でわかる実体のあるAIパートナー。",
+    "한눈에 알아볼 수 있는 실물 AI 친구.",
+    "独具辨识度的实体 AI 伙伴。"
+  ],
+  "a face designed for communication.": [
+    "Khuôn mặt thiết kế để giao tiếp.",
+    "コミュニケーションのための顔。",
+    "소통을 위해 디자인한 얼굴.",
+    "为交流而设计的面部。"
+  ],
+  "designed with maintenance and future upgrades in mind.": [
+    "Thiết kế hướng đến bảo trì và nâng cấp sau này.",
+    "保守と将来のアップグレードを考慮した設計。",
+    "유지보수와 향후 업그레이드를 고려한 설계.",
+    "设计兼顾维护和未来升级。"
+  ],
+  "ai that exists beyond the screen.": [
+    "AI hiện diện ngoài màn hình.",
+    "画面の外に存在するAI。",
+    "화면 밖에 존재하는 AI.",
+    "走出屏幕的 AI。"
+  ],
+  "the product is currently in development. final specifications and commercial details will be announced as the product moves toward release.": [
+    "Sản phẩm đang phát triển. Thông số cuối cùng và chi tiết thương mại sẽ công bố khi gần ra mắt.",
+    "製品は開発中です。最終仕様と販売情報は発売に向けて発表します。",
+    "제품은 개발 중입니다. 최종 사양과 판매 정보는 출시를 앞두고 공개됩니다.",
+    "产品正在开发中，最终规格及商业详情将在发布前公布。"
+  ],
+  "what is robo ai?": [
+    "Robo AI là gì?",
+    "Robo AIとは？",
+    "Robo AI는 무엇인가요?",
+    "什么是 Robo AI？"
+  ],
+  "robo ai is a physical ai companion designed to combine realtime voice, a personal character, selected memory and knowledge packs with an expressive face.": [
+    "Robo AI là người bạn AI hữu hình kết hợp giọng nói thời gian thực, tính cách riêng, bộ nhớ có chọn lọc, gói kiến thức và khuôn mặt biểu cảm.",
+    "Robo AIはリアルタイム音声・個性・選択的メモリー・知識パックと表情を組み合わせた、実体のあるAIパートナーです。",
+    "Robo AI는 실시간 음성, 개성, 선택적 기억, 지식 팩과 풍부한 표정을 결합한 실물 AI 친구입니다.",
+    "Robo AI 是结合实时语音、个性、选择性记忆、知识包及生动表情的实体 AI 伙伴。"
+  ],
+  "what can robo remember?": [
+    "Robo có thể nhớ gì?",
+    "Roboは何を覚えられますか？",
+    "Robo는 무엇을 기억하나요?",
+    "Robo 能记住什么？"
+  ],
+  "robo can use information you choose to share, such as your name, preferred language and selected long-term context. it is not described as automatically saving every conversation.": [
+    "Robo có thể dùng thông tin bạn chọn chia sẻ như tên, ngôn ngữ và ngữ cảnh dài hạn đã chọn. Không có cam kết tự lưu mọi cuộc trò chuyện.",
+    "名前・希望言語・選んだ長期的な文脈など、共有を選択した情報を利用できます。すべての会話を自動保存するものではありません。",
+    "이름, 선호 언어, 선택한 장기 맥락 등 공유하기로 한 정보를 활용할 수 있습니다. 모든 대화를 자동 저장하는 기능을 의미하지는 않습니다.",
+    "Robo 可使用您选择分享的信息，如姓名、偏好语言及选定的长期上下文，并非自动保存每次对话。"
+  ],
+  "can i change robo's personality?": [
+    "Tôi có thể đổi tính cách Robo không?",
+    "Roboの個性は変えられますか？",
+    "Robo의 성격을 바꿀 수 있나요?",
+    "能改变 Robo 的个性吗？"
+  ],
+  "personality is designed to let you choose how robo talks and reacts. available options and controls will be confirmed as development progresses.": [
+    "Tính năng tính cách cho phép chọn cách Robo nói và phản ứng. Tùy chọn và điều khiển cụ thể sẽ xác nhận trong quá trình phát triển.",
+    "話し方や反応を選べるよう設計されています。選択肢と操作方法は開発に伴い確定します。",
+    "Robo의 말투와 반응을 선택하도록 설계되었습니다. 구체적인 옵션과 제어는 개발 과정에서 확정됩니다.",
+    "个性功能旨在让您选择 Robo 的说话与回应方式，具体选项和控制将在开发中确认。"
+  ],
+  "what are knowledge packs?": [
+    "Gói kiến thức là gì?",
+    "知識パックとは？",
+    "지식 팩은 무엇인가요?",
+    "什么是知识包？"
+  ],
+  "knowledge packs are a concept for adapting robo to different people, places and purposes, from education and english practice to cultural knowledge or custom uses.": [
+    "Gói kiến thức là ý tưởng giúp Robo thích ứng với nhiều người, địa điểm và mục đích: giáo dục, luyện tiếng Anh, văn hóa hoặc nhu cầu tùy chỉnh.",
+    "教育・英会話・文化知識・独自用途など、人や場所、目的に合わせてRoboを調整するコンセプトです。",
+    "교육, 영어 연습, 문화 지식, 맞춤 용도 등 다양한 사람, 장소, 목적에 맞게 Robo를 조정하는 콘셉트입니다.",
+    "知识包是让 Robo 适应不同人群、场景与用途的概念，涵盖教育、英语练习、文化知识及定制应用。"
+  ],
+  "what's the difference between basic and plus?": [
+    "Basic và Plus khác nhau thế nào?",
+    "BasicとPlusの違いは？",
+    "Basic과 Plus는 어떻게 다른가요?",
+    "Basic 和 Plus 有何区别？"
+  ],
+  "basic focuses on voice, personality, memory, knowledge, expressive display and audio. plus is planned to add enhanced physical actions and sensors. the comparison is a preview, not a final hardware specification.": [
+    "Basic tập trung vào giọng nói, tính cách, bộ nhớ, kiến thức, biểu cảm và âm thanh. Plus dự kiến thêm chuyển động và cảm biến nâng cao. Đây là so sánh xem trước, chưa phải thông số phần cứng cuối cùng.",
+    "Basicは音声・個性・メモリー・知識・表情・オーディオが中心です。Plusは動作とセンサーの強化を予定しています。比較はプレビューで、最終仕様ではありません。",
+    "Basic은 음성, 성격, 기억, 지식, 표정, 오디오에 중점을 둡니다. Plus는 향상된 동작과 센서를 추가할 예정입니다. 이 비교는 미리보기이며 최종 하드웨어 사양이 아닙니다.",
+    "Basic 侧重语音、个性、记忆、知识、表情显示及音频。Plus 计划增加增强动作和传感器。此比较仅为预览，并非最终硬件规格。"
+  ],
+  "is the final price available?": [
+    "Đã có giá chính thức chưa?",
+    "正式価格は決まっていますか？",
+    "최종 가격이 나왔나요?",
+    "最终价格公布了吗？"
+  ],
+  "when will robo be available?": [
+    "Khi nào Robo được bán?",
+    "Roboはいつ発売されますか？",
+    "Robo는 언제 출시되나요?",
+    "Robo 何时上市？"
+  ],
+  "is my personal data private?": [
+    "Dữ liệu cá nhân của tôi có riêng tư không?",
+    "個人データのプライバシーは？",
+    "개인정보는 보호되나요?",
+    "我的个人数据是否私密？"
+  ],
+  "you are intended to control what robo remembers. final product privacy and data-handling details have not been announced. this frontend demonstration does not store or transmit the information entered in its interest form.": [
+    "Bạn sẽ kiểm soát những gì Robo ghi nhớ. Chi tiết cuối cùng về quyền riêng tư và xử lý dữ liệu chưa được công bố. Demo này không lưu hay gửi thông tin nhập vào biểu mẫu quan tâm.",
+    "Roboが覚える内容はユーザーが管理する設計です。最終的なプライバシー・データ処理方針は未発表です。このデモは関心登録フォームの情報を保存・送信しません。",
+    "Robo가 기억할 내용은 사용자가 관리하도록 설계되었습니다. 최종 개인정보 및 데이터 처리 방침은 아직 공개되지 않았습니다. 이 데모는 관심 양식 정보를 저장하거나 전송하지 않습니다.",
+    "设计上由您控制 Robo 的记忆内容。最终隐私及数据处理详情尚未公布。此前端演示不保存或传输意向表单中的信息。"
+  ],
+  "no robos": [
+    "Chưa có Robo",
+    "Roboはまだ",
+    "아직 Robo가",
+    "暂无 Robo"
+  ],
+  "connected yet.": [
+    "Được kết nối.",
+    "接続されていません。",
+    "연결되지 않았습니다.",
+    "已连接。"
+  ],
+  "connect your robo to start personalizing your ai companion.": [
+    "Kết nối Robo để bắt đầu cá nhân hóa người bạn AI.",
+    "Roboを接続して、AIパートナーをカスタマイズしましょう。",
+    "Robo를 연결하고 AI 친구를 맞춤 설정하세요.",
+    "连接 Robo，开始个性化您的 AI 伙伴。"
+  ],
+  "robo unpaired. your order history is unchanged.": [
+    "Đã hủy ghép nối Robo. Lịch sử đơn hàng không thay đổi.",
+    "Roboのペアリングを解除しました。注文履歴は変更されていません。",
+    "Robo 연결을 해제했습니다. 주문 내역은 변경되지 않았습니다.",
+    "已取消 Robo 配对，订单记录未变。"
+  ],
+  "your robos.": [
+    "Robot của bạn.",
+    "あなたのRobo。",
+    "내 Robo.",
+    "您的 Robo。"
+  ],
+  "connect, manage and personalize the robo devices that belong to you.": [
+    "Kết nối, quản lý và cá nhân hóa các Robo của bạn.",
+    "自分のRoboを接続・管理・カスタマイズ。",
+    "내 Robo 기기를 연결하고 관리하고 맞춤 설정하세요.",
+    "连接、管理并个性化您的 Robo 设备。"
+  ],
+  "+ add robo": [
+    "+ Thêm Robo",
+    "+ Roboを追加",
+    "+ Robo 추가",
+    "+ 添加 Robo"
+  ],
+  "unpair this robo?": [
+    "Hủy ghép nối Robo này?",
+    "このRoboのペアリングを解除しますか？",
+    "이 Robo의 연결을 해제할까요?",
+    "取消此 Robo 的配对？"
+  ],
+  "this will remove": [
+    "Thao tác này sẽ xóa",
+    "次のRoboを削除します：",
+    "다음 Robo를 제거합니다:",
+    "这将移除"
+  ],
+  "from this account in the current demo.": [
+    "khỏi tài khoản trong bản demo này.",
+    "このデモのアカウントから。",
+    "현재 데모의 계정에서.",
+    "从当前演示账户中。"
+  ],
+  "remove {name} from this account in the current demo? your order history will remain unchanged.": [
+    "Xóa {name} khỏi tài khoản trong demo này? Lịch sử đơn hàng sẽ được giữ nguyên.",
+    "このデモのアカウントから{name}を削除しますか？注文履歴は変更されません。",
+    "현재 데모 계정에서 {name} 기기를 제거할까요? 주문 내역은 유지됩니다.",
+    "从当前演示账户中移除 {name}？订单记录将保持不变。"
+  ],
+  "order history will remain unchanged.": [
+    "Lịch sử đơn hàng sẽ được giữ nguyên.",
+    "注文履歴は変更されません。",
+    "주문 내역은 유지됩니다.",
+    "订单记录将保持不变。"
+  ],
+  "unpairing...": [
+    "Đang hủy ghép nối...",
+    "ペアリング解除中...",
+    "연결 해제 중...",
+    "正在取消配对…"
+  ],
+  "enter a device id with 5–64 letters, numbers or hyphens.": [
+    "Nhập mã thiết bị gồm 5–64 chữ cái, chữ số hoặc dấu gạch nối.",
+    "デバイスIDを5〜64文字の英数字・ハイフンで入力してください。",
+    "기기 ID를 영문, 숫자, 하이픈 5~64자로 입력하세요.",
+    "请输入由 5–64 个字母、数字或连字符组成的设备 ID。"
+  ],
+  "enter an activation code with 6–128 characters.": [
+    "Nhập mã kích hoạt gồm 6–128 ký tự.",
+    "有効化コードを6〜128文字で入力してください。",
+    "활성화 코드를 6~128자로 입력하세요.",
+    "请输入 6–128 个字符的激活码。"
+  ],
+  "enter the information that came with your robo to connect it to your account.": [
+    "Nhập thông tin đi kèm Robo để kết nối với tài khoản.",
+    "Roboに付属の情報を入力してアカウントに接続してください。",
+    "Robo와 함께 제공된 정보를 입력하여 계정에 연결하세요.",
+    "输入 Robo 随附信息以连接到您的账户。"
+  ],
+  "01 / device information": [
+    "01 / Thông tin thiết bị",
+    "01 / デバイス情報",
+    "01 / 기기 정보",
+    "01 / 设备信息"
+  ],
+  "a new connection.": [
+    "Một kết nối mới.",
+    "新しいつながり。",
+    "새로운 연결.",
+    "一段新连接。"
+  ],
+  "device id *": [
+    "Mã thiết bị *",
+    "デバイスID *",
+    "기기 ID *",
+    "设备 ID *"
+  ],
+  "device id can be found on your robo or included with the device information.": [
+    "Mã thiết bị nằm trên Robo hoặc trong thông tin đi kèm.",
+    "デバイスIDはRobo本体または付属情報に記載されています。",
+    "기기 ID는 Robo 본체 또는 동봉된 안내에서 확인할 수 있습니다.",
+    "设备 ID 可在 Robo 机身或随附资料中找到。"
+  ],
+  "activation code *": [
+    "Mã kích hoạt *",
+    "有効化コード *",
+    "활성화 코드 *",
+    "激活码 *"
+  ],
+  "connecting...": [
+    "Đang kết nối...",
+    "接続中...",
+    "연결 중...",
+    "连接中…"
+  ],
+  "connecting your robo...": [
+    "Đang kết nối Robo của bạn...",
+    "Roboを接続中...",
+    "Robo를 연결하는 중...",
+    "正在连接您的 Robo…"
+  ],
+  "demo pairing: codes are not verified and no physical device is connected. model defaults to robo basic; live status and firmware are unavailable.": [
+    "Ghép nối demo: không xác thực mã và không kết nối thiết bị thật. Mặc định là Robo Basic; chưa có trạng thái trực tiếp và firmware.",
+    "デモのペアリング：コードは検証されず、実機は接続されません。モデルはRobo Basicで、リアルタイム状態とファームウェアは利用できません。",
+    "데모 연결: 코드를 검증하거나 실제 기기를 연결하지 않습니다. 기본 모델은 Robo Basic이며 실시간 상태와 펌웨어 정보는 없습니다.",
+    "演示配对：不会验证代码或连接实体设备。型号默认为 Robo Basic，暂无实时状态及固件信息。"
+  ],
+  "a robo can only be connected to one owner account at a time.": [
+    "Mỗi Robo chỉ kết nối với một tài khoản chủ sở hữu tại một thời điểm.",
+    "Roboは同時に1つの所有者アカウントにのみ接続できます。",
+    "Robo는 한 번에 하나의 소유자 계정에만 연결할 수 있습니다.",
+    "一个 Robo 同时只能连接一个所有者账户。"
+  ],
+  "ownership verification will be enabled with the backend. this demo only prevents duplicate device ids in this browser.": [
+    "Xác minh sở hữu sẽ được triển khai cùng backend. Demo chỉ ngăn trùng mã thiết bị trong trình duyệt này.",
+    "所有権の検証はバックエンド導入時に有効になります。このデモは同じブラウザー内のID重複のみ防ぎます。",
+    "소유권 확인은 백엔드 연결 시 제공됩니다. 이 데모는 같은 브라우저 내 기기 ID 중복만 방지합니다.",
+    "所有权验证将在接入后端后启用。本演示仅防止同一浏览器中的设备 ID 重复。"
+  ],
+  "robo connected.": [
+    "Đã kết nối Robo.",
+    "Roboを接続しました。",
+    "Robo가 연결되었습니다.",
+    "Robo 已连接。"
+  ],
+  "your robo is now linked to your account in this demo.": [
+    "Robo đã liên kết với tài khoản trong bản demo này.",
+    "このデモでRoboをアカウントに関連付けました。",
+    "이 데모에서 Robo가 계정에 연결되었습니다.",
+    "您的 Robo 已在本演示中关联到账户。"
+  ],
+  "loading robos": [
+    "Đang tải robot",
+    "Roboを読み込み中",
+    "Robo를 불러오는 중",
+    "正在加载 Robo"
+  ],
+  "loading your robos...": [
+    "Đang tải robot của bạn...",
+    "あなたのRoboを読み込み中...",
+    "내 Robo를 불러오는 중...",
+    "正在加载您的 Robo…"
+  ],
+  "we couldn't load your robos.": [
+    "Không tải được robot của bạn.",
+    "Roboを読み込めませんでした。",
+    "Robo를 불러올 수 없습니다.",
+    "无法加载您的 Robo。"
+  ],
+  "your device data could not be read. try again when storage or the service is available.": [
+    "Không đọc được dữ liệu thiết bị. Thử lại khi bộ nhớ hoặc dịch vụ hoạt động.",
+    "デバイス情報を読み込めません。ストレージまたはサービスが利用可能になったら再試行してください。",
+    "기기 데이터를 읽을 수 없습니다. 저장소나 서비스를 사용할 수 있을 때 다시 시도하세요.",
+    "无法读取设备数据，请在存储或服务可用时重试。"
+  ],
+  "move. react. express.": [
+    "Chuyển động. Phản ứng. Biểu đạt.",
+    "動く。応える。表現する。",
+    "움직이고, 반응하고, 표현합니다.",
+    "运动、回应、表达。"
+  ],
+  "simple commands for a companion with character.": [
+    "Lệnh đơn giản cho người bạn giàu cá tính.",
+    "個性あるパートナーへのシンプルなコマンド。",
+    "개성 있는 친구를 위한 간단한 명령.",
+    "给个性伙伴的简单指令。"
+  ],
+  "robo is offline.": [
+    "Robo đang ngoại tuyến.",
+    "Roboはオフラインです。",
+    "Robo가 오프라인입니다.",
+    "Robo 已离线。"
+  ],
+  "robo is not online.": [
+    "Robo chưa trực tuyến.",
+    "Roboはオンラインではありません。",
+    "Robo가 온라인 상태가 아닙니다.",
+    "Robo 当前不在线。"
+  ],
+  "actions will be available when the device reconnects.": [
+    "Hành động sẽ khả dụng khi thiết bị kết nối lại.",
+    "デバイスが再接続するとアクションを利用できます。",
+    "기기가 다시 연결되면 동작을 사용할 수 있습니다.",
+    "设备重新连接后即可使用动作。"
+  ],
+  "not available on this model. motion capability has not been enabled for this robo.": [
+    "Không có trên phiên bản này. Robo chưa được bật khả năng chuyển động.",
+    "このモデルでは利用できません。このRoboの動作機能は有効ではありません。",
+    "이 모델에서는 사용할 수 없습니다. 이 Robo의 동작 기능이 활성화되지 않았습니다.",
+    "此型号不支持，此 Robo 尚未启用运动能力。"
+  ],
+  "not available on this model": [
+    "Không có trên phiên bản này",
+    "このモデルでは利用不可",
+    "이 모델에서는 사용 불가",
+    "此型号不支持"
+  ],
+  "waiting for connection": [
+    "Đang chờ kết nối",
+    "接続待ち",
+    "연결 대기 중",
+    "等待连接"
+  ],
+  "sending command...": [
+    "Đang gửi lệnh...",
+    "コマンド送信中...",
+    "명령 전송 중...",
+    "正在发送指令…"
+  ],
+  "commands in this demo do not move a physical robot. a sent command is not confirmation that a device has performed the action.": [
+    "Lệnh demo không làm robot thật chuyển động. Gửi lệnh không đồng nghĩa thiết bị đã thực hiện hành động.",
+    "このデモのコマンドは実機を動かしません。送信済みでも、実行が確認されたわけではありません。",
+    "데모 명령은 실제 로봇을 움직이지 않습니다. 명령 전송은 기기의 동작 실행을 확인하는 것이 아닙니다.",
+    "本演示指令不会移动实体机器人。指令已发送不代表设备已执行动作。"
+  ],
+  "your robo. the details.": [
+    "Robo của bạn. Từng chi tiết.",
+    "あなたのRobo。その詳細。",
+    "나의 Robo, 상세 정보.",
+    "您的 Robo，详细信息。"
+  ],
+  "the essentials, all in one place.": [
+    "Thông tin cần thiết, tại một nơi.",
+    "必要な情報を、ひとつの場所に。",
+    "필요한 정보를 한곳에서.",
+    "重要信息尽在一处。"
+  ],
+  "firmware information is read-only. device updates will be available with the connected service.": [
+    "Thông tin firmware chỉ để xem. Cập nhật thiết bị sẽ có khi kết nối dịch vụ.",
+    "ファームウェア情報は読み取り専用です。更新はサービス接続後に提供予定です。",
+    "펌웨어 정보는 읽기 전용입니다. 기기 업데이트는 서비스 연결 후 제공됩니다.",
+    "固件信息为只读，设备更新将在连接服务后提供。"
+  ],
+  "enter a name with 1–60 characters.": [
+    "Nhập tên gồm 1–60 ký tự.",
+    "名前を1〜60文字で入力してください。",
+    "이름을 1~60자로 입력하세요.",
+    "请输入 1–60 个字符的名称。"
+  ],
+  "this robo will be removed from your current account. your order history will remain unchanged.": [
+    "Robo sẽ được xóa khỏi tài khoản hiện tại. Lịch sử đơn hàng giữ nguyên.",
+    "このRoboを現在のアカウントから削除します。注文履歴は変更されません。",
+    "현재 계정에서 이 Robo가 제거됩니다. 주문 내역은 유지됩니다.",
+    "此 Robo 将从当前账户移除，订单记录保持不变。"
+  ],
+  "face & display": [
+    "Khuôn mặt & màn hình",
+    "顔とディスプレイ",
+    "얼굴 및 디스플레이",
+    "面部与显示屏"
+  ],
+  "give robo an expression.": [
+    "Chọn biểu cảm cho Robo.",
+    "Roboに表情を。",
+    "Robo에게 표정을 주세요.",
+    "赋予 Robo 表情。"
+  ],
+  "a little expression. a lot of personality.": [
+    "Một chút biểu cảm. Thật nhiều cá tính.",
+    "小さな表情。たくさんの個性。",
+    "작은 표정, 가득한 개성.",
+    "小小表情，满满个性。"
+  ],
+  "preview /": [
+    "Xem trước /",
+    "プレビュー /",
+    "미리보기 /",
+    "预览 /"
+  ],
+  "what should your robo know?": [
+    "Bạn muốn Robo biết gì?",
+    "Roboに何を知ってほしいですか？",
+    "Robo가 무엇을 알면 좋을까요?",
+    "希望您的 Robo 了解什么？"
+  ],
+  "choose the knowledge that belongs in your robo's world.": [
+    "Chọn kiến thức cho thế giới của Robo.",
+    "Roboの世界に合う知識を選びましょう。",
+    "Robo의 세계에 어울리는 지식을 선택하세요.",
+    "选择属于 Robo 世界的知识。"
+  ],
+  "demo selections only. installing a pack saves your preference; it does not download or activate ai content.": [
+    "Chỉ là lựa chọn demo. Cài gói chỉ lưu sở thích, không tải hoặc kích hoạt nội dung AI.",
+    "デモの選択のみです。インストールは設定を保存するだけで、AIコンテンツのダウンロードや有効化は行いません。",
+    "데모 선택 사항입니다. 설치는 선호 설정만 저장하며 AI 콘텐츠를 다운로드하거나 활성화하지 않습니다.",
+    "仅为演示选择。安装仅保存偏好，不会下载或激活 AI 内容。"
+  ],
+  "updating knowledge packs...": [
+    "Đang cập nhật gói kiến thức...",
+    "知識パックを更新中...",
+    "지식 팩 업데이트 중...",
+    "正在更新知识包…"
+  ],
+  "robo remembers what matters.": [
+    "Robo ghi nhớ điều quan trọng.",
+    "Roboが大切なことを覚える。",
+    "Robo가 중요한 것을 기억합니다.",
+    "Robo 记住重要的事。"
+  ],
+  "you choose what robo can remember.": [
+    "Bạn chọn những gì Robo được nhớ.",
+    "覚えてよいことは、あなたが選びます。",
+    "Robo가 기억할 내용은 직접 선택합니다.",
+    "由您选择 Robo 可以记住什么。"
+  ],
+  "allow robo to remember the categories you choose.": [
+    "Cho phép Robo ghi nhớ những nhóm bạn chọn.",
+    "選択したカテゴリをRoboが覚えることを許可します。",
+    "선택한 범주의 내용을 Robo가 기억하도록 허용합니다.",
+    "允许 Robo 记住所选类别。"
+  ],
+  "name, preferred form of address and language.": [
+    "Tên, cách xưng hô và ngôn ngữ ưu tiên.",
+    "名前、呼び方、希望する言語。",
+    "이름, 선호 호칭 및 언어.",
+    "姓名、偏好称呼及语言。"
+  ],
+  "voice, response length and knowledge preferences.": [
+    "Giọng nói, độ dài trả lời và sở thích kiến thức.",
+    "音声、応答の長さ、知識の好み。",
+    "음성, 응답 길이 및 지식 선호.",
+    "语音、回复长度及知识偏好。"
+  ],
+  "important conversation context. no conversation history is stored in this demo.": [
+    "Ngữ cảnh hội thoại quan trọng. Demo không lưu lịch sử hội thoại.",
+    "重要な会話の文脈。このデモでは会話履歴を保存しません。",
+    "중요한 대화 맥락입니다. 이 데모는 대화 내역을 저장하지 않습니다.",
+    "重要对话上下文。本演示不保存对话记录。"
+  ],
+  "you're in control.": [
+    "Bạn nắm quyền kiểm soát.",
+    "決めるのは、あなた。",
+    "직접 관리하세요.",
+    "由您掌控。"
+  ],
+  "clear this robo's saved memory permissions. in this demo, clearing resets all memory settings to off.": [
+    "Xóa quyền ghi nhớ đã lưu của Robo. Trong demo, thao tác này tắt mọi cài đặt bộ nhớ.",
+    "Roboの保存済みメモリー権限を消去します。このデモでは、すべてのメモリー設定がオフになります。",
+    "Robo에 저장된 기억 권한을 지웁니다. 이 데모에서는 모든 기억 설정을 끕니다.",
+    "清除此 Robo 已保存的记忆权限。本演示会将所有记忆设置重置为关闭。"
+  ],
+  "clear robo memory?": [
+    "Xóa bộ nhớ Robo?",
+    "Roboのメモリーを消去しますか？",
+    "Robo 기억을 삭제할까요?",
+    "清除 Robo 记忆？"
+  ],
+  "this will clear the saved memory for this robo in the current demo. memory permissions will be reset to off.": [
+    "Xóa bộ nhớ đã lưu của Robo trong demo này. Mọi quyền ghi nhớ sẽ được tắt.",
+    "このデモのRoboの保存済みメモリーを消去し、権限をすべてオフにします。",
+    "현재 데모에서 Robo의 저장된 기억을 삭제하고 기억 권한을 모두 끕니다.",
+    "将清除此演示中 Robo 的已保存记忆，并关闭所有记忆权限。"
+  ],
+  "clearing...": [
+    "Đang xóa...",
+    "消去中...",
+    "삭제 중...",
+    "清除中…"
+  ],
+  "make robo feel like yours.": [
+    "Tạo cá tính riêng cho Robo.",
+    "あなたらしいRoboに。",
+    "나만의 Robo로 만들어보세요.",
+    "让 Robo 更懂您。"
+  ],
+  "choose how robo communicates, responds and expresses itself.": [
+    "Chọn cách Robo giao tiếp, phản hồi và thể hiện.",
+    "Roboの話し方、応答、表現を選択します。",
+    "Robo의 소통, 응답, 표현 방식을 선택하세요.",
+    "选择 Robo 的交流、回应与表达方式。"
+  ],
+  "robo would say": [
+    "Robo có thể nói",
+    "Roboならこう言う",
+    "Robo는 이렇게 말해요",
+    "Robo 会这样说"
+  ],
+  "illustrative preview only. this is not an ai conversation.": [
+    "Chỉ là ví dụ minh họa. Đây không phải cuộc trò chuyện AI.",
+    "例示用のプレビューです。AIとの会話ではありません。",
+    "예시 미리보기입니다. 실제 AI 대화가 아닙니다.",
+    "仅为示例预览，并非 AI 对话。"
+  ],
+  "device id /": [
+    "Mã thiết bị /",
+    "デバイスID /",
+    "기기 ID /",
+    "设备 ID /"
+  ],
+  "configuration preview / changes are saved for this robo in the demo. they are not applied to a physical device.": [
+    "Xem trước cấu hình / Thay đổi được lưu cho Robo trong demo, không áp dụng lên thiết bị thật.",
+    "設定プレビュー / 変更はデモのRoboに保存されます。実機には適用されません。",
+    "설정 미리보기 / 변경 사항은 데모 Robo에 저장되며 실제 기기에는 적용되지 않습니다.",
+    "配置预览 / 更改保存在演示 Robo 中，不会应用到实体设备。"
+  ],
+  "loading your robo settings...": [
+    "Đang tải cài đặt Robo...",
+    "Roboの設定を読み込み中...",
+    "Robo 설정을 불러오는 중...",
+    "正在加载 Robo 设置…"
+  ],
+  "settings unavailable.": [
+    "Không tải được cài đặt.",
+    "設定を読み込めません。",
+    "설정을 사용할 수 없습니다.",
+    "设置不可用。"
+  ],
+  "← back to my robots": [
+    "← Về robot của tôi",
+    "← マイロボットに戻る",
+    "← 내 로봇으로",
+    "← 返回我的机器人"
+  ],
+  "we couldn't load this robo.": [
+    "Không tải được Robo này.",
+    "このRoboを読み込めません。",
+    "이 Robo를 불러올 수 없습니다.",
+    "无法加载此 Robo。"
+  ],
+  "try again when device storage or the service is available.": [
+    "Thử lại khi bộ nhớ thiết bị hoặc dịch vụ hoạt động.",
+    "ストレージまたはサービスが利用可能になったら再試行してください。",
+    "기기 저장소나 서비스를 사용할 수 있을 때 다시 시도하세요.",
+    "请在设备存储或服务可用时重试。"
+  ],
+  "robo not found.": [
+    "Không tìm thấy Robo.",
+    "Roboが見つかりません。",
+    "Robo를 찾을 수 없습니다.",
+    "未找到 Robo。"
+  ],
+  "this device is no longer connected to your account.": [
+    "Thiết bị này không còn kết nối với tài khoản.",
+    "このデバイスはアカウントに接続されていません。",
+    "이 기기는 더 이상 계정에 연결되어 있지 않습니다.",
+    "此设备已不再连接到您的账户。"
+  ],
+  "meet your robo.": [
+    "Gặp gỡ Robo của bạn.",
+    "あなたのRoboに会おう。",
+    "나의 Robo를 만나보세요.",
+    "认识您的 Robo。"
+  ],
+  "your personal ai companion.": [
+    "Người bạn AI của riêng bạn.",
+    "あなただけのAIパートナー。",
+    "나만의 AI 동반자.",
+    "您的专属 AI 伙伴。"
+  ],
+  "choose how robo speaks.": [
+    "Chọn cách Robo nói.",
+    "Roboの話し方を選ぶ。",
+    "Robo의 말투를 선택하세요.",
+    "选择 Robo 的说话方式。"
+  ],
+  "a voice that feels right for your everyday conversations.": [
+    "Giọng nói phù hợp với những cuộc trò chuyện hằng ngày.",
+    "毎日の会話にしっくりくる声。",
+    "일상의 대화에 잘 어울리는 목소리.",
+    "适合日常交流的声音。"
+  ],
+  "voice preview will be available when connected to the ai service.": [
+    "Nghe thử giọng sẽ có khi kết nối dịch vụ AI.",
+    "音声プレビューはAIサービス接続後に利用できます。",
+    "음성 미리 듣기는 AI 서비스 연결 후 사용할 수 있습니다.",
+    "连接 AI 服务后可试听语音。"
+  ],
+  "this robo is already connected.": [
+    "Robo này đã được kết nối.",
+    "このRoboは接続済みです。",
+    "이 Robo는 이미 연결되어 있습니다.",
+    "此 Robo 已连接。"
+  ],
+  "invalid device information. check both fields and try again.": [
+    "Thông tin thiết bị không hợp lệ. Kiểm tra cả hai trường rồi thử lại.",
+    "デバイス情報が無効です。両方の入力を確認して再試行してください。",
+    "기기 정보가 올바르지 않습니다. 두 항목을 확인하고 다시 시도하세요.",
+    "设备信息无效，请检查两个字段后重试。"
+  ],
+  "the activation code is invalid. check it and try again.": [
+    "Mã kích hoạt không hợp lệ. Kiểm tra rồi thử lại.",
+    "有効化コードが無効です。確認して再試行してください。",
+    "활성화 코드가 올바르지 않습니다. 확인하고 다시 시도하세요.",
+    "激活码无效，请检查后重试。"
+  ],
+  "we couldn't find that device id.": [
+    "Không tìm thấy mã thiết bị này.",
+    "そのデバイスIDが見つかりません。",
+    "해당 기기 ID를 찾을 수 없습니다.",
+    "未找到此设备 ID。"
+  ],
+  "you don't have permission to connect this robo.": [
+    "Bạn không có quyền kết nối Robo này.",
+    "このRoboを接続する権限がありません。",
+    "이 Robo를 연결할 권한이 없습니다.",
+    "您无权连接此 Robo。"
+  ],
+  "unable to save your robo. allow browser storage and try again.": [
+    "Không lưu được Robo. Cho phép lưu trữ trình duyệt rồi thử lại.",
+    "Roboを保存できません。ブラウザーストレージを許可して再試行してください。",
+    "Robo를 저장할 수 없습니다. 브라우저 저장소를 허용하고 다시 시도하세요.",
+    "无法保存 Robo，请允许浏览器存储后重试。"
+  ],
+  "saved device data couldn't be read. your existing data has not been changed.": [
+    "Không đọc được dữ liệu thiết bị đã lưu. Dữ liệu hiện tại chưa bị thay đổi.",
+    "保存済みのデバイス情報を読み込めません。既存データは変更されていません。",
+    "저장된 기기 데이터를 읽을 수 없습니다. 기존 데이터는 변경되지 않았습니다.",
+    "无法读取已保存设备数据，现有数据未更改。"
+  ],
+  "unable to connect robo. please try again.": [
+    "Không kết nối được Robo. Vui lòng thử lại.",
+    "Roboを接続できません。再試行してください。",
+    "Robo를 연결할 수 없습니다. 다시 시도하세요.",
+    "无法连接 Robo，请重试。"
+  ],
+  "personality updated": [
+    "Đã cập nhật tính cách",
+    "個性を更新しました",
+    "성격 업데이트 완료",
+    "个性已更新"
+  ],
+  "memory settings saved": [
+    "Đã lưu cài đặt bộ nhớ",
+    "メモリー設定を保存しました",
+    "기억 설정 저장 완료",
+    "记忆设置已保存"
+  ],
+  "voice settings updated": [
+    "Đã cập nhật giọng nói",
+    "音声設定を更新しました",
+    "음성 설정 업데이트 완료",
+    "语音设置已更新"
+  ],
+  "expression applied": [
+    "Đã áp dụng biểu cảm",
+    "表情を適用しました",
+    "표정 적용 완료",
+    "表情已应用"
+  ],
+  "this robo is no longer connected. return to my robots.": [
+    "Robo không còn kết nối. Hãy về Robot của tôi.",
+    "このRoboは接続されていません。マイロボットに戻ってください。",
+    "이 Robo는 연결되어 있지 않습니다. 내 로봇으로 돌아가세요.",
+    "此 Robo 已断开，请返回“我的机器人”。"
+  ],
+  "this robo is no longer connected.": [
+    "Robo không còn kết nối.",
+    "このRoboは接続されていません。",
+    "이 Robo는 더 이상 연결되어 있지 않습니다.",
+    "此 Robo 已断开连接。"
+  ],
+  "robo is not online. actions are unavailable until it reconnects.": [
+    "Robo chưa trực tuyến. Hành động chỉ khả dụng khi kết nối lại.",
+    "Roboはオンラインではありません。再接続までアクションを利用できません。",
+    "Robo가 온라인이 아닙니다. 다시 연결될 때까지 동작을 사용할 수 없습니다.",
+    "Robo 不在线，重新连接前无法使用动作。"
+  ],
+  "you don't have permission to change this robo.": [
+    "Bạn không có quyền thay đổi Robo này.",
+    "このRoboを変更する権限がありません。",
+    "이 Robo를 변경할 권한이 없습니다.",
+    "您无权修改此 Robo。"
+  ],
+  "the configuration couldn't be read or saved. check your values and try again. existing data has not been overwritten.": [
+    "Không đọc hoặc lưu được cấu hình. Kiểm tra giá trị rồi thử lại. Dữ liệu hiện tại chưa bị ghi đè.",
+    "設定を読み込み・保存できません。値を確認して再試行してください。既存データは上書きされていません。",
+    "설정을 읽거나 저장할 수 없습니다. 값을 확인하고 다시 시도하세요. 기존 데이터는 덮어쓰지 않았습니다.",
+    "无法读取或保存配置，请检查后重试。现有数据未被覆盖。"
+  ],
+  "this action is not available on this model.": [
+    "Hành động này không có trên phiên bản này.",
+    "このモデルではこのアクションを利用できません。",
+    "이 모델에서는 이 동작을 사용할 수 없습니다.",
+    "此型号不支持此动作。"
+  ],
+  "browser storage is unavailable. your changes are still in the form; allow storage and try again.": [
+    "Không truy cập được bộ nhớ trình duyệt. Thay đổi vẫn trong biểu mẫu; cho phép lưu trữ rồi thử lại.",
+    "ストレージを利用できません。変更はフォームに残っています。保存を許可して再試行してください。",
+    "브라우저 저장소를 사용할 수 없습니다. 변경 사항은 양식에 남아 있습니다. 저장소를 허용하고 다시 시도하세요.",
+    "浏览器存储不可用，更改仍保留在表单中。请允许存储后重试。"
+  ],
+  "the service could not be reached. please try again.": [
+    "Không kết nối được dịch vụ. Vui lòng thử lại.",
+    "サービスに接続できません。再試行してください。",
+    "서비스에 연결할 수 없습니다. 다시 시도하세요.",
+    "无法连接服务，请重试。"
+  ],
+  "unable to complete this request. please try again.": [
+    "Không hoàn tất được yêu cầu. Vui lòng thử lại.",
+    "リクエストを完了できません。再試行してください。",
+    "요청을 완료할 수 없습니다. 다시 시도하세요.",
+    "无法完成请求，请重试。"
+  ],
+  "knowledge pack removed": [
+    "Đã gỡ gói kiến thức",
+    "知識パックを削除しました",
+    "지식 팩 제거 완료",
+    "知识包已移除"
+  ],
+  "knowledge pack installed": [
+    "Đã cài gói kiến thức",
+    "知識パックをインストールしました",
+    "지식 팩 설치 완료",
+    "知识包已安装"
+  ],
+  "memory cleared": [
+    "Đã xóa bộ nhớ",
+    "メモリーを消去しました",
+    "기억 삭제 완료",
+    "记忆已清除"
+  ],
+  "command sent · demo only. no physical movement has been confirmed.": [
+    "Đã gửi lệnh · Chỉ là demo. Chưa xác nhận chuyển động thật.",
+    "コマンド送信済み・デモのみ。実機の動作は確認されていません。",
+    "명령 전송 완료 · 데모 전용. 실제 움직임은 확인되지 않았습니다.",
+    "指令已发送 · 仅为演示，未确认实体运动。"
+  ],
+  "command sent. awaiting device acknowledgement.": [
+    "Đã gửi lệnh. Đang chờ thiết bị xác nhận.",
+    "コマンドを送信しました。デバイスの応答待ちです。",
+    "명령을 전송했습니다. 기기 확인을 기다립니다.",
+    "指令已发送，等待设备确认。"
+  ],
+  "robo renamed": [
+    "Đã đổi tên Robo",
+    "Roboの名前を変更しました",
+    "Robo 이름 변경 완료",
+    "Robo 已重命名"
+  ],
+  "robo unpaired": [
+    "Đã hủy ghép nối Robo",
+    "Roboのペアリングを解除しました",
+    "Robo 연결 해제 완료",
+    "Robo 配对已取消"
+  ],
+  "unable to unpair this robo. your devices have not been removed. please try again.": [
+    "Không hủy ghép nối được Robo. Thiết bị chưa bị xóa. Vui lòng thử lại.",
+    "ペアリングを解除できません。デバイスは削除されていません。再試行してください。",
+    "Robo 연결을 해제할 수 없습니다. 기기는 제거되지 않았습니다. 다시 시도하세요.",
+    "无法取消此 Robo 配对，设备未被移除，请重试。"
+  ],
+  "everyday questions, ideas and practical help.": [
+    "Câu hỏi hằng ngày, ý tưởng và trợ giúp thực tế.",
+    "日常の疑問、アイデア、実用的なサポート。",
+    "일상 질문, 아이디어, 실용적인 도움.",
+    "日常问题、创意及实用帮助。"
+  ],
+  "explore subjects and learn at your own pace.": [
+    "Khám phá kiến thức và học theo nhịp riêng.",
+    "さまざまな分野を、自分のペースで学ぶ。",
+    "다양한 주제를 나만의 속도로 배워보세요.",
+    "探索各类主题，按自己的节奏学习。"
+  ],
+  "a space to build confidence with english.": [
+    "Không gian để tự tin hơn với tiếng Anh.",
+    "英語への自信を育む場所。",
+    "영어에 자신감을 쌓는 공간.",
+    "建立英语自信的空间。"
+  ],
+  "age-appropriate learning concepts for curious minds.": [
+    "Ý tưởng học tập phù hợp lứa tuổi cho trí tò mò.",
+    "好奇心に応える、年齢に合った学び。",
+    "호기심 많은 아이를 위한 연령별 학습 개념.",
+    "适合不同年龄好奇心的学习概念。"
+  ],
+  "bring context to collections and exhibitions.": [
+    "Thêm bối cảnh cho bộ sưu tập và triển lãm.",
+    "コレクションや展示の背景を伝える。",
+    "컬렉션과 전시에 맥락을 더합니다.",
+    "为藏品与展览补充背景。"
+  ],
+  "professional knowledge for everyday work.": [
+    "Kiến thức chuyên môn cho công việc hằng ngày.",
+    "毎日の仕事に役立つ専門知識。",
+    "일상 업무를 위한 전문 지식.",
+    "日常工作的专业知识。"
+  ],
+  "a future place for knowledge tailored to you.": [
+    "Không gian tương lai cho kiến thức dành riêng cho bạn.",
+    "あなたに合わせた知識のための、未来の場所。",
+    "나에게 맞춘 지식을 위한 미래의 공간.",
+    "未来的专属知识空间。"
+  ],
+  "explore the songs, stories and traditions of hát sắc bùa.": [
+    "Khám phá bài hát, câu chuyện và truyền thống Hát Sắc Bùa.",
+    "Hát Sắc Bùaの歌・物語・伝統を知る。",
+    "Hát Sắc Bùa의 노래, 이야기, 전통을 알아보세요.",
+    "探索 Hát Sắc Bùa 的歌曲、故事与传统。"
+  ],
+  "a little warmth in every exchange.": [
+    "Một chút ấm áp trong mỗi cuộc trao đổi.",
+    "やり取りのたびに、小さな温かさを。",
+    "모든 대화에 작은 따뜻함을.",
+    "每次交流，多一分温暖。"
+  ],
+  "warm · friendly · light humor": [
+    "Ấm áp · Thân thiện · Hài hước nhẹ",
+    "温かい・親しみやすい・軽いユーモア",
+    "따뜻함 · 친근함 · 가벼운 유머",
+    "温暖 · 友善 · 轻松幽默"
+  ],
+  "ready when you are. what should we do next?": [
+    "Bạn sẵn sàng thì mình cũng vậy. Tiếp theo làm gì nhỉ?",
+    "いつでも準備OK。次は何をしよう？",
+    "준비되면 말해 주세요. 다음엔 무엇을 할까요?",
+    "您准备好，我就准备好了。接下来做什么？"
+  ],
+  "stay focused on what matters.": [
+    "Tập trung vào điều quan trọng.",
+    "大切なことに集中。",
+    "중요한 것에 집중하세요.",
+    "专注重要的事。"
+  ],
+  "focused · professional · concise": [
+    "Tập trung · Chuyên nghiệp · Ngắn gọn",
+    "集中・プロフェッショナル・簡潔",
+    "집중 · 전문적 · 간결함",
+    "专注 · 专业 · 简洁"
+  ],
+  "i'm ready. what would you like to work on?": [
+    "Tôi sẵn sàng. Bạn muốn làm việc gì?",
+    "準備できています。何に取り組みますか？",
+    "준비됐습니다. 어떤 일을 하실까요?",
+    "我准备好了。您想处理什么？"
+  ],
+  "make room to think at your own pace.": [
+    "Dành thời gian suy nghĩ theo nhịp riêng.",
+    "自分のペースで考える時間を。",
+    "나만의 속도로 생각할 여유를.",
+    "留出按自己节奏思考的空间。"
+  ],
+  "gentle · patient · balanced": [
+    "Dịu dàng · Kiên nhẫn · Cân bằng",
+    "穏やか・忍耐強い・バランス",
+    "부드러움 · 인내심 · 균형",
+    "温和 · 耐心 · 平衡"
+  ],
+  "take your time. we can work through it together.": [
+    "Cứ từ từ nhé. Mình cùng giải quyết.",
+    "ゆっくりで大丈夫。一緒に考えましょう。",
+    "천천히 하세요. 함께 해결할 수 있어요.",
+    "慢慢来，我们可以一起解决。"
+  ],
+  "get straight to the point.": [
+    "Đi thẳng vào vấn đề.",
+    "要点をまっすぐに。",
+    "바로 본론으로.",
+    "直奔主题。"
+  ],
+  "straightforward · short · minimal small talk": [
+    "Thẳng thắn · Ngắn gọn · Ít xã giao",
+    "率直・短い・雑談少なめ",
+    "직설적 · 짧게 · 최소한의 잡담",
+    "直接 · 简短 · 少寒暄"
+  ],
+  "what's next?": [
+    "Tiếp theo là gì?",
+    "次は？",
+    "다음은요?",
+    "接下来呢？"
+  ],
+  "fine-tune robo yourself.": [
+    "Tự tinh chỉnh Robo.",
+    "自分でRoboを調整。",
+    "직접 Robo를 세밀하게 조정하세요.",
+    "自行微调 Robo。"
+  ],
+  "your pace · your tone · your choice": [
+    "Nhịp của bạn · Giọng của bạn · Lựa chọn của bạn",
+    "あなたのペース・口調・選択",
+    "나의 속도 · 나의 말투 · 나의 선택",
+    "您的节奏 · 您的语气 · 您的选择"
+  ],
+  "let's find a way that works for you.": [
+    "Cùng tìm cách phù hợp với bạn nhé.",
+    "あなたに合う方法を探しましょう。",
+    "나에게 맞는 방법을 함께 찾아봐요.",
+    "一起找到适合您的方式。"
+  ],
+  "loading orders...": [
+    "Đang tải đơn hàng...",
+    "注文を読み込み中...",
+    "주문을 불러오는 중...",
+    "正在加载订单…"
+  ],
+  "orders unavailable.": [
+    "Không tải được đơn hàng.",
+    "注文を読み込めません。",
+    "주문을 불러올 수 없습니다.",
+    "无法加载订单。"
+  ],
+  "your browser could not read local order history. check storage permissions and try again.": [
+    "Trình duyệt không đọc được lịch sử đơn hàng. Kiểm tra quyền lưu trữ rồi thử lại.",
+    "ブラウザーで注文履歴を読み込めません。ストレージの権限を確認して再試行してください。",
+    "브라우저에서 주문 내역을 읽을 수 없습니다. 저장소 권한을 확인하고 다시 시도하세요.",
+    "浏览器无法读取本地订单记录，请检查存储权限后重试。"
+  ],
+  "welcome back.": [
+    "Chào mừng bạn trở lại.",
+    "おかえりなさい。",
+    "다시 오신 것을 환영합니다.",
+    "欢迎回来。"
+  ],
+  "manage your orders and get ready for your future robo.": [
+    "Quản lý đơn hàng và sẵn sàng đón Robo của bạn.",
+    "注文を管理して、Roboを迎える準備をしましょう。",
+    "주문을 관리하고 앞으로 만날 Robo를 준비하세요.",
+    "管理订单，准备迎接您的 Robo。"
+  ],
+  "account overview": [
+    "Tổng quan tài khoản",
+    "アカウント概要",
+    "계정 개요",
+    "账户概览"
+  ],
+  "view your robo orders and track their status.": [
+    "Xem đơn hàng Robo và theo dõi trạng thái.",
+    "Roboの注文と状態を確認できます。",
+    "Robo 주문과 상태를 확인하세요.",
+    "查看 Robo 订单及状态。"
+  ],
+  "your connected robo devices, all in one place.": [
+    "Tất cả Robo đã kết nối, tại một nơi.",
+    "接続したRoboをまとめて管理。",
+    "연결된 Robo 기기를 한곳에서 관리하세요.",
+    "在一处管理所有已连接的 Robo。"
+  ],
+  "loading robos...": [
+    "Đang tải robot...",
+    "Roboを読み込み中...",
+    "Robo를 불러오는 중...",
+    "正在加载 Robo…"
+  ],
+  "robos unavailable.": [
+    "Không tải được robot.",
+    "Roboを読み込めません。",
+    "Robo를 불러올 수 없습니다.",
+    "无法加载 Robo。"
+  ],
+  "from your most recent order.": [
+    "Từ đơn hàng gần nhất của bạn.",
+    "直近の注文から。",
+    "가장 최근 주문 기준입니다.",
+    "来自您的最近一笔订单。"
+  ],
+  "no profile information yet.": [
+    "Chưa có thông tin hồ sơ.",
+    "プロフィール情報はまだありません。",
+    "아직 프로필 정보가 없습니다.",
+    "暂无个人资料。"
+  ],
+  "account settings coming soon": [
+    "Cài đặt tài khoản sẽ sớm có",
+    "アカウント設定は近日公開",
+    "계정 설정 출시 예정",
+    "账户设置即将推出"
+  ],
+  "need help with your robo order?": [
+    "Bạn cần hỗ trợ về đơn hàng Robo?",
+    "Roboの注文についてお困りですか？",
+    "Robo 주문에 도움이 필요하신가요?",
+    "需要 Robo 订单方面的帮助吗？"
+  ],
+  "support services will be available in a future release.": [
+    "Dịch vụ hỗ trợ sẽ có trong phiên bản sau.",
+    "サポートサービスは今後のリリースで提供予定です。",
+    "지원 서비스는 향후 버전에서 제공됩니다.",
+    "支持服务将在后续版本中提供。"
+  ],
+  "your robo journey": [
+    "Hành trình cùng Robo",
+    "Roboとの歩み",
+    "Robo와의 여정",
+    "您的 Robo 之旅"
+  ],
+  "no orders yet.": [
+    "Chưa có đơn hàng.",
+    "注文はまだありません。",
+    "아직 주문이 없습니다.",
+    "暂无订单。"
+  ],
+  "your robo journey can start whenever you're ready.": [
+    "Hành trình cùng Robo bắt đầu khi bạn sẵn sàng.",
+    "準備ができたら、Roboとの歩みを始めましょう。",
+    "준비되셨을 때 Robo와의 여정을 시작하세요.",
+    "准备好时，随时开启您的 Robo 之旅。"
+  ],
+  "skip to account content": [
+    "Đến nội dung tài khoản",
+    "アカウント内容へスキップ",
+    "계정 내용으로 건너뛰기",
+    "跳至账户内容"
+  ],
+  "account navigation": [
+    "Điều hướng tài khoản",
+    "アカウントナビゲーション",
+    "계정 탐색",
+    "账户导航"
+  ],
+  "local demo / orders and robos saved in this browser. no login or live tracking.": [
+    "Demo cục bộ / Đơn hàng và robot lưu trong trình duyệt này. Không có đăng nhập hay theo dõi trực tiếp.",
+    "ローカルデモ / 注文とRoboはこのブラウザーに保存されます。ログインやリアルタイム追跡はありません。",
+    "로컬 데모 / 주문과 Robo는 이 브라우저에 저장됩니다. 로그인이나 실시간 추적은 없습니다.",
+    "本地演示 / 订单和 Robo 保存在此浏览器中，无登录或实时追踪。"
+  ],
+  "this customer area shows demo orders stored in this browser. it is not a signed-in account. no order, payment, email or device connection is sent to a service.": [
+    "Khu vực này hiển thị đơn demo lưu trong trình duyệt, không phải tài khoản đã đăng nhập. Không gửi đơn hàng, thanh toán, email hay kết nối thiết bị đến dịch vụ.",
+    "この画面はブラウザー内のデモ注文を表示します。ログイン済みのアカウントではなく、注文・決済・メール・デバイス接続は送信されません。",
+    "이 화면은 브라우저에 저장된 데모 주문을 표시합니다. 로그인된 계정이 아니며 주문, 결제, 이메일, 기기 연결을 서비스로 전송하지 않습니다.",
+    "此区域显示浏览器中保存的演示订单，并非已登录账户，不会向服务发送订单、付款、邮件或设备连接。"
+  ],
+  "maximum 5 per cart": [
+    "Tối đa 5 sản phẩm mỗi giỏ",
+    "カートにつき最大5点",
+    "장바구니당 최대 5개",
+    "每个购物车最多 5 件"
+  ],
+  "cart confirmation": [
+    "Xác nhận giỏ hàng",
+    "カートの確認",
+    "장바구니 확인",
+    "购物车确认"
+  ],
+  "dismiss cart confirmation": [
+    "Đóng xác nhận giỏ hàng",
+    "カートの確認を閉じる",
+    "장바구니 확인 닫기",
+    "关闭购物车确认"
+  ],
+  "has been added to your cart.": [
+    "đã được thêm vào giỏ hàng.",
+    "をカートに追加しました。",
+    "장바구니에 추가되었습니다.",
+    "已加入购物车。"
+  ],
+  "{name} has been added to your cart.": [
+    "Đã thêm {name} vào giỏ hàng.",
+    "{name}をカートに追加しました。",
+    "{name} 상품을 장바구니에 추가했습니다.",
+    "{name} 已加入购物车。"
+  ],
+  "browser storage is unavailable. your cart may not survive a reload.": [
+    "Không truy cập được bộ nhớ trình duyệt. Giỏ hàng có thể mất khi tải lại trang.",
+    "ブラウザーストレージを利用できません。再読み込みでカートが失われる可能性があります。",
+    "브라우저 저장소를 사용할 수 없습니다. 새로고침하면 장바구니가 사라질 수 있습니다.",
+    "浏览器存储不可用，刷新后购物车可能丢失。"
+  ],
+  "product preview unavailable": [
+    "Không có ảnh xem trước",
+    "製品プレビューを表示できません",
+    "제품 미리보기를 사용할 수 없습니다",
+    "产品预览不可用"
+  ],
+  "preview unavailable": [
+    "Không có bản xem trước",
+    "プレビューを表示できません",
+    "미리보기를 사용할 수 없습니다",
+    "预览不可用"
+  ],
+  "browser storage is unavailable. changes remain in this page, but may be lost when you leave or reload.": [
+    "Không truy cập được bộ nhớ trình duyệt. Thay đổi vẫn có trên trang này nhưng có thể mất khi rời hoặc tải lại trang.",
+    "ブラウザーストレージを利用できません。変更はこのページ内で有効ですが、移動や再読み込みで失われる場合があります。",
+    "브라우저 저장소를 사용할 수 없습니다. 변경 사항은 현재 페이지에 유지되지만 페이지를 떠나거나 새로고침하면 사라질 수 있습니다.",
+    "浏览器存储不可用。更改仅保留在当前页面，离开或刷新后可能丢失。"
+  ],
+  "loading your cart...": [
+    "Đang tải giỏ hàng…",
+    "カートを読み込み中…",
+    "장바구니를 불러오는 중…",
+    "正在加载购物车…"
+  ],
+  "cart items": [
+    "Sản phẩm trong giỏ",
+    "カート内の商品",
+    "장바구니 상품",
+    "购物车商品"
+  ],
+  "up to 5 of each model per cart in this preview. adding an item does not reserve stock or place an order.": [
+    "Bản xem trước cho phép tối đa 5 sản phẩm mỗi phiên bản. Thêm vào giỏ không giữ hàng hoặc đặt đơn.",
+    "このプレビューでは各モデル最大5点までです。カートへの追加は在庫確保や注文を行いません。",
+    "이 미리보기에서는 모델별 최대 5개까지 담을 수 있습니다. 담기만으로 재고가 예약되거나 주문되지 않습니다.",
+    "此预览中每种型号最多 5 件。加入购物车不代表预留库存或下单。"
+  ],
+  "skip to cart": [
+    "Đến giỏ hàng",
+    "カートへスキップ",
+    "장바구니로 건너뛰기",
+    "跳至购物车"
+  ],
+  "your robo is almost ready to meet you.": [
+    "Bạn sắp được gặp Robo của mình.",
+    "Roboとの出会いまでもう少し。",
+    "Robo를 만날 준비가 거의 끝났어요.",
+    "即将与您的 Robo 相遇。"
+  ],
+  "robo is currently in development. pricing, release details and official support information will be announced later. this cart stores product selections in your browser only and does not place an order or collect payment.": [
+    "Robo đang được phát triển. Giá, thông tin ra mắt và hỗ trợ chính thức sẽ công bố sau. Giỏ hàng chỉ lưu lựa chọn trong trình duyệt, không đặt đơn hay thu tiền.",
+    "Roboは開発中です。価格・発売・公式サポートは後日発表します。カートはブラウザーに選択内容を保存するだけで、注文や決済は行いません。",
+    "Robo는 개발 중입니다. 가격, 출시, 공식 지원 정보는 추후 공개됩니다. 장바구니는 브라우저에 선택 사항만 저장하며 주문이나 결제를 진행하지 않습니다.",
+    "Robo 正在开发中，价格、发布及官方支持信息将后续公布。购物车仅在浏览器保存选择，不会下单或收款。"
+  ],
+  "continue to demo checkout. no real payment will be processed.": [
+    "Tiếp tục đặt hàng demo. Không xử lý thanh toán thật.",
+    "注文デモに進みます。実際の決済は行われません。",
+    "데모 주문으로 진행합니다. 실제 결제는 이루어지지 않습니다.",
+    "继续模拟结算，不会进行真实付款。"
+  ],
+  "displayed total excludes shipping.": [
+    "Tổng hiển thị chưa gồm phí vận chuyển.",
+    "表示金額に送料は含まれていません。",
+    "표시 금액에는 배송비가 포함되지 않습니다.",
+    "显示总额不含运费。"
+  ],
+  "robo waiting to meet you": [
+    "Robo đang chờ gặp bạn",
+    "あなたを待つRobo",
+    "당신을 기다리는 Robo",
+    "等待与您相遇的 Robo"
+  ],
+  "your cart is": [
+    "Giỏ hàng của bạn",
+    "カートは",
+    "장바구니가",
+    "您的购物车"
+  ],
+  "feeling a little empty.": [
+    "Đang còn trống.",
+    "まだ空です。",
+    "아직 비어 있어요.",
+    "还是空的。"
+  ],
+  "your future ai companion is waiting.": [
+    "Người bạn AI tương lai đang chờ bạn.",
+    "未来のAIパートナーが待っています。",
+    "미래의 AI 친구가 기다리고 있어요.",
+    "未来的 AI 伙伴正在等您。"
+  ],
+  "your bag": [
+    "Giỏ hàng của bạn",
+    "カート",
+    "장바구니",
+    "您的购物袋"
+  ],
+  "a little room for robo.": [
+    "Dành một chỗ nhỏ cho Robo.",
+    "Roboのための小さなスペース。",
+    "Robo를 위한 작은 자리.",
+    "给 Robo 留个小位置。"
+  ],
+  "your bag is currently empty.": [
+    "Giỏ hàng hiện đang trống.",
+    "カートは空です。",
+    "장바구니가 비어 있습니다.",
+    "购物袋目前为空。"
+  ],
+  "meet robo ↗": [
+    "Gặp gỡ Robo ↗",
+    "Roboに会う ↗",
+    "Robo 만나기 ↗",
+    "认识 Robo ↗"
+  ],
+  "orange / white": [
+    "Cam / Trắng",
+    "オレンジ / ホワイト",
+    "주황 / 흰색",
+    "橙色 / 白色"
+  ],
+  "decrease quantity": [
+    "Giảm số lượng",
+    "数量を減らす",
+    "수량 줄이기",
+    "减少数量"
+  ],
+  "increase quantity": [
+    "Tăng số lượng",
+    "数量を増やす",
+    "수량 늘리기",
+    "增加数量"
+  ],
+  "remove robo from cart": [
+    "Xóa Robo khỏi giỏ",
+    "Roboをカートから削除",
+    "장바구니에서 Robo 삭제",
+    "从购物车移除 Robo"
+  ],
+  "checkout — coming soon": [
+    "Đặt hàng — sắp có",
+    "注文手続き — 近日公開",
+    "주문하기 — 출시 예정",
+    "结算 — 即将推出"
+  ],
+  "this is a demo store. no payment or order will be processed.": [
+    "Đây là cửa hàng demo. Không xử lý thanh toán hoặc đơn thật.",
+    "これはデモストアです。決済や注文は処理されません。",
+    "데모 스토어입니다. 실제 결제나 주문은 처리되지 않습니다.",
+    "这是演示商店，不会处理付款或订单。"
+  ],
+  "nothing to check out.": [
+    "Chưa có sản phẩm để đặt hàng.",
+    "注文する商品がありません。",
+    "주문할 상품이 없습니다.",
+    "没有可结算的商品。"
+  ],
+  "your cart is currently empty.": [
+    "Giỏ hàng hiện đang trống.",
+    "カートは空です。",
+    "장바구니가 비어 있습니다.",
+    "购物车目前为空。"
+  ],
+  "something went wrong. your cart has not been changed. please allow browser storage and try again.": [
+    "Có lỗi xảy ra. Giỏ hàng chưa bị thay đổi. Vui lòng cho phép lưu trữ trình duyệt rồi thử lại.",
+    "エラーが発生しました。カートは変更されていません。ブラウザーストレージを許可して再試行してください。",
+    "문제가 발생했습니다. 장바구니는 변경되지 않았습니다. 브라우저 저장소를 허용하고 다시 시도하세요.",
+    "出现错误，购物车未发生更改。请允许浏览器存储后重试。"
+  ],
+  "frontend demo — no real payment or order will be sent. submitting saves your contact and address details only in this browser. use sample information when trying it out.": [
+    "Demo giao diện — Không gửi thanh toán hay đơn thật. Thông tin liên hệ và địa chỉ chỉ lưu trong trình duyệt này. Hãy dùng dữ liệu mẫu khi thử.",
+    "フロントエンドデモ — 実際の決済や注文は送信されません。連絡先と住所はこのブラウザーにのみ保存されます。お試しにはサンプル情報をご使用ください。",
+    "프런트엔드 데모 — 실제 결제나 주문은 전송되지 않습니다. 연락처와 주소는 이 브라우저에만 저장됩니다. 체험 시 예시 정보를 사용하세요.",
+    "前端演示 — 不会发送真实付款或订单。提交后联系信息和地址仅保存在此浏览器中，体验时请使用示例信息。"
+  ],
+  "shipping cost will be confirmed when the product becomes available.": [
+    "Phí vận chuyển sẽ được xác nhận khi sản phẩm được bán.",
+    "送料は製品の販売開始時に確定します。",
+    "배송비는 제품 출시 시 확정됩니다.",
+    "运费将在产品上市时确认。"
+  ],
+  "no real payment will be processed. payment details will be confirmed when robo enters commercial release.": [
+    "Không xử lý thanh toán thật. Chi tiết thanh toán sẽ xác nhận khi Robo ra mắt thương mại.",
+    "実際の決済は行いません。支払いの詳細はRoboの正式発売時に確定します。",
+    "실제 결제는 이루어지지 않습니다. 결제 정보는 Robo 정식 출시 시 확정됩니다.",
+    "不会进行真实付款，付款详情将在 Robo 商业发布时确认。"
+  ],
+  "review your information and the selected products before continuing.": [
+    "Kiểm tra thông tin và sản phẩm đã chọn trước khi tiếp tục.",
+    "続行前に入力情報と選択した商品をご確認ください。",
+    "계속하기 전에 입력 정보와 선택한 상품을 확인하세요.",
+    "继续前请核对信息及所选商品。"
+  ],
+  "i confirm that the information above is correct.": [
+    "Tôi xác nhận thông tin trên là chính xác.",
+    "上記の情報が正しいことを確認しました。",
+    "위 정보가 정확함을 확인합니다.",
+    "我确认上述信息正确。"
+  ],
+  "no payment will be processed at this stage.": [
+    "Chưa xử lý thanh toán ở bước này.",
+    "この段階では決済は行われません。",
+    "이 단계에서는 결제가 이루어지지 않습니다.",
+    "此阶段不会进行付款。"
+  ],
+  "← back to cart": [
+    "← Về giỏ hàng",
+    "← カートに戻る",
+    "← 장바구니로",
+    "← 返回购物车"
+  ],
+  "skip to checkout": [
+    "Đến phần đặt hàng",
+    "注文手続きへスキップ",
+    "주문으로 건너뛰기",
+    "跳至结算"
+  ],
+  "almost there. your robo is waiting.": [
+    "Sắp xong rồi. Robo đang chờ bạn.",
+    "もう少しです。Roboが待っています。",
+    "거의 다 됐어요. Robo가 기다립니다.",
+    "就快完成了，Robo 正在等您。"
+  ],
+  "checkout progress": [
+    "Tiến trình đặt hàng",
+    "注文手続きの進捗",
+    "주문 진행 단계",
+    "结算进度"
+  ],
+  "this is a frontend demonstration. checkout saves your demo order, including contact and shipping details, in this browser only. no information is sent to a seller and no payment is collected. final product, support and privacy details will be announced before release.": [
+    "Đây là bản demo giao diện. Đơn demo cùng thông tin liên hệ và giao hàng chỉ lưu trong trình duyệt. Không gửi thông tin đến người bán hay thu tiền. Chi tiết sản phẩm, hỗ trợ và quyền riêng tư sẽ công bố trước khi ra mắt.",
+    "これはフロントエンドのデモです。注文と連絡先・配送先はブラウザー内にのみ保存され、販売者への送信や決済は行いません。製品・サポート・プライバシーの詳細は発売前に発表します。",
+    "프런트엔드 데모입니다. 데모 주문과 연락처, 배송 정보는 브라우저에만 저장되며 판매자에게 전송하거나 결제하지 않습니다. 제품, 지원 및 개인정보 처리 상세는 출시 전에 공개됩니다.",
+    "这是前端演示。模拟订单及联系、配送信息仅保存在浏览器中，不会发送给卖家或收款。产品、支持及隐私详情将在发布前公布。"
+  ],
+  "final pricing and delivery costs will be confirmed when robo becomes available.": [
+    "Giá chính thức và phí giao hàng sẽ xác nhận khi Robo được bán.",
+    "正式価格と送料はRoboの販売開始時に確定します。",
+    "최종 가격과 배송비는 Robo 출시 시 확정됩니다.",
+    "最终价格及配送费用将在 Robo 上市时确认。"
+  ],
+  "edit cart ↗": [
+    "Sửa giỏ hàng ↗",
+    "カートを編集 ↗",
+    "장바구니 수정 ↗",
+    "编辑购物车 ↗"
+  ],
+  "demo order saved.": [
+    "Đã lưu đơn demo.",
+    "デモ注文を保存しました。",
+    "데모 주문이 저장되었습니다.",
+    "演示订单已保存。"
+  ],
+  "no recent order.": [
+    "Không có đơn gần đây.",
+    "最近の注文はありません。",
+    "최근 주문이 없습니다.",
+    "没有最近订单。"
+  ],
+  "your demo order is saved in this browser. nothing was sent to a seller and no payment was processed.": [
+    "Đơn demo đã lưu trong trình duyệt này. Không gửi đến người bán và không xử lý thanh toán.",
+    "デモ注文はこのブラウザーに保存されました。販売者への送信や決済は行っていません。",
+    "데모 주문이 이 브라우저에 저장되었습니다. 판매자에게 전송하거나 결제하지 않았습니다.",
+    "演示订单已保存在此浏览器中，未发送给卖家，也未处理付款。"
+  ],
+  "create a demo order from your cart to preview this confirmation.": [
+    "Tạo đơn demo từ giỏ hàng để xem trang xác nhận này.",
+    "カートからデモ注文を作成して、この確認画面をご覧ください。",
+    "장바구니에서 데모 주문을 만들어 확인 화면을 미리 보세요.",
+    "从购物车创建演示订单以预览此确认页面。"
+  ],
+  "automatic copy is unavailable. the number is selected; press ctrl+c or command+c, or use copy on your phone.": [
+    "Không thể tự sao chép. Mã đã được chọn; nhấn Ctrl+C hoặc Command+C, hoặc chọn Sao chép trên điện thoại.",
+    "自動コピーを利用できません。番号を選択しました。Ctrl+CまたはCommand+C、スマートフォンでは「コピー」を使用してください。",
+    "자동 복사를 사용할 수 없습니다. 번호가 선택되었으니 Ctrl+C 또는 Command+C를 누르거나 휴대폰의 복사를 사용하세요.",
+    "无法自动复制。编号已选中，请按 Ctrl+C 或 Command+C，或使用手机的复制功能。"
+  ],
+  "order not found.": [
+    "Không tìm thấy đơn hàng.",
+    "注文が見つかりません。",
+    "주문을 찾을 수 없습니다.",
+    "未找到订单。"
+  ],
+  "we couldn't find this order in your local order history.": [
+    "Không tìm thấy đơn này trong lịch sử đơn hàng cục bộ.",
+    "ローカルの注文履歴にこの注文が見つかりません。",
+    "로컬 주문 내역에서 해당 주문을 찾을 수 없습니다.",
+    "本地订单记录中未找到此订单。"
+  ],
+  "what happens next?": [
+    "Tiếp theo là gì?",
+    "次のステップは？",
+    "다음은 무엇인가요?",
+    "接下来会怎样？"
+  ],
+  "your demo order request is saved locally. product availability, final pricing and delivery details will be confirmed as robo moves toward commercial release.": [
+    "Yêu cầu đặt hàng demo đã lưu cục bộ. Tình trạng sản phẩm, giá chính thức và giao hàng sẽ xác nhận khi Robo tiến tới ra mắt thương mại.",
+    "デモ注文はローカルに保存されました。販売状況・正式価格・配送詳細はRoboの正式発売に向けて確定します。",
+    "데모 주문 요청이 로컬에 저장되었습니다. 판매 여부, 최종 가격, 배송 정보는 Robo 정식 출시 과정에서 확정됩니다.",
+    "模拟订单请求已保存在本地。产品供应、最终价格及配送详情将在 Robo 商业发布前确认。"
+  ],
+  "your robo": [
+    "Robo của bạn",
+    "あなたのRobo",
+    "나의 Robo",
+    "您的 Robo"
+  ],
+  "← view all orders": [
+    "← Xem tất cả đơn hàng",
+    "← すべての注文を見る",
+    "← 모든 주문 보기",
+    "← 查看全部订单"
+  ],
+  "your orders.": [
+    "Đơn hàng của bạn.",
+    "あなたの注文。",
+    "내 주문.",
+    "您的订单。"
+  ],
+  "track every step of your robo journey.": [
+    "Theo dõi từng bước trên hành trình cùng Robo.",
+    "Roboとの歩みを一歩ずつ確認しましょう。",
+    "Robo와의 여정을 단계별로 확인하세요.",
+    "追踪 Robo 之旅的每一步。"
+  ],
+  "your saved orders": [
+    "Đơn hàng đã lưu",
+    "保存済みの注文",
+    "저장된 주문",
+    "已保存的订单"
+  ],
+  "skip to order confirmation": [
+    "Đến xác nhận đơn hàng",
+    "注文確認へスキップ",
+    "주문 확인으로 건너뛰기",
+    "跳至订单确认"
+  ],
+  "loading your order...": [
+    "Đang tải đơn hàng…",
+    "注文を読み込み中…",
+    "주문을 불러오는 중…",
+    "正在加载订单…"
+  ],
+  "your robo journey starts here": [
+    "Hành trình cùng Robo bắt đầu từ đây",
+    "Roboとの歩みがここから始まる",
+    "Robo와의 여정이 시작됩니다",
+    "您的 Robo 之旅从这里开始"
+  ],
+  "thanks for your interest in robo.": [
+    "Cảm ơn bạn đã quan tâm đến Robo.",
+    "Roboにご関心をお寄せいただきありがとうございます。",
+    "Robo에 관심을 가져 주셔서 감사합니다.",
+    "感谢您关注 Robo。"
+  ],
+  "your demo order request is saved in this browser.": [
+    "Yêu cầu đặt hàng demo đã lưu trong trình duyệt này.",
+    "デモ注文はこのブラウザーに保存されました。",
+    "데모 주문 요청이 이 브라우저에 저장되었습니다.",
+    "模拟订单请求已保存在此浏览器中。"
+  ],
+  "nothing was sent to a seller. no payment has been processed.": [
+    "Không gửi thông tin đến người bán. Chưa xử lý thanh toán.",
+    "販売者への送信や決済は行っていません。",
+    "판매자에게 전송하거나 결제하지 않았습니다.",
+    "未向卖家发送任何内容，也未处理付款。"
+  ],
+  "after your robo arrives": [
+    "Sau khi bạn nhận Robo",
+    "Roboが届いたら",
+    "Robo를 받은 후",
+    "收到 Robo 之后"
+  ],
+  "your account.": [
+    "Tài khoản của bạn.",
+    "あなたのアカウント。",
+    "내 계정.",
+    "您的账户。"
+  ],
+  "a preview of what comes next: connect your robo to an account and personalize the experience when the device and account features become available.": [
+    "Xem trước bước tiếp theo: kết nối Robo với tài khoản và cá nhân hóa trải nghiệm khi tính năng thiết bị và tài khoản được triển khai.",
+    "今後のプレビュー：デバイスとアカウントの機能が公開されたら、Roboを接続して体験をカスタマイズできます。",
+    "향후 기능 미리보기: 기기와 계정 기능이 제공되면 Robo를 계정에 연결하고 경험을 맞춤 설정할 수 있습니다.",
+    "后续功能预览：设备和账户功能上线后，可连接 Robo 并个性化体验。"
+  ],
+  "learn about robo ↗": [
+    "Tìm hiểu Robo ↗",
+    "Roboについて知る ↗",
+    "Robo 알아보기 ↗",
+    "了解 Robo ↗"
+  ],
+  "go to my account ↗": [
+    "Đến tài khoản của tôi ↗",
+    "マイアカウントへ ↗",
+    "내 계정으로 ↗",
+    "前往我的账户 ↗"
+  ],
+  "no recent order found.": [
+    "Không tìm thấy đơn gần đây.",
+    "最近の注文が見つかりません。",
+    "최근 주문을 찾을 수 없습니다.",
+    "未找到最近订单。"
+  ],
+  "order storage unavailable.": [
+    "Không truy cập được dữ liệu đơn hàng.",
+    "注文ストレージを利用できません。",
+    "주문 저장소를 사용할 수 없습니다.",
+    "订单存储不可用。"
+  ],
+  "we couldn't find a recent order in this browser.": [
+    "Không tìm thấy đơn gần đây trong trình duyệt này.",
+    "このブラウザーに最近の注文が見つかりません。",
+    "이 브라우저에서 최근 주문을 찾을 수 없습니다.",
+    "此浏览器中未找到最近订单。"
+  ],
+  "the order may have been removed from local browser storage.": [
+    "Đơn hàng có thể đã bị xóa khỏi bộ nhớ trình duyệt.",
+    "注文はブラウザーのストレージから削除された可能性があります。",
+    "브라우저 저장소에서 주문이 삭제되었을 수 있습니다.",
+    "订单可能已从浏览器本地存储中删除。"
+  ],
+  "this browser could not read your saved orders. check storage permissions and try again.": [
+    "Trình duyệt không đọc được đơn đã lưu. Kiểm tra quyền lưu trữ rồi thử lại.",
+    "保存済みの注文を読み込めません。ストレージの権限を確認して再試行してください。",
+    "저장된 주문을 읽을 수 없습니다. 저장소 권한을 확인하고 다시 시도하세요.",
+    "浏览器无法读取已保存订单，请检查存储权限后重试。"
+  ],
+  "your demo order history is available in this browser.": [
+    "Lịch sử đơn demo có trong trình duyệt này.",
+    "デモ注文の履歴はこのブラウザーで確認できます。",
+    "데모 주문 내역은 이 브라우저에서 확인할 수 있습니다.",
+    "可在此浏览器中查看演示订单记录。"
+  ],
+  "this is a local frontend demonstration. order details are stored in this browser only; no order, email or payment is sent. product availability, pricing, delivery and account features will be confirmed in a future release.": [
+    "Đây là demo giao diện cục bộ. Chi tiết đơn chỉ lưu trong trình duyệt; không gửi đơn, email hay thanh toán. Thông tin sản phẩm, giá, giao hàng và tính năng tài khoản sẽ xác nhận ở phiên bản sau.",
+    "これはローカルのデモです。注文詳細はブラウザーにのみ保存され、注文・メール・決済は送信されません。販売状況・価格・配送・アカウント機能は今後確定します。",
+    "로컬 프런트엔드 데모입니다. 주문 상세는 브라우저에만 저장되며 주문, 이메일, 결제는 전송되지 않습니다. 판매 여부, 가격, 배송 및 계정 기능은 향후 확정됩니다.",
+    "这是本地前端演示。订单详情仅保存在浏览器中，不发送订单、邮件或付款。供应、价格、配送及账户功能将在后续版本中确认。"
+  ],
+  "saved demo order. no payment has been processed.": [
+    "Đơn demo đã lưu. Chưa xử lý thanh toán.",
+    "デモ注文を保存しました。決済は行っていません。",
+    "데모 주문이 저장되었습니다. 결제는 진행되지 않았습니다.",
+    "演示订单已保存，未处理付款。"
+  ],
+  "looking ahead": [
+    "Hướng tới bước tiếp theo",
+    "これからの流れ",
+    "앞으로의 과정",
+    "展望后续"
+  ],
+  "a preview of the future order journey. this demo does not trigger confirmation emails or delivery.": [
+    "Xem trước quy trình đặt hàng tương lai. Demo không gửi email xác nhận hay giao hàng.",
+    "今後の注文の流れを紹介します。このデモでは確認メールの送信や配送は行いません。",
+    "향후 주문 과정 미리보기입니다. 이 데모는 확인 이메일 발송이나 배송을 진행하지 않습니다.",
+    "未来订单流程预览。本演示不会触发确认邮件或配送。"
+  ],
+  "your robo order request has been saved in this browser for this demonstration.": [
+    "Yêu cầu đặt Robo đã lưu trong trình duyệt cho bản demo này.",
+    "デモ用のRobo注文をこのブラウザーに保存しました。",
+    "데모용 Robo 주문 요청이 이 브라우저에 저장되었습니다.",
+    "Robo 订单请求已为本演示保存在此浏览器中。"
+  ],
+  "product availability, pricing and delivery details will be confirmed when robo enters the next commercial stage.": [
+    "Tình trạng sản phẩm, giá và giao hàng sẽ xác nhận khi Robo bước sang giai đoạn thương mại tiếp theo.",
+    "販売状況・価格・配送詳細はRoboの次の商用段階で確定します。",
+    "제품 판매 여부, 가격 및 배송 상세는 Robo의 다음 상용 단계에서 확정됩니다.",
+    "产品供应、价格及配送详情将在 Robo 进入下一商业阶段时确认。"
+  ],
+  "robo delivery": [
+    "Giao Robo",
+    "Roboのお届け",
+    "Robo 배송",
+    "Robo 配送"
+  ],
+  "when robo becomes available, delivery and device setup information will be shared. no delivery date is confirmed yet.": [
+    "Khi Robo được bán, thông tin giao hàng và thiết lập sẽ được cung cấp. Chưa xác nhận ngày giao hàng.",
+    "Roboの販売開始時に配送と設定の情報をご案内します。配送日はまだ確定していません。",
+    "Robo 출시 시 배송과 기기 설정 정보를 안내합니다. 배송일은 아직 확정되지 않았습니다.",
+    "Robo 上市后将提供配送和设置说明，目前尚未确认配送日期。"
+  ],
+  "please enter a valid email address.": [
+    "Vui lòng nhập địa chỉ email hợp lệ.",
+    "有効なメールアドレスを入力してください。",
+    "올바른 이메일 주소를 입력하세요.",
+    "请输入有效的电子邮箱。"
+  ],
+  "please enter a valid phone number (7–15 digits).": [
+    "Vui lòng nhập số điện thoại hợp lệ (7–15 chữ số).",
+    "有効な電話番号（7〜15桁）を入力してください。",
+    "올바른 전화번호를 입력하세요(7~15자리).",
+    "请输入有效的电话号码（7–15 位数字）。"
+  ],
+  "please select a country.": [
+    "Vui lòng chọn quốc gia.",
+    "国・地域を選択してください。",
+    "국가를 선택하세요.",
+    "请选择国家或地区。"
+  ],
+  "please confirm that your information is correct.": [
+    "Vui lòng xác nhận thông tin chính xác.",
+    "情報が正しいことを確認してください。",
+    "정보가 정확한지 확인해 주세요.",
+    "请确认信息正确。"
+  ],
+  "please enter your {field}.": [
+    "Vui lòng nhập {field}.",
+    "{field}を入力してください。",
+    "{field} 항목을 입력하세요.",
+    "请输入{field}。"
+  ],
+  "please enter your first name.": [
+    "Vui lòng nhập tên.",
+    "名を入力してください。",
+    "이름을 입력하세요.",
+    "请输入名。"
+  ],
+  "please enter your last name.": [
+    "Vui lòng nhập họ.",
+    "姓を入力してください。",
+    "성을 입력하세요.",
+    "请输入姓。"
+  ],
+  "please enter your shipping address.": [
+    "Vui lòng nhập địa chỉ giao hàng.",
+    "配送先住所を入力してください。",
+    "배송 주소를 입력하세요.",
+    "请输入收货地址。"
+  ],
+  "please enter your city.": [
+    "Vui lòng nhập thành phố.",
+    "市区町村を入力してください。",
+    "도시를 입력하세요.",
+    "请输入城市。"
+  ],
+  "please enter your province or state.": [
+    "Vui lòng nhập tỉnh hoặc bang.",
+    "都道府県を入力してください。",
+    "도 또는 주를 입력하세요.",
+    "请输入省或州。"
+  ],
+  "please enter your postal code.": [
+    "Vui lòng nhập mã bưu chính.",
+    "郵便番号を入力してください。",
+    "우편번호를 입력하세요.",
+    "请输入邮政编码。"
+  ],
+  "please enter your name.": [
+    "Vui lòng nhập tên.",
+    "名前を入力してください。",
+    "이름을 입력하세요.",
+    "请输入姓名。"
+  ],
+  "please enter your country.": [
+    "Vui lòng nhập quốc gia.",
+    "国・地域を入力してください。",
+    "국가를 입력하세요.",
+    "请输入国家或地区。"
+  ],
+  "robo in a traditional vietnamese outfit waving": [
+    "Robo mặc trang phục truyền thống Việt Nam đang vẫy tay",
+    "ベトナムの伝統衣装を着て手を振るRobo",
+    "베트남 전통 의상을 입고 손을 흔드는 Robo",
+    "穿着越南传统服装挥手的 Robo"
+  ],
+  "robo with a lotus flower on a conical hat": [
+    "Robo đội nón lá có hoa sen",
+    "蓮の花が付いたノンラーをかぶるRobo",
+    "연꽃이 달린 논라를 쓴 Robo",
+    "戴着带莲花斗笠的 Robo"
+  ],
+  "two robo companions in vietnamese outfits": [
+    "Hai người bạn Robo trong trang phục Việt Nam",
+    "ベトナム衣装を着た2体のRoboコンパニオン",
+    "베트남 의상을 입은 두 Robo 친구",
+    "穿着越南服装的两个 Robo 伙伴"
+  ]
+}

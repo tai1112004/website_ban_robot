@@ -1,0 +1,553 @@
+.account-page {
+  min-height: 100vh;
+  background: #070b14;
+}
+.account-main {
+  padding: 120px var(--gutter) 90px;
+}
+.account-navigation {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  border-bottom: 1px solid #ffffff20;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.account-navigation > a,
+.account-navigation > button {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  border-bottom: 2px solid transparent;
+}
+.account-navigation [aria-current] {
+  color: var(--orange);
+  border-color: var(--orange);
+}
+.account-navigation small {
+  font-size: 7px;
+  color: #8e9caf;
+}
+.account-demo {
+  font-size: 10px;
+  color: #8e9caf;
+  margin-top: 20px;
+  letter-spacing: 0.02em;
+}
+.account-heading {
+  margin: 50px 0;
+}
+.account-heading > .eyebrow {
+  font-size: 9px;
+  color: #a7afbd;
+  margin-bottom: 22px;
+}
+.account-heading h1 {
+  font-size: clamp(47px, 6vw, 89px);
+}
+.account-heading > p:last-child {
+  font-size: 15px;
+  color: #a7afbd;
+  margin-top: 23px;
+}
+.account-overview {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 32px;
+}
+.account-overview > article {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-top: 1px solid #ffffff30;
+  padding: 28px 0;
+  min-width: 0;
+}
+.account-overview svg {
+  color: var(--orange);
+  margin-bottom: 25px;
+}
+.account-overview h2 {
+  font-size: 17px;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+.account-overview p {
+  font-size: 12px;
+  color: #a7afbd;
+}
+.account-count {
+  font-size: 42px;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  margin-top: 27px;
+}
+.account-count > span {
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  color: #adbacb;
+  margin-left: 8px;
+}
+.account-soon {
+  font-size: 8px;
+  color: #8393a8;
+  margin-top: 17px;
+  letter-spacing: 0.04em;
+}
+.account-overview a {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 9px;
+  letter-spacing: 0.04em;
+  min-height: 44px;
+  margin-top: auto;
+  padding-top: 20px;
+}
+.account-overview a svg {
+  margin: 0;
+}
+.account-profile dl {
+  font-size: 11px;
+  margin: 20px 0;
+  max-width: 100%;
+}
+.account-profile dl > div {
+  margin-bottom: 12px;
+}
+.account-profile dt {
+  font-size: 9px;
+  color: #8898ad;
+  margin-bottom: 5px;
+}
+.account-profile dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+  color: #d3dce8;
+}
+.account-support-note {
+  margin-top: 25px;
+}
+.account-recent {
+  margin-top: 55px;
+}
+.account-recent > .eyebrow {
+  font-size: 9px;
+  color: #8999ae;
+  margin-bottom: 20px;
+}
+.account-recent > h2 {
+  font-size: 32px;
+  letter-spacing: -0.04em;
+  margin-bottom: 35px;
+}
+.account-empty {
+  padding: 45px 0 70px;
+}
+.account-empty h1 {
+  font-size: clamp(38px, 5vw, 65px);
+}
+.account-empty h2,
+.account-empty h3 {
+  font-size: 29px;
+  letter-spacing: -0.035em;
+}
+.account-empty p {
+  font-size: 14px;
+  color: #a7afbd;
+  margin: 20px 0 30px;
+}
+.account-loading {
+  min-height: 330px;
+  color: #a7afbd;
+  font-size: 12px;
+  padding-top: 35px;
+}
+.account-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 11px;
+  font-size: 9px;
+  color: #a7afbd;
+  margin-top: 35px;
+  overflow-wrap: anywhere;
+}
+.account-breadcrumb [aria-current] {
+  color: #d6deea;
+}
+.history-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  color: #a7afbd;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+.history-toolbar label {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 9px;
+}
+.history-toolbar select {
+  background: #0b1220;
+  color: white;
+  border: 1px solid #ffffff25;
+  border-radius: 3px;
+  padding: 12px;
+  font-size: 10px;
+  min-height: 44px;
+}
+.history-toolbar select:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 4px;
+}
+.history-card {
+  background: #0b1220;
+  padding: 30px;
+  margin-bottom: 25px;
+}
+.history-card > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 25px;
+  border-bottom: 1px solid #ffffff1a;
+  padding-bottom: 25px;
+}
+.history-card header > div > span {
+  font-size: 8px;
+  color: #91a0b5;
+  letter-spacing: 0.1em;
+}
+.history-card header h2 {
+  font-size: 22px;
+  margin: 12px 0;
+  letter-spacing: -0.04em;
+  overflow-wrap: anywhere;
+}
+.history-card time {
+  font-size: 11px;
+  color: #9eacc0;
+}
+.history-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  font-size: 9px;
+  color: #ffad83;
+}
+.history-status:before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: currentColor;
+  border-radius: 50%;
+}
+.status-confirmed {
+  color: #bdcddd;
+}
+.status-processing {
+  color: #e6bf73;
+}
+.status-shipped {
+  color: #89bfe3;
+}
+.status-delivered {
+  color: #96c8b1;
+}
+.history-card-body {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  gap: 40px;
+  align-items: center;
+  padding-top: 25px;
+}
+.history-product {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin-top: 15px;
+}
+.history-product:first-child {
+  margin-top: 0;
+}
+.history-image {
+  position: relative;
+  width: 115px;
+  height: 145px;
+  background: #e2e6ed;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+}
+.history-image img {
+  object-fit: contain;
+}
+.history-image > span {
+  font-size: 10px;
+  color: #354254;
+  text-align: center;
+  padding: 10px;
+}
+.history-product h3 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+.history-product p {
+  font-size: 11px;
+  color: #a7afbd;
+}
+.history-card-action > span {
+  font-size: 9px;
+  color: #91a0b5;
+  letter-spacing: 0.08em;
+}
+.history-card-action > p {
+  font-size: 12px;
+  margin-top: 12px;
+  margin-bottom: 22px;
+  color: #dce4ee;
+}
+.history-card-action .button {
+  font-size: 9px;
+  min-height: 44px;
+  justify-content: space-between;
+  width: 100%;
+}
+.history-empty {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  align-items: center;
+  gap: 7vw;
+  padding: 20px 0 60px;
+}
+.history-empty .history-image {
+  width: 100%;
+  height: 370px;
+  background: transparent;
+}
+.history-empty h2 {
+  font-size: clamp(35px, 4vw, 60px);
+}
+.history-empty p {
+  font-size: 15px;
+  color: #a7afbd;
+  margin: 24px 0 30px;
+}
+.detail-heading h1 {
+  font-size: clamp(30px, 4.1vw, 62px);
+  overflow-wrap: anywhere;
+}
+.detail-meta {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 25px;
+}
+.detail-meta time {
+  font-size: 12px;
+  color: #a7afbd;
+}
+.detail-heading .order-number {
+  text-align: left;
+  max-width: 550px;
+}
+.detail-heading .order-number > div {
+  justify-content: flex-start;
+}
+.detail-heading .order-reference {
+  text-align: left;
+}
+.account-order-layout {
+  margin-top: 60px;
+}
+.detail-next {
+  margin-top: 60px;
+  border-top: 1px solid #ffffff25;
+  padding-top: 30px;
+}
+.detail-next h2 {
+  font-size: 28px;
+}
+.detail-next p {
+  font-size: 14px;
+  color: #a7afbd;
+  margin-top: 18px;
+  max-width: 720px;
+}
+.detail-products {
+  margin-top: 55px;
+}
+.detail-products > h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+.detail-products article {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding: 25px 0;
+  border-top: 1px solid #ffffff20;
+}
+.detail-products h3 {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.detail-products p {
+  font-size: 13px;
+  color: #a7afbd;
+  margin-bottom: 20px;
+}
+.account-back {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-size: 10px;
+  margin-top: 35px;
+  letter-spacing: 0.06em;
+}
+@media (max-width: 1100px) {
+  .account-overview {
+    grid-template-columns: 1fr 1fr;
+    gap: 35px 50px;
+  }
+  .account-overview > article {
+    min-height: 270px;
+  }
+  .history-card-body {
+    grid-template-columns: 1fr 190px;
+  }
+}
+@media (max-width: 899px) {
+  .account-page .account-order-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .account-order-layout > * {
+    width: 100%;
+  }
+  .account-order-layout .order-summary {
+    order: -1;
+  }
+}
+@media (max-width: 767px) {
+  .account-main {
+    padding: 95px var(--gutter) 65px;
+  }
+  .account-navigation {
+    gap: 25px;
+  }
+  .account-navigation > a,
+  .account-navigation > button {
+    font-size: 9px;
+    gap: 6px;
+  }
+  .account-demo {
+    font-size: 9px;
+    line-height: 1.8;
+  }
+  .account-heading {
+    margin: 38px 0;
+  }
+  .account-heading h1 {
+    font-size: clamp(38px, 11vw, 60px);
+  }
+  .account-heading > p:last-child {
+    font-size: 13px;
+  }
+  .account-overview {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+  .account-overview > article {
+    min-height: 0;
+    padding-bottom: 30px;
+  }
+  .account-overview a {
+    margin-top: 10px;
+  }
+  .account-overview p {
+    font-size: 13px;
+  }
+  .account-count {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  .account-profile dl {
+    font-size: 13px;
+  }
+  .account-recent {
+    margin-top: 35px;
+  }
+  .history-card {
+    padding: 24px 20px;
+  }
+  .history-card > header {
+    flex-direction: column;
+    gap: 17px;
+  }
+  .history-card header h2 {
+    font-size: 19px;
+  }
+  .history-card-body {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .history-product {
+    gap: 18px;
+  }
+  .history-image {
+    width: 85px;
+    height: 110px;
+  }
+  .history-product h3 {
+    font-size: 13px;
+  }
+  .history-card-action {
+    border-top: 1px solid #ffffff20;
+    padding-top: 22px;
+  }
+  .history-toolbar label {
+    gap: 8px;
+  }
+  .history-empty {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .history-empty .history-image {
+    height: 290px;
+  }
+  .history-empty .button-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .detail-heading h1 {
+    font-size: clamp(25px, 7.2vw, 38px);
+  }
+  .detail-meta {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .detail-heading .order-number > div {
+    align-items: flex-start;
+  }
+  .detail-products article {
+    gap: 20px;
+  }
+  .detail-products .button {
+    font-size: 9px;
+    padding: 14px;
+  }
+  .account-breadcrumb {
+    font-size: 8px;
+  }
+}
