@@ -20,7 +20,7 @@ function Item({ item }: { item: CartItem }) {
   const [failed, setFailed] = useState(false);
   const src = /^\/images\/[\w-]+\.(png|jpe?g|webp)$/i.test(item.image)
     ? item.image
-    : "/images/product_render_chinh_dien.png";
+    : "/images/product_render_chinh_dien.png?v=20260921-1635";
   return (
     <article className="order-product">
       <div className="order-product-image">

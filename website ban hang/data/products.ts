@@ -59,22 +59,22 @@ export const roboBasic: ProductModel = {
     gallery: [
       {
         label: "FRONT",
-        src: "/images/product_render_chinh_dien.png",
+        src: "/images/product_render_chinh_dien.png?v=20260921-1635",
         alt: "Robo Basic front view in orange and white",
       },
       {
         label: "ANGLE",
-        src: "/images/product_render_goc_nghieng.png",
+        src: "/images/product_render_goc_nghieng.png?v=20260921-1635",
         alt: "Robo Basic three-quarter view",
       },
       {
         label: "SIDE",
-        src: "/images/matbenhong_robot.png",
+        src: "/images/matbenhong_robot.png?v=20260921-1635",
         alt: "Side view of the supplied Robo design",
       },
       {
         label: "REAR",
-        src: "/images/matsau_robot.png",
+        src: "/images/matsau_robot.png?v=20260921-1635",
         alt: "Rear view of the supplied Robo design",
       },
       {
@@ -111,22 +111,22 @@ export const quickFeatures = [
 export const moods = [
   {
     name: "NORMAL",
-    image: "/images/bieucam_binhthuong.png",
+    image: "/images/bieucam_binhthuong.png?v=20260921-1623",
     description: "Ready for whatever comes next.",
   },
   {
     name: "CURIOUS",
-    image: "/images/bieucam_khohieu.png",
+    image: "/images/bieucam_khohieu.png?v=20260921-1623",
     description: "Always listening. Always thinking.",
   },
   {
     name: "HAPPY",
-    image: "/images/bieucam_vuive.png",
+    image: "/images/bieucam_vuive.png?v=20260921-1623",
     description: "A little more personality in every interaction.",
   },
   {
     name: "SLEEPY",
-    image: "/images/bieucam_chandoi.png",
+    image: "/images/bieucam_chandoi.png?v=20260921-1623",
     description: "Even Robo needs a quiet moment.",
   },
 ];

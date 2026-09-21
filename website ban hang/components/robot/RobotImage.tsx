@@ -11,7 +11,7 @@ export default function RobotImage({
 }) {
   const { t } = useLanguage();
   const [failed, setFailed] = useState(false);
-  const fallback = "/images/product_render_chinh_dien.png";
+  const fallback = "/images/product_render_chinh_dien.png?v=20260921-1635";
   const safe =
     src && /^\/images\/[\w-]+\.(png|jpg|jpeg|webp)$/.test(src) ? src : fallback;
   return (

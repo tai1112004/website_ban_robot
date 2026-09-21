@@ -77,14 +77,14 @@ export default function ProductDesign() {
       <div className="design-render" data-cursor="VIEW">
         <span className="render-label micro">{t("ROBO AI / INDUSTRIAL DESIGN")}</span>
         <Image
-          src="/images/product_render_chinh_dien.png"
+          src="/images/product_render_chinh_dien.png?v=20260921-1635"
           alt={t("Robo AI, front view")}
           fill
           sizes="(max-width: 768px) 100vw, 55vw"
           className="design-front"
         />
         <Image
-          src="/images/product_render_goc_nghieng.png"
+          src="/images/product_render_goc_nghieng.png?v=20260921-1635"
           alt={t("Robo AI, three-quarter view")}
           fill
           sizes="(max-width: 768px) 100vw, 55vw"

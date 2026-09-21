@@ -7,25 +7,25 @@ import { SectionTitle } from "./ui/SectionTitle";
 const moods = [
   {
     name: "NORMAL",
-    image: "bieucam_binhthuong.png",
+    image: "/images/bieucam_binhthuong.png?v=20260921-1623",
     text: "Ready for whatever comes next.",
     face: "• •",
   },
   {
     name: "HAPPY",
-    image: "bieucam_vuive.png",
+    image: "/images/bieucam_vuive.png?v=20260921-1623",
     text: "A little more joy in every interaction.",
     face: "^ ^",
   },
   {
     name: "CURIOUS",
-    image: "bieucam_khohieu.png",
+    image: "/images/bieucam_khohieu.png?v=20260921-1623",
     text: "Always listening. Always learning.",
     face: "• ?",
   },
   {
     name: "SLEEPY",
-    image: "bieucam_chandoi.png",
+    image: "/images/bieucam_chandoi.png?v=20260921-1623",
     text: "Even robots need a moment to recharge.",
     face: "– –",
   },
@@ -48,7 +48,7 @@ export default function Personality() {
         {moods.map((item, i) => (
           <Image
             key={item.name}
-            src={`/images/${item.image}`}
+            src={item.image}
             alt={t("Robo looking {value0}", { value0: t(item.name.toLowerCase()) })}
             fill
             sizes="(max-width: 768px) 100vw, 65vw"

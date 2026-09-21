@@ -15,7 +15,7 @@ export default function OrderImage({
   const [failed, setFailed] = useState(false);
   const safe = /^\/images\/[\w-]+\.(png|jpe?g|webp)$/i.test(src)
     ? src
-    : "/images/product_render_chinh_dien.png";
+    : "/images/product_render_chinh_dien.png?v=20260921-1635";
   return (
     <div className={`history-image ${cutout ? "history-cutout" : ""}`}>
       {failed ? (

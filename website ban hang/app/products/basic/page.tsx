@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Robo Basic — Your Personal AI Companion",
     description: "A voice. A personality. A companion of your own.",
-    images: ["/images/product_render_chinh_dien.png"],
+    images: ["/images/product_render_chinh_dien.png?v=20260921-1635"],
   },
 };
 export default function BasicPage() {

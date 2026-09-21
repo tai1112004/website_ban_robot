@@ -42,7 +42,7 @@ export default function RobotOverview({
     <>
       <div className="management-overview">
         <RobotImage
-          src={robot.image || "/images/product_render_goc_nghieng.png"}
+          src={robot.image || "/images/product_render_goc_nghieng.png?v=20260921-1635"}
           name={robot.name}
         />
         <div>
